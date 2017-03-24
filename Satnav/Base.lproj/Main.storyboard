@@ -1,25 +1,241 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Satellite navigation-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Satellite navigation" id="BYZ-38-t0r" customClass="ViewController" customModule="Satnav" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="6tE-5y-4CY">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_logo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="blt-Pt-avk">
+                                <rect key="frame" x="20" y="648" width="240" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_logo2.png" translatesAutoresizingMaskIntoConstraints="NO" id="gz4-Vn-GbJ">
+                                <rect key="frame" x="746" y="648" width="258" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Satelitni navigace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZz-eb-RcU">
+                                <rect key="frame" x="20" y="83" width="433" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-kz-9t0">
+                                <rect key="frame" x="20" y="18" width="984" height="622"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="gNw-CH-RMK">
+                                        <rect key="frame" x="0.0" y="0.0" width="984" height="296"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8HL-og-aRh">
+                                                <rect key="frame" x="0.0" y="0.0" width="246" height="294"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Positioning" backgroundImage="menu_btn_1.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_1_pressed.png"/>
+                                                <connections>
+                                                    <action selector="btnChapter1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="85K-cR-TDJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="q3x-7V-Y4T">
+                                                <rect key="frame" x="246" y="0.0" width="246" height="294"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="How satellite work" backgroundImage="menu_btn_2.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_2_pressed.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wD1-ME-79R">
+                                                <rect key="frame" x="492" y="0.0" width="246" height="296"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Global satellite systems (GNSS)" backgroundImage="menu_btn_3.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_3_pressed.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="g42-ve-AEo">
+                                                <rect key="frame" x="738" y="0.0" width="246" height="294"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Galileo project" backgroundImage="menu_btn_4.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_4_pressed.png"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aFR-co-3LX">
+                                        <rect key="frame" x="0.0" y="326" width="984" height="296"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="For-xr-wnL">
+                                                <rect key="frame" x="0.0" y="0.0" width="246" height="296"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Issues facing GNSS systems" backgroundImage="menu_btn_5.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_5_pressed.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bst-R2-Kcf">
+                                                <rect key="frame" x="246" y="0.0" width="246" height="296"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Practical applications" backgroundImage="menu_btn_6.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_2_pressed.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="olM-DV-zz7">
+                                                <rect key="frame" x="492" y="0.0" width="246" height="296"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="The future on our doorstep" backgroundImage="menu_btn_7.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_7_pressed.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0vs-RK-Nxl">
+                                                <rect key="frame" x="738" y="0.0" width="246" height="296"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Augmented reality" backgroundImage="menu_btn_8.png"/>
+                                                <state key="highlighted" backgroundImage="menu_btn_8_pressed.png"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Czo-kz-9t0" secondAttribute="trailing" id="9nq-sR-B5N"/>
+                            <constraint firstItem="Czo-kz-9t0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="rm3-Om-cfx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="U7K-gn-xVl" kind="show" identifier="startChapter1" id="Imp-CQ-DaN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="565" y="439"/>
+        </scene>
+        <!--Chapter1 View Controller-->
+        <scene sceneID="Xmq-vE-dZC">
+            <objects>
+                <viewController id="U7K-gn-xVl" customClass="Chapter1ViewController" customModule="Satnav" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ifC-a1-Kxu"/>
+                        <viewControllerLayoutGuide type="bottom" id="CsA-Nr-efa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NSO-x4-vWw">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="owq-Gc-6nn">
+                                <rect key="frame" x="50" y="711" width="39" height="37"/>
+                            </pageControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chapter_bck_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="JeL-18-8mf">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqs-PB-0Qb">
+                                <rect key="frame" x="20" y="20" width="46" height="30"/>
+                                <state key="normal" backgroundImage="base_home_1.png"/>
+                                <state key="highlighted" backgroundImage="base_home_1_pressed.png"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SlP-CJ-RSS">
+                                <rect key="frame" x="74" y="28" width="286" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Satelitní navigace &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9s-un-8ky">
+                                        <rect key="frame" x="0.0" y="0.0" width="149" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Zaměření polohy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXx-hr-AeZ">
+                                        <rect key="frame" x="149" y="0.0" width="137" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="mmM-Un-rPT">
+                                <rect key="frame" x="738" y="691" width="266" height="69"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="base_logo_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ngt-SK-tuL">
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="69"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="base_logo_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="SbU-SH-cUR">
+                                        <rect key="frame" x="151" y="0.0" width="115" height="69"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b0e-d5-6kM">
+                                <rect key="frame" x="0.0" y="58" width="1024" height="625"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="owq-Gc-6nn" firstAttribute="leading" secondItem="NSO-x4-vWw" secondAttribute="leadingMargin" constant="30" id="621-Hq-xWx"/>
+                            <constraint firstItem="CsA-Nr-efa" firstAttribute="top" secondItem="mmM-Un-rPT" secondAttribute="bottom" constant="8" id="ADc-Mz-CZA"/>
+                            <constraint firstItem="JeL-18-8mf" firstAttribute="leading" secondItem="NSO-x4-vWw" secondAttribute="leading" id="DqM-Uq-A0x"/>
+                            <constraint firstItem="CsA-Nr-efa" firstAttribute="top" secondItem="JeL-18-8mf" secondAttribute="bottom" id="GQR-hd-NLS"/>
+                            <constraint firstAttribute="trailing" secondItem="b0e-d5-6kM" secondAttribute="trailing" id="PPx-z0-qBh"/>
+                            <constraint firstItem="b0e-d5-6kM" firstAttribute="top" secondItem="bqs-PB-0Qb" secondAttribute="bottom" constant="8" symbolic="YES" id="ZM4-da-pCu"/>
+                            <constraint firstItem="JeL-18-8mf" firstAttribute="top" secondItem="NSO-x4-vWw" secondAttribute="top" id="gAs-t0-kNq"/>
+                            <constraint firstAttribute="trailing" secondItem="JeL-18-8mf" secondAttribute="trailing" id="hKA-SJ-Gmi"/>
+                            <constraint firstItem="CsA-Nr-efa" firstAttribute="top" secondItem="owq-Gc-6nn" secondAttribute="bottom" constant="20" id="iuv-ER-Lb2"/>
+                            <constraint firstItem="b0e-d5-6kM" firstAttribute="leading" secondItem="NSO-x4-vWw" secondAttribute="leading" id="lzn-ww-fDB"/>
+                            <constraint firstItem="mmM-Un-rPT" firstAttribute="trailing" secondItem="NSO-x4-vWw" secondAttribute="trailingMargin" id="osI-Cf-YIV"/>
+                            <constraint firstItem="mmM-Un-rPT" firstAttribute="top" secondItem="b0e-d5-6kM" secondAttribute="bottom" constant="8" symbolic="YES" id="tu2-lg-dwh"/>
+                            <constraint firstItem="b0e-d5-6kM" firstAttribute="top" secondItem="NSO-x4-vWw" secondAttribute="top" constant="58" id="w0o-7v-S74"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="owq-Gc-6nn" id="97o-9e-rbI"/>
+                        <outlet property="slideScrollView" destination="b0e-d5-6kM" id="Gre-tX-UIl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F0T-6i-X3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311.328125" y="-27.34375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="base_home_1.png" width="92" height="72"/>
+        <image name="base_home_1_pressed.png" width="92" height="72"/>
+        <image name="base_logo_1.png" width="126" height="46"/>
+        <image name="base_logo_2.png" width="115" height="69"/>
+        <image name="chapter_bck_1.png" width="2048" height="1356"/>
+        <image name="menu_back.png" width="2048" height="1536"/>
+        <image name="menu_btn_1.png" width="441" height="294"/>
+        <image name="menu_btn_1_pressed.png" width="440" height="294"/>
+        <image name="menu_btn_2.png" width="440" height="294"/>
+        <image name="menu_btn_2_pressed.png" width="441" height="294"/>
+        <image name="menu_btn_3.png" width="441" height="296"/>
+        <image name="menu_btn_3_pressed.png" width="440" height="296"/>
+        <image name="menu_btn_4.png" width="441" height="294"/>
+        <image name="menu_btn_4_pressed.png" width="441" height="294"/>
+        <image name="menu_btn_5.png" width="441" height="296"/>
+        <image name="menu_btn_5_pressed.png" width="440" height="296"/>
+        <image name="menu_btn_6.png" width="440" height="296"/>
+        <image name="menu_btn_7.png" width="441" height="294"/>
+        <image name="menu_btn_7_pressed.png" width="440" height="295"/>
+        <image name="menu_btn_8.png" width="440" height="295"/>
+        <image name="menu_btn_8_pressed.png" width="16" height="16"/>
+        <image name="menu_logo1.png" width="207" height="75"/>
+        <image name="menu_logo2.png" width="248" height="101"/>
+    </resources>
 </document>

@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func btnChapter1(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "startChapter1", sender:sender)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
