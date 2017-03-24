@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TitleTextSlide" customModule="Satnav" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Utu-GD-xZS">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Fg3-Jb-pu4">
+                    <rect key="frame" x="33" y="18" width="983" height="91"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPA-J2-ATF">
+                            <rect key="frame" x="0.0" y="0.0" width="84.5" height="42"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkn-Uv-h3l">
+                            <rect key="frame" x="0.0" y="67" width="49" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Fg3-Jb-pu4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="10" id="B1T-nl-76O"/>
+                <constraint firstAttribute="trailingMargin" secondItem="Fg3-Jb-pu4" secondAttribute="trailing" id="Rpv-tK-BYt"/>
+                <constraint firstItem="Utu-GD-xZS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TD1-HL-4uv"/>
+                <constraint firstAttribute="bottom" secondItem="Utu-GD-xZS" secondAttribute="bottom" id="X1F-7j-owL"/>
+                <constraint firstItem="Fg3-Jb-pu4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="25" id="bd6-kx-jIt"/>
+                <constraint firstItem="Utu-GD-xZS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iF4-uL-9d8"/>
+                <constraint firstAttribute="trailing" secondItem="Utu-GD-xZS" secondAttribute="trailing" id="oHc-Sl-JpS"/>
+            </constraints>
+            <connections>
+                <outlet property="background" destination="Utu-GD-xZS" id="Qex-wz-qtN"/>
+                <outlet property="textLabel" destination="Mkn-Uv-h3l" id="ucn-sT-1rv"/>
+                <outlet property="titleLabel" destination="YPA-J2-ATF" id="dlJ-Dn-JqQ"/>
+            </connections>
+        </view>
+    </objects>
+</document>
