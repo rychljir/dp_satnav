@@ -5,4 +5,45 @@
   Created by Petr Mares on 24.03.17.
   Copyright © 2017 Scientica. All rights reserved.
 */
-HELLO_WORLD = "Title1 !";
+task01_1_title = "Positioning ";
+task01_1_text = "When prehistoric man went hunting and found a mammoth, he needed to remember its position in order to come back with the whole band. Hunters used landmarks such as trees, lakes or mountains for positioning. ";
+
+task01_2_text = "Later on, other ways of determining one\'s position in the landscape appeared. The invention of the compass and the creation of maps, used mainly in sea navigation, represented an important step forward. Besides natural landmarks, the landscape filled with man-made landmarks such as castles, churches and other structures. ";
+
+task01_3_text = "Today, the GNSS system makes positioning easy. In addition to its positioning function, it helps us plan routes, and checks whether we observe speed limits.  ";
+
+task01_4_title = "Measuring tools of the past ";
+task01_4_text = "As human society developed, people needed to measure distances and determine their position. New instruments made it possible to find out the distance to the nearest neighbouring town, or the area of a farmer\'s field. At sea, it wasn\'t possible to rely on landmarks, so sailors started using the stars for orientation. ";
+task01_4_titleText1 = "Sextant and astrolabe ";
+task01_4_text1 = "Astrolabes were used to determine the position of the stars and the Sun. They could also be used inversely: you could infer your own position from the known position of the stars and the Sun. In the 18th century the astrolabe was replaced by the sextant. Even modern-day sailors learn how to use it in order to be able to determine their position at sea in case the GNSS system fails. ";
+task01_4_titleText2 = "Surveyor\'s wheel ";
+task01_4_text2 = "The surveyor\'s wheel, or hodometer, was a simple tool for measuring distance. Using it was as easy as walking the distance, running the wheel on the ground and counting its rotations. By multiplying the number of rotations by the circumference of the wheel you got the required distance. ";
+task01_4_titleText3 = "Jacob\'s staff ";
+task01_4_text3 = "Jacob\'s staff was a simple measuring tool based on the principle of similarity of triangles. It was composed of a main staff and sliding transoms. It was mainly used by astronomers, surveyors and navigators to measure distance and height. ";
+
+task01_6_title = "Measuring and positioning instruments today ";
+task01_6_text = "Today, there are two key positioning principles. The first principle consists in measuring the time it takes for a signal to travel from a transmitter to a receiver. The GNSS system and mobile positioning, for example, are based on this principle. The second principle consists in measuring the time it takes for a signal reflected from an object to get back to the transmitter. This is the principle used for radars and laser measurements in surveying. ";
+task01_6_titleText1 = "Mobile networks ";
+task01_6_text1 = "It is possible to determine the position of a mobile phone from the position of signal transmitters. This method is used to locate car accident sites or to search for missing persons. The accuracy of this method is in the order of hundreds, sometimes tens of metres. ";
+task01_6_titleText2 = "Satellites ";
+task01_6_text2 = "The GNSS system is the most advanced positioning method, its accuracy ranging from hundreds of metres to several centimetres. ";
+task01_6_titleText3 = "Surveying ";
+task01_6_text3 = "Surveyors are able to provide very precise distance measurements. Using their equipment, mostly laser instruments, they are able to measure buildings to within several decimetres or even centimetres. ";
+task01_6_titleText4 = "Radar ";
+task01_6_text4 = "Radars can determine the distance of an object by emitting a signal and receiving it back after it is reflected from the object. Depending on their use and range, radars measure with an accuracy varying between several kilometres and several tens of metres. ";
+task01_6_titleText5 = "Sonar ";
+task01_6_text5 = "Unlike most of the other methods, which use electromagnetic radiation in some way or other, the sonar works with ultrasound. Sonars are mostly used in fishing and, more generally, to locate objects under water. Their accuracy ranges from metres to centimetres. ";
+task01_6_titleText6 = "Wi-Fi ";
+task01_6_text6 = "GPS modules in mobile phones and tablets are used to determine the position of a Wi-Fi router and save its position and identification data. When a person carrying a mobile phone passes by the router, his or her position can be determined. The accuracy of this method varies depending on the number of routers located near the device. It ranges from metres to centimetres. This positioning method works very well in cities thanks to the dense network of signals from dozens of routers. ";
+
+task01_7_text = "Drag the marks to indicate\nthe accuracy of each positioning method: ";
+task01_7_rsb1_caption = "Radar ";
+task01_7_rsb2_caption = "Sonar ";
+task01_7_rsb3_caption = "Wi-Fi ";
+task01_7_rsb4_caption = "Satellite\nnavigation ";
+task01_7_rsb_size_1 = "cm ";
+task01_7_rsb_size_2 = "dm ";
+task01_7_rsb_size_3 = "m ";
+task01_7_rsb_size_4 = "10 m ";
+task01_7_rsb_size_5 = "100 m ";
+task01_7_rsb_size_6 = "km ";

@@ -28,20 +28,26 @@ class Chapter1ViewController: UIViewController, UIScrollViewDelegate {
 
     func createSlide() -> [UIView]{
         let slide1: TitleTextSlide = Bundle.main.loadNibNamed("TitleTextSlide", owner: self, options: nil)?.first as! TitleTextSlide
-        let title = NSLocalizedString("HELLO_WORLD",comment:"default")
-        slide1.initSlide(titleText: title, description: "Kdyz praveky clovek na lovu objevil mamuta.")
+        let title = NSLocalizedString("task01_1_title",comment:"nadpis")
+        var text = NSLocalizedString("task01_1_text",comment:"text")
+        slide1.initSlide(titleText: title, description: text)
         slide1.setBack(UIImage(named: "task01_1_bck")!)
         
         let slide2: TitleTextSlide = Bundle.main.loadNibNamed("TitleTextSlide", owner: self, options: nil)?.first as! TitleTextSlide
-        slide2.initSlide(titleText: "Princip urceni polohy", description: "Kdyz praveky clovek na lovu objevil mamuta.")
+        text = NSLocalizedString("task01_2_text",comment:"text")
+        slide2.initSlide(titleText: title, description: text)
         slide2.setBack(UIImage(named: "task01_2_bck")!)
         
         let slide3: TitleTextSlide = Bundle.main.loadNibNamed("TitleTextSlide", owner: self, options: nil)?.first as! TitleTextSlide
-        slide3.initSlide(titleText: "Princip urceni polohy", description: "Kdyz praveky clovek na lovu objevil mamuta.")
+        text = NSLocalizedString("task01_3_text",comment:"text")
+        slide3.initSlide(titleText: title, description: text)
         slide3.setBack(UIImage(named: "task01_3_bck")!)
         slide3.setTextColor(UIColor.white)
         
-        return [slide1, slide2, slide3]
+        let slide4: Task01_4_Slide = Bundle.main.loadNibNamed("Task01_4_Slide", owner: self, options: nil)?.first as! Task01_4_Slide
+        slide4.initSlide()
+        
+        return [slide1, slide2, slide3, slide4]
     }
     
     func setupSlideScrollView(slides:[UIView]){

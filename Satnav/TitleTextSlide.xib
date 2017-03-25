@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,7 +19,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Fg3-Jb-pu4">
-                    <rect key="frame" x="33" y="18" width="983" height="91"/>
+                    <rect key="frame" x="33" y="18" width="961" height="90.5"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPA-J2-ATF">
                             <rect key="frame" x="0.0" y="0.0" width="84.5" height="42"/>
@@ -28,9 +27,9 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkn-Uv-h3l">
-                            <rect key="frame" x="0.0" y="67" width="49" height="24"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkn-Uv-h3l">
+                            <rect key="frame" x="0.0" y="67" width="49" height="23.5"/>
+                            <fontDescription key="fontDescription" name=".SFNSDisplay-Regular" family=".SF NS Display" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -39,11 +38,11 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="Fg3-Jb-pu4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="10" id="B1T-nl-76O"/>
-                <constraint firstAttribute="trailingMargin" secondItem="Fg3-Jb-pu4" secondAttribute="trailing" id="Rpv-tK-BYt"/>
+                <constraint firstItem="Fg3-Jb-pu4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="5se-ek-F3u"/>
+                <constraint firstItem="Fg3-Jb-pu4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="33" id="G1j-O6-m79"/>
+                <constraint firstAttribute="trailing" secondItem="Fg3-Jb-pu4" secondAttribute="trailing" constant="30" id="RKX-Pw-84i"/>
                 <constraint firstItem="Utu-GD-xZS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TD1-HL-4uv"/>
                 <constraint firstAttribute="bottom" secondItem="Utu-GD-xZS" secondAttribute="bottom" id="X1F-7j-owL"/>
-                <constraint firstItem="Fg3-Jb-pu4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="25" id="bd6-kx-jIt"/>
                 <constraint firstItem="Utu-GD-xZS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iF4-uL-9d8"/>
                 <constraint firstAttribute="trailing" secondItem="Utu-GD-xZS" secondAttribute="trailing" id="oHc-Sl-JpS"/>
             </constraints>

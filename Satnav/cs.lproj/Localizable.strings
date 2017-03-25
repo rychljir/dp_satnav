@@ -1,8 +1,49 @@
-/* 
-  Localizable.strings
-  Satnav
-
-  Created by Petr Mares on 24.03.17.
-  Copyright © 2017 Scientica. All rights reserved.
-*/
+/*
+ Localizable.strings
+ Satnav
+ 
+ Created by Petr Mares on 24.03.17.
+ Copyright © 2017 Scientica. All rights reserved.
+ */
 HELLO_WORLD = "Nadpis1";
+task01_1_title = "Princip určení polohy";
+task01_1_text = "Když pravěký člověk na lovu objevil mamuta, musel si zapamatovat, jak se k němu vrátit s celou tlupou. Lovci k orientaci využívali výrazné prvky v krajině, například strom, jezero či horu.";
+task01_2_text = "Později se objevily další způsoby, jak určit svou polohu v krajině. Významným krokem byl vynález kompasu a tvorba map, kterých se využívalo především při plavbách po moři. K přirozeným orientačním bodům v krajině se přidaly výtvory lidské činnosti jako hrady, kostely a další stavby.";
+
+task01_3_text = "Dnes je určování polohy velmi jednoduché, hlavně díky satelitní navigaci. Ta nejen že umožňuje určit naši polohu, ale i naplánovat trasu, případně sledovat, zdali nepřekračujeme povolenou rychlost.";
+
+task01_4_title = "Nástroje měření v minulosti";
+task01_4_text = "S postupným rozvojem lidské společnosti bylo zapotřebí začít měřit vzdálenosti a určovat svou polohu. Díky novým přístrojům bylo možné zjistit, jak daleko je do sousedního města, případně jak velké má sedlák pole. Na širém moři bylo nutné určovat polohu bez použití pevninských orientačních bodů, a tak se začali námořníci orientovat pomocí hvězd.";
+task01_4_titleText1 = "Sextant a Astroláb";
+task01_4_text1 = "Pomocí astrolábu se dříve určovala poloha hvězd a Slunce. Bylo možné jej použít i naopak, tedy ze známé polohy hvězd a Slunce určit svou polohu. V 18. století byl astroláb nahrazen sextantem. S ním se námořníci učí pracovat i dnes, aby se v případě výpadku satelitní navigace dokázali na moři orientovat.";
+task01_4_titleText2 = "Hodometr";
+task01_4_text2 = "Jednoduchým nástrojem na určování vzdálenosti byl hodometr. Jednoduše stačilo jít po trase s “kolem” a počítat otáčky. Po vynásobení počtu otáček obvodem kola se získala požadovaná délka trasy.";
+task01_4_titleText3 = "Jakubová hůl";
+task01_4_text3 = "Jakubova hůl sloužila jako jednoduchý měřicí přístroj, který využíval principu podobnosti trojúhelníků. Skládal se z tyče a posuvných ramen. V minulosti s ním pracovali především astronomové, zeměměřiči a navigátoři při měření vzdáleností a výšek.";
+
+task01_6_title = "Nástroje (za)měření dnes";
+task01_6_text = "V dnešní době je měření polohy spojené hlavně se dvěma základními principy. Prvním je měření doby, za kterou signál dorazí od vysílače k přijímači – sem patří např. satelitní navigační systém, nebo zaměřování pomocí mobilních sítí. Druhým principem je měření doby, za níž se vyslaný signál, který se odrazí od objektu, vrátí zpět k vysílači. Tohoto principu využívají např. radary nebo laserová měření v geodézii.";
+task01_6_titleText1 = "Mobilní sítě";
+task01_6_text1 = "Z polohy vysílačů signálu je možné určit polohu mobilního telefonu. Tato metoda se používá při určování místa dopravní nehody nebo při pátrání po pohřešované osobě. Přesnost se pohybuje v řádu stovek, případně i desítek metrů.";
+task01_6_titleText2 = "Satelity";
+task01_6_text2 = "Nejmodernější způsob zaměření polohy je satelitní navigace s přesností od několika set metrů až po jednotky centimetrů.";
+task01_6_titleText3 = "Geodézie";
+task01_6_text3 = "Při velmi přesném určování vzdáleností se využívá práce geodetů. Ti jsou pomocí svých přístrojů, nejčastěji laserů, schopni zaměřovat např. budovy s přesností decimetrů až centimetrů.";
+task01_6_titleText4 = "Radar";
+task01_6_text4 = "Pomocí vysílání signálu a jeho zpětného odrazu od objektu je možné určit vzdálenost objektu. Přesnost radarů v návaznosti na jejich použití a dosah se pohybuje v řádech kilometrů až desítek metrů.";
+task01_6_titleText5 = "Sonar";
+task01_6_text5 = "Na rozdíl od většiny ostatních metod, které různou formou využívají elektromagnetické záření, funguje sonar na principu ultrazvuku. Sonarů se využívá především při rybolovu, obecně pak určování polohy objektů pod hladinou. Jejich přesnost se pohybuje v řádu metrů až centimetrů.";
+task01_6_titleText6 = "Wi-Fi";
+task01_6_text6 = "Pomocí GPS v mobilních telefonech a tabletech dojde k zaměření Wi-Fi routeru a uložení jeho polohy a identifikačních údajů. Když pak prochází kolem tohoto routeru osoba s mobilním telefonem, může být zpětně určena její poloha. Přesnost této metody se liší podle počtu routerů, které se v okolí zařízení nacházejí. Pohybuje se od několika metrů po decimetry. Díky husté síti signálů až z desítek routerů funguje velmi dobře ve městech.";
+
+task01_7_text = "Roztažením vyznač přesnost\njednotlivých metod určení polohy:";
+task01_7_rsb1_caption = "Radar";
+task01_7_rsb2_caption = "Sonar";
+task01_7_rsb3_caption = "Wi-Fi";
+task01_7_rsb4_caption = "Satelitní\nnavigace";
+task01_7_rsb_size_1 = "cm";
+task01_7_rsb_size_2 = "dm";
+task01_7_rsb_size_3 = "m";
+task01_7_rsb_size_4 = "10 m";
+task01_7_rsb_size_5 = "100 m";
+task01_7_rsb_size_6 = "km";
