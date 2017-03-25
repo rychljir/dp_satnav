@@ -41,14 +41,14 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-kz-9t0">
-                                <rect key="frame" x="20" y="18" width="984" height="296"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-kz-9t0">
+                                <rect key="frame" x="20" y="18" width="984" height="622"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="gNw-CH-RMK">
-                                        <rect key="frame" x="0.0" y="0.0" width="477" height="296"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="984" height="296"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8HL-og-aRh">
-                                                <rect key="frame" x="0.0" y="0.0" width="119.5" height="294"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="246" height="294"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Positioning" backgroundImage="menu_btn_1.png"/>
@@ -58,21 +58,21 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="q3x-7V-Y4T">
-                                                <rect key="frame" x="119.5" y="0.0" width="119" height="294"/>
+                                                <rect key="frame" x="246" y="0.0" width="246" height="294"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="How satellite work" backgroundImage="menu_btn_2.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_2_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wD1-ME-79R">
-                                                <rect key="frame" x="238.5" y="0.0" width="119.5" height="296"/>
+                                                <rect key="frame" x="492" y="0.0" width="246" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Global satellite systems (GNSS)" backgroundImage="menu_btn_3.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_3_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="g42-ve-AEo">
-                                                <rect key="frame" x="358" y="0.0" width="119" height="294"/>
+                                                <rect key="frame" x="738" y="0.0" width="246" height="294"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Galileo project" backgroundImage="menu_btn_4.png"/>
@@ -81,31 +81,31 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aFR-co-3LX">
-                                        <rect key="frame" x="507" y="0.0" width="477" height="296"/>
+                                        <rect key="frame" x="0.0" y="326" width="984" height="296"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="For-xr-wnL">
-                                                <rect key="frame" x="0.0" y="0.0" width="119.5" height="296"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="246" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Issues facing GNSS systems" backgroundImage="menu_btn_5.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_5_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bst-R2-Kcf">
-                                                <rect key="frame" x="119.5" y="0.0" width="119" height="296"/>
+                                                <rect key="frame" x="246" y="0.0" width="246" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Practical applications" backgroundImage="menu_btn_6.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_2_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="olM-DV-zz7">
-                                                <rect key="frame" x="238.5" y="0.0" width="119.5" height="296"/>
+                                                <rect key="frame" x="492" y="0.0" width="246" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="The future on our doorstep" backgroundImage="menu_btn_7.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_7_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0vs-RK-Nxl">
-                                                <rect key="frame" x="358" y="0.0" width="119" height="296"/>
+                                                <rect key="frame" x="738" y="0.0" width="246" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Augmented reality" backgroundImage="menu_btn_8.png"/>
