@@ -59,7 +59,7 @@
                                         </button>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="K3d-2U-U2a">
+                                <stackView opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="K3d-2U-U2a">
                                     <rect key="frame" x="1315" y="0.0" width="168" height="75"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Nadpis textu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fjl-hZ-BIf">
@@ -75,13 +75,13 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" red="0.85108173076923077" green="0.83901310619707137" blue="0.85097862086900811" alpha="1" colorSpace="calibratedRGB"/>
                                 </stackView>
                             </subviews>
                         </stackView>
                     </subviews>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="desc" destination="f7P-IS-cga" id="ND3-1o-UjW"/>
                 <outlet property="img1" destination="b0T-SN-2MP" id="yM9-si-PbD"/>

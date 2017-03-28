@@ -46,9 +46,15 @@ class Chapter1ViewController: UIViewController, UIScrollViewDelegate {
         
         let slide4: Task01_4_Slide = Bundle.main.loadNibNamed("Task01_4_Slide", owner: self, options: nil)?.first as! Task01_4_Slide
         slide4.initSlide()
+        slide4.setTitleTextColor(UIColor.white)
         
-        return [slide1, slide2, slide3, slide4]
+        let slide5: Task01_5_Slide = Bundle.main.loadNibNamed("Task01_5_Slide", owner: self, options: nil)?.first as! Task01_5_Slide
+        slide5.initSlide()
+        slide5.setTitleTextColor(UIColor.white)
+        
+        return [slide1, slide2, slide3, slide4, slide5]
     }
+    
     
     func setupSlideScrollView(slides:[UIView]){
         slideScrollView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)

@@ -53,4 +53,7 @@ class Task01_4_Slide: UIView {
         texts = [NSLocalizedString("task01_4_text1",comment:"text"),NSLocalizedString("task01_4_text2",comment:"text"),NSLocalizedString("task01_4_text3",comment:"text")]
     }
     
+    func setTitleTextColor(_ color:UIColor){
+        taskTitle.textColor = color
+    }
 }

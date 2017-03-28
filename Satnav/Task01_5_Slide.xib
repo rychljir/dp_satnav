@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Task01_5_Slide" customModule="Satnav" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="zwv-2w-6Th">
+                    <rect key="frame" x="0.0" y="0.0" width="1330" height="1115"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Nadpis ukolu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nf7-Od-cyZ">
+                            <rect key="frame" x="0.0" y="0.0" width="201" height="42"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Xnh-2d-a35">
+                            <rect key="frame" x="0.0" y="82" width="1330" height="1033"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VDD-vS-k83">
+                                    <rect key="frame" x="0.0" y="0.0" width="1216" height="1033"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="M1T-LN-FXo">
+                                            <rect key="frame" x="0.0" y="0.0" width="1216" height="507"/>
+                                            <subviews>
+                                                <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2I-yo-h8y">
+                                                    <rect key="frame" x="0.0" y="0.0" width="392" height="507"/>
+                                                    <state key="normal" image="task01_5_img1.png"/>
+                                                    <connections>
+                                                        <action selector="img1Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="K4J-3I-oAu"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4g-fe-YTK">
+                                                    <rect key="frame" x="412" y="0.0" width="392" height="507"/>
+                                                    <state key="normal" image="task01_5_img2.png"/>
+                                                    <connections>
+                                                        <action selector="img2Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="IbJ-lv-zmv"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6SO-RW-SC8">
+                                                    <rect key="frame" x="824" y="0.0" width="392" height="507"/>
+                                                    <state key="normal" image="task01_5_img3.png"/>
+                                                    <connections>
+                                                        <action selector="img3Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="SJ8-f9-mfu"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7U7-dq-uCu">
+                                            <rect key="frame" x="0.0" y="527" width="1216" height="506"/>
+                                            <subviews>
+                                                <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdt-LT-6RI">
+                                                    <rect key="frame" x="0.0" y="0.0" width="392" height="506"/>
+                                                    <state key="normal" image="task01_5_img4.png"/>
+                                                    <connections>
+                                                        <action selector="img4Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="wlv-Nu-qXQ"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGU-2x-IIa">
+                                                    <rect key="frame" x="412" y="0.0" width="392" height="506"/>
+                                                    <state key="normal" image="task01_5_img5.png"/>
+                                                    <connections>
+                                                        <action selector="img5Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="NhZ-ua-x9M"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGE-4g-kyo">
+                                                    <rect key="frame" x="824" y="0.0" width="392" height="506"/>
+                                                    <state key="normal" image="task01_5_img6.png"/>
+                                                    <connections>
+                                                        <action selector="img6Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="xVp-I3-Bke"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="akm-RJ-LeW">
+                                    <rect key="frame" x="1236" y="0.0" width="94" height="1033"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Nadpis" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq0-Fz-M8D">
+                                            <rect key="frame" x="0.0" y="0.0" width="94" height="979"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Desc" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bex-F1-hxq">
+                                            <rect key="frame" x="0.0" y="1009" width="94" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <connections>
+                <outlet property="desc" destination="bex-F1-hxq" id="DGQ-XZ-hEa"/>
+                <outlet property="img1" destination="d2I-yo-h8y" id="AAT-Yo-ewP"/>
+                <outlet property="img2" destination="b4g-fe-YTK" id="dVs-2S-5aX"/>
+                <outlet property="img3" destination="6SO-RW-SC8" id="oLJ-mi-eza"/>
+                <outlet property="img4" destination="vdt-LT-6RI" id="Gzj-gL-hQp"/>
+                <outlet property="img5" destination="FGU-2x-IIa" id="Pag-br-Ndc"/>
+                <outlet property="img6" destination="VGE-4g-kyo" id="Yly-e4-oxO"/>
+                <outlet property="taskTitle" destination="nf7-Od-cyZ" id="DzO-iF-J7E"/>
+                <outlet property="textTitle" destination="Mq0-Fz-M8D" id="2UP-5R-zFq"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="task01_5_img1.png" width="392" height="507"/>
+        <image name="task01_5_img2.png" width="391" height="507"/>
+        <image name="task01_5_img3.png" width="392" height="507"/>
+        <image name="task01_5_img4.png" width="392" height="506"/>
+        <image name="task01_5_img5.png" width="391" height="506"/>
+        <image name="task01_5_img6.png" width="392" height="506"/>
+    </resources>
+</document>
