@@ -10,7 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBAction func btnChapter1(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "startChapter1", sender:sender)
+        //self.performSegue(withIdentifier: "startChapter1", sender:sender)
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "baseChapter") as! ChapterViewController
+        vc.indexOfChapter = 1
+        self.present(vc, animated: true, completion:nil)
+    }
+    
+    @IBAction func btnChapter2(_ sender: UIButton) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "baseChapter") as! ChapterViewController
+        vc.indexOfChapter = 2
+        self.present(vc, animated: true, completion:nil)
     }
 
     override func viewDidLoad() {

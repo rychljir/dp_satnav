@@ -5,7 +5,18 @@
  Created by Petr Mares on 24.03.17.
  Copyright © 2017 Scientica. All rights reserved.
  */
-HELLO_WORLD = "Nadpis1";
+
+title_chapter01 = "Zaměření polohy";
+title_chapter02 = "Princip satelitní navigace";
+title_chapter03 = "Globální navigační systémy";
+title_chapter04 = "Projekt Galileo";
+title_chapter05 = "Problémy navigace";
+title_chapter06 = "Použití v praxi";
+title_chapter07 = "Budoucnost za dveřmi";
+title_chapter08 = "Rozšířená realita";
+
+// --------- CHAPTER 1 -----------
+
 task01_1_title = "Princip určení polohy";
 task01_1_text = "Když pravěký člověk na lovu objevil mamuta, musel si zapamatovat, jak se k němu vrátit s celou tlupou. Lovci k orientaci využívali výrazné prvky v krajině, například strom, jezero či horu.";
 task01_2_text = "Později se objevily další způsoby, jak určit svou polohu v krajině. Významným krokem byl vynález kompasu a tvorba map, kterých se využívalo především při plavbách po moři. K přirozeným orientačním bodům v krajině se přidaly výtvory lidské činnosti jako hrady, kostely a další stavby.";
@@ -47,3 +58,59 @@ task01_7_rsb_size_3 = "m";
 task01_7_rsb_size_4 = "10 m";
 task01_7_rsb_size_5 = "100 m";
 task01_7_rsb_size_6 = "km";
+
+// --------- CHAPTER 2 -----------
+
+task02_1_title = "Segmenty satelitních navigačních systémů";
+task02_1_capt_a = "Kosmický segment";
+task02_1_capt_b = "Řídící segment";
+task02_1_capt_c = "Uživatelský segment";
+task02_1_desc_a = "Páteří satelitních navigačních systémů je kosmický segment. Tvoří ho soustava satelitů posílajících na Zemi informace o\u00A0své poloze a aktuálním čase. Do kosmického segmentu patří rovněž rakety, dopravující satelity do vesmíru, a kosmodromy, ze kterých rakety startují.";
+task02_1_desc_b = "Řídící segment koordinuje provoz satelitů, snaží se systém satelitní navigace zlepšovat a hledat další možnosti jeho použití.\nV rámci Evropské unie má řídící segment na starosti agentura GSA (European GNSS Agency) se sídlem v\u00A0Praze.";
+task02_1_desc_c = "Se satelitní navigací se běžný člověk (uživatel) setká nejčastěji při navigaci pomocí mobilního telefonu nebo v\u00A0automobilu.\nKromě svého obvyklého použití – určování polohy a rychlosti zvolených objektů – se satelitní navigace díky přesnému měření času používá např. i pro finanční transakce.\nJiné příklady použití v\u00A0praxi naleznete v\u00A0dalších kapitolách.";
+
+task02_2_title = "Měření pomocí čtyř satelitů";
+task02_2_desc = "Pro určení polohy na povrchu Země by nám měly stačit signály ze tří satelitů se známou polohou. Určili bychom tak souřadnice <i>x</i>, <i>y</i>, <i>z</i> nebo jim odpovídající zeměpisnou šířku, délku a nadmořskou výšku místa, kde senacházíme. Ve skutečnosti jsou ale potřeba signály ze čtyř satelitů, jelikož vzdálenost od satelitů se určuje pomocí času, který přijímač neměří tak přesně.";
+
+task02_3_title = "Princip určení polohy";
+task02_3_desc = "Přesný čas hraje klíčovou roli při určování polohy, může totiž způsobit největší nepřesnosti.\nNejprve ukažme, jak by vypadalo určení polohy přijímače pomocí tří satelitů a času na přijímači. Každý satelit obsahuje sadu přesných hodin a zná svou polohu na oběžné dráze kolem Země. Tyto informace odesílá přijímačům na Zemi.";
+
+task02_4_title = "Princip určení polohy";
+task02_4_desc = "Satelit tedy vyšle údaje o své poloze, času odeslání a další doplňující informace směrem k povrchu Země. Zde je zachytí přijímač satelitní navigace, který zaznamená čas přijetí signálu, čas odeslání ze satelitu a polohu satelitu při odeslání.\nOproti satelitům neměří přijímač čas zcela správně (velmi přesné hodiny, které obsahuje satelit, jsou příliš drahé a mnohonásobně by zvýšily cenu přijímačů). Určení času přijetí tedy není přesné.\n\n<i>t</i><small><sub>t</sub></small> ...čas odeslání signálu ze satelitu\n<i>t</i><small><sub>r</sub></small> ...čas přijetí signálu v přijímači";
+
+task02_5_title = "Princip určení polohy";
+task02_5_desc = "Přijímač nyní určí dobu Δ<i>t</i> mezi časem, kdy byl signál přijat (<i>t</i><small><sub>r</sub></small>) a časem, kdy byl signál vyslán ze satelitu (<i>t</i><small><sub>t</sub></small>). Tento rozdíl je velmi malý a pohybuje se v intervalu od 70 do 100 ms.\n\n<i>t</i><small><sub>t</sub></small> ...čas odeslání signálu ze satelitu\n<i>t</i><small><sub>r</sub></small> ...čas přijetí signálu v přijímači\nΔ<i>t</i> ...doba mezi odesláním signálu satelitem a jeho přijetím přijímačem";
+
+task02_6_title = "Princip určení polohy";
+task02_6_desc = "Signál z navigační družice se šíří v podobě elektromagnetické vlny (šíří se tedy rychlostí světla*). Ze znalosti doby mezi odesláním signálu satelitem a jeho přijetím přijímačem může přijímač určit svou vzdálenost od jednotlivých satelitů. Jelikož jsou hodiny na přijímači několikanásobně méně přesné než na satelitu, tak ani dobu Δ<i>t</i> nelze určit zcela správně. Neznáme tedy přesnou vzdálenost přijímače od satelitu, ale pouze interval vzdálenosti, v níž se přijímač nachází. V ideálním případě se totiž signál družice šíří rovnoměrně přímočarým pohybem.\n\n*Přesněji rozebráno v problémech navigace.";
+
+task02_7_title = "Princip určení polohy";
+task02_7_desc = "Přijímač již nyní ví, v jakých intervalech vzdáleností se od jednotlivých satelitů nachází. Zná také polohu těchto satelitů při vyslání signálu. Může tedy určit oblast, ve které se vyskytuje.\nTato oblast je matematicky průnik částí kulových výsečí (se středem v jednotlivých satelitech). Početně se jedná o výpočet tří rovnic o třech neznámých.\nPro zjednodušení můžeme rovnice napsat v kartézských souřadnicích <i>x</i>, <i>y</i>, <i>z</i> (viz obrázek).";
+
+task02_8_title = "Princip určení polohy";
+task02_8_desc = "Ve skutečnosti přijímač počítá rovnice ve sférických souřadnicích, které poté převádí na běžně používané zeměpisné souřadnice – zeměpisnou šířku a délku a nadmořskou výšku.\nPomocí tří satelitů je možné lokalizovat přijímač s přesností v řádu stovek metrů.";
+
+task02_9_title = "Princip určení polohy";
+task02_9_desc = "Největší chybu v určení polohy způsobují hodiny přijímače. Aby se tato chyba odstranila, je potřeba zachytit signál ze čtvrtého satelitu. Obvykle se říká, že “čtvrtý satelit posílá čas”, ve skutečnosti posílá stejné informace jako předchozí tři satelity.";
+
+ task02_10_title = "Princip určení polohy";
+ task02_10_desc = "Díky signálu ze čtvrtého satelitu může přijímač pomocí numerických výpočtů zpřesnit časy přijetí (a také čas na hodinách přijímače).\n\nZjednodušeně:\nmáme čtyři neznámé – souřadnice <i>x</i>, <i>y</i>, <i>z</i> a chybu hodin <i>t</i>, a pro ně čtyři rovnice (viz obrázek).\nTěmito výpočty je možné zpřesnit určení polohy na desítky až jednotky metrů.";
+ 
+ task02_11_title = "Princip určení polohy";
+ task02_11_desc = "Vidí-li přijímač další satelity, je možné zvýšit přesnost určení polohy až na jednotky metrů. Kromě satelitů lze využít i systému pozemních stanic zpřesňujících navigačních systémů jako je EGNOS.\nS využitím těchto podpůrných systémů můžeme určit polohu v řádu cm.";
+ 
+ task02_12_title = "Přesné měření času";
+ task02_12_desc = "Ke správnému fungování satelitní navigace je nutné velmi přesné určení času. Protože se signál z družice šíří rychlostí světla, už chyba v tisícině sekundy znamená rozdíl 300 km. To přibližně odpovídá vzdálenosti z Prahy do Berlína.\nAtomové hodiny používané v\u00A0navigačních družicích jsou tak přesné, že pokud by běžely od vzniku vesmíru, rozcházely by se dnes o pouhé dvě sekundy.\n\nc = 299 792 458 m/s";
+
+ task02_13_title = "Úloha";
+ task02_13_desc = "Pokud by se hodiny satelitu zpožďovaly nebo předbíhaly, bylo by zajímavé pokusit se odhadnout vzdálenost, kterou by signál ze satelitu za tento čas urazil.\nOdhadněte, jakou vzdálenost urazí světlo za ";
+ task02_13_val1 = "1 s";
+ task02_13_val2 = "1 ms";
+ task02_13_val3 = "1 μs";
+ task02_13_val4 = "1 ns";
+ task02_13_ans1 = "300 000 000 m";
+ task02_13_ans2 = "300 000 m";
+ task02_13_ans3 = "300 m";
+ task02_13_ans4 = "3 m";
+ task02_13_ans5 = "0,3 m";
+ task02_13_hint = "Nápověda: Jakou rychlostí se signál pohybuje?";

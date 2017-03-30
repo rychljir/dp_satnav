@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SplitImageDescSlide" customModule="Satnav" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="6Nm-au-O1p">
+                    <rect key="frame" x="28" y="28" width="968" height="712"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cmo-9E-RYl">
+                            <rect key="frame" x="0.0" y="0.0" width="968" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IdX-iO-z6O">
+                            <rect key="frame" x="0.0" y="30" width="968" height="682"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MTG-PB-EYZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="474" height="662"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desc" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qY-a4-Oia">
+                                    <rect key="frame" x="494" y="0.0" width="474" height="682"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="2qY-a4-Oia" firstAttribute="top" secondItem="IdX-iO-z6O" secondAttribute="top" constant="10" id="1k7-hm-PUV"/>
+                                <constraint firstAttribute="bottom" secondItem="MTG-PB-EYZ" secondAttribute="bottom" constant="20" id="Lj3-6s-RbH"/>
+                                <constraint firstItem="2qY-a4-Oia" firstAttribute="leading" secondItem="MTG-PB-EYZ" secondAttribute="trailing" constant="20" id="ZfP-JV-3uM"/>
+                                <constraint firstItem="MTG-PB-EYZ" firstAttribute="leading" secondItem="IdX-iO-z6O" secondAttribute="leading" constant="20" id="da3-Ux-zv6"/>
+                                <constraint firstItem="MTG-PB-EYZ" firstAttribute="top" secondItem="IdX-iO-z6O" secondAttribute="top" constant="20" id="esV-9r-Yia"/>
+                                <constraint firstItem="2qY-a4-Oia" firstAttribute="leading" secondItem="MTG-PB-EYZ" secondAttribute="trailing" constant="20" id="h16-wT-jvg"/>
+                                <constraint firstAttribute="trailing" secondItem="2qY-a4-Oia" secondAttribute="trailing" constant="20" id="v5t-N3-C3n"/>
+                                <constraint firstAttribute="bottom" secondItem="2qY-a4-Oia" secondAttribute="bottom" id="xEL-KM-EUP"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Cmo-9E-RYl" firstAttribute="leading" secondItem="6Nm-au-O1p" secondAttribute="leading" id="F6V-zW-Zj9"/>
+                        <constraint firstAttribute="trailing" secondItem="Cmo-9E-RYl" secondAttribute="trailing" id="Lsx-dE-q72"/>
+                        <constraint firstItem="Cmo-9E-RYl" firstAttribute="top" secondItem="6Nm-au-O1p" secondAttribute="top" id="hrk-oN-2Qd"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottomMargin" secondItem="6Nm-au-O1p" secondAttribute="bottom" constant="20" id="KgW-ek-oGX"/>
+                <constraint firstItem="6Nm-au-O1p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="20" id="Wfi-3X-dCy"/>
+                <constraint firstAttribute="trailingMargin" secondItem="6Nm-au-O1p" secondAttribute="trailing" constant="20" id="eLX-EB-NDz"/>
+                <constraint firstItem="6Nm-au-O1p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="20" id="rFs-1r-DSk"/>
+            </constraints>
+            <connections>
+                <outlet property="desc" destination="2qY-a4-Oia" id="6wI-CA-pEm"/>
+                <outlet property="img" destination="MTG-PB-EYZ" id="nqL-2u-nlc"/>
+                <outlet property="taskTitle" destination="Cmo-9E-RYl" id="Qx5-Kj-FtE"/>
+            </connections>
+        </view>
+    </objects>
+</document>

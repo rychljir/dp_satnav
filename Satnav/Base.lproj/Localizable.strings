@@ -1,10 +1,20 @@
-/* 
-  Localizable.strings
-  Satnav
+/*
+ Localizable.strings
+ Satnav
+ 
+ Created by Petr Mares on 24.03.17.
+ Copyright © 2017 Scientica. All rights reserved.
+ */
 
-  Created by Petr Mares on 24.03.17.
-  Copyright © 2017 Scientica. All rights reserved.
-*/
+title_chapter01 = "Positioning";
+title_chapter02 = "How satellite navigation work";
+title_chapter03 = "Global navigation satellite systems (GNSS)";
+title_chapter04 = "Galileo project";
+title_chapter05 = "Issues facing GNSS systems";
+title_chapter06 = "Practical applications";
+title_chapter07 = "The future on our doorstep";
+title_chapter08 = "Augmented reality";
+
 task01_1_title = "Positioning ";
 task01_1_text = "When prehistoric man went hunting and found a mammoth, he needed to remember its position in order to come back with the whole band. Hunters used landmarks such as trees, lakes or mountains for positioning. ";
 
@@ -47,3 +57,58 @@ task01_7_rsb_size_3 = "m ";
 task01_7_rsb_size_4 = "10 m ";
 task01_7_rsb_size_5 = "100 m ";
 task01_7_rsb_size_6 = "km ";
+
+task02_1_title = "GNSS segments";
+task02_1_capt_a = "Space segment";
+task02_1_capt_b = "Control segment";
+task02_1_capt_c = "User segment";
+task02_1_desc_a = "The space segment is the backbone of all GNSS systems. It is a system of satellites that send information about their current position and time towards the Earth\'s surface. The space segment also includes satellite carriers and spaceports.";
+task02_1_desc_b = "The control segment coordinates the operation of satellites, works on improving GNSS systems and explores new possibilities of their application.\nIn the European Union, the control segment is under the remit of the European GNSS Agency (GSA), based in Prague.";
+task02_1_desc_c = "A typical GNSS application for a common user is car navigation or navigation using a mobile phone. In addition to their usual function – determining the position and speed of selected objects – GNSS systems with their very accurate measurement of time are used e.g. for financial transactions.\nYou will find more examples of practical applications in the following chapters.";
+
+task02_2_title = "Measurements using four satellites";
+task02_2_desc = "Signals from three satellites whose position we know should be enough to determine our position on the Earth\'s surface. They would give us the <i>x</i>, <i>y</i> and <i>z</i> coordinates, or the corresponding latitude, longitude and altitude of the place where we are standing. In reality, however, signals from four satellites are needed because time is used to measure the distance from the satellites, and receivers are not able to measure time with sufficient accuracy.";
+task02_2_button = "3D model";
+
+task02_3_title = "Positioning principles";
+task02_3_desc = "The exact time does not play the key role in positioning; in fact, time is the factor causing the most significant inaccuracies.\nFirst, let\'s see how we would determine our position using three satellites and measuring time on the receiver.\nEach satellite carries a set of very accurate clocks and knows its own position in the Earth\'s orbit. It sends this information to receivers on Earth.";
+
+task02_4_title = "Positioning principles";
+task02_4_desc = "So a satellite sends information about its position and the time the signal was sent, along with some additional information, towards the Earth\'s surface. The information is received by a GNSS receiver, which records the time the signal was received, the time it was sent by the satellite, and the position of the satellite at the moment the signal was sent.\nUnlike satellites, receivers do not measure time with sufficient accuracy (very accurate clocks such as those carried by satellites are too expensive and would dramatically increase the cost of the receiver). As a result, the time of reception is not determined accurately.\n\n<i>t</i> <small><sub>t</sub></small> ...the time a signal is sent from the satellite\n<i>t</i> <small><sub>r</sub></small> ...the time a signal is received by the receiver";
+
+task02_5_title = "Positioning principles";
+task02_5_desc = "The receiver then determines the time difference Δ<i>t</i> between the time a signal is received (<i>t</i><small><sub>r</sub></small>) and the time it is sent from the satellite (<i>t</i><small><sub>t</sub></small>). This difference is very small: between 70 and 100 ms.\n\nt<small><sub>t</sup> ...the time a signal is sent from the satellite\nt<small><sub>r</sub></small> ...the time a signal is received by the receiver\nΔt ...the time difference between the time a signal is sent from the satellite and the time it is received by the receiver";
+
+task02_6_title = "Positioning principles";
+task02_6_desc = "Signals from satellites are propagated in the form of electromagnetic waves (i.e. they have the speed of light*).\nBy knowing the difference between the time a signal was sent from the satellite and the time it was received, the receiver is able to determine its own distance from each satellite. Since receiver clocks are several times less accurate than satellite clocks, even the difference Δ<i>t</i> cannot be determined with accuracy. Thus we don\'t know the exact distance of the receiver form the satellite; we only know an interval of distance in which the receiver is located. Ideally, a satellite signal is propagated in a uniform linear motion.\n\n*More detailed information is provided in the chapter about GNSS problems.";
+
+task02_7_title = "Positioning principles";
+task02_7_desc = "So now our receiver knows the intervals of distance separating it from each satellite. It also knows the position of the satellites at the time they sent their signals. It can therefore determine the area within which it is located.\nIn mathematical terms, this area is an intersection of parts of spherical cones (with their centres in each of the satellites). To calculate the coordinates, we need to solve three equations with three unknowns.\nTo simplify, we can write down these equations using the Cartesian coordinates <i>x</i>, <i>y</i>, <i>z</i> (see image).";
+
+task02_8_title = "Positioning principles";
+task02_8_desc = "In real life, receivers solve the equations using spherical coordinates, converting them to the commonly used geographical coordinates: latitude, longitude and altitude. With three satellites it is possible to locate a receiver to within a few hundred metres.";
+
+task02_9_title = "Positioning principles";
+task02_9_desc = "The most significant positioning error is caused by the receiver clock. To remove this error, the signal from a fourth satellite is needed. People often say that 'the fourth satellite sends time but, in fact, it sends the same information as the other three satellites.";
+
+ task02_10_title = "Positioning principles";
+ task02_10_desc = "Information from a fourth satellite enables the receiver to precise the reception times (and also the receiver clock time) using numerical calculations.\n\nPut simply:\nthere are four unknowns: the <i>x</i>, <i>y</i> and <i>z</i> coordinates, and the clock error <i>t</i>. For these unknowns we have four equations (see image).\nThese calculations make it possible to precise the position to within several tens of metres or even several metres.";
+
+ task02_11_title = "Positioning principles";
+ task02_11_desc = "If a receiver 'sees more satellites, this makes it possible to precise the position to within a couple of metres.\nIn addition to satellites, we can use satellite-based augmentation systems such as EGNOS, and their network of ground stations.\nSuch augmentation systems make it possible to determine one\'s position to within several centimetres.";
+
+ task02_12_title = "Accurate measurement of time";
+ task02_12_desc = "GNSS systems need to measure time with extreme accuracy in order to work well.  Since a satellite signal travels at the speed of light, even an inaccuracy corresponding to a thousandth of a second means a 300 km difference. This is about the distance from Prague to Berlin.\nAtomic clocks used in navigation satellites are so accurate that even if they had been used since the beginning of the universe, they would differ by only two seconds today.\n\nc = 299 792 458 m/s";
+
+ task02_13_title = "Task";
+ task02_13_desc = "If a satellite clock lost or gained time, it would be interesting to try and estimate the distance a signal from this satellite travelled during this time.\nEstimate the distance that light travels in ";
+ task02_13_val1 = "1 s";
+ task02_13_val2 = "1 ms";
+ task02_13_val3 = "1 μs";
+ task02_13_val4 = "1 ns";
+ task02_13_ans1 = "300 000 000 m";
+ task02_13_ans2 = "300 000 m";
+ task02_13_ans3 = "300 m";
+ task02_13_ans4 = "3 m";
+ task02_13_ans5 = "0,3 m";
+ task02_13_hint = "Hint: What is the speed of the signal?";
