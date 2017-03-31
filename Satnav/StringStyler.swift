@@ -1,32 +1,15 @@
 //
-//  SplitImageDescSlide.swift
+//  StringStyler.swift
 //  Satnav
 //
-//  Created by Petr Mares on 30.03.17.
+//  Created by Petr Mares on 31.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 
-class SplitImageDescSlide: UIView {
+class StringStyler{
     
-    @IBOutlet weak var taskTitle: UILabel!
-    @IBOutlet weak var img: UIImageView!
-    @IBOutlet weak var desc: UILabel!
-
-    func initSlide(taskTitle title:String, description descText: String, imageCont cont:UIImage){
-        taskTitle.text = title
-        img.image = cont
-        desc.text = descText
-        
-        //desc.font = UIFont(name: "HelveticaNeue-Light", size: 12) //This is here to set up rest of the texts font
-        let stringStyler =  StringStyler()
-        
-        desc.attributedText = stringStyler.convertText(inputText: descText)
-    }
-    
-  
-    /*
     //method for string conversation
     func convertText(inputText: String) -> NSAttributedString {
         
@@ -61,5 +44,6 @@ class SplitImageDescSlide: UIView {
             r1 = (inputText.string as NSString).range(of: propsIndicator)
         }
         return inputText
-    }*/
+    }
+    
 }

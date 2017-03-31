@@ -40,6 +40,8 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         pageControl.currentPage = 0
         view.bringSubview(toFront: slideScrollView)
         view.bringSubview(toFront: pageControl)
+        
+        self.scrollToPage(page: 12, animated: true)
     }
     
     @IBAction func homeButtonClick(_ sender: UIButton) {
@@ -65,6 +67,13 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let pageIndex = round(scrollView.contentOffset.x/view.frame.width)
         pageControl.currentPage = Int(pageIndex)
+    }
+    
+    func scrollToPage(page: Int, animated: Bool) {
+        var frame: CGRect = self.slideScrollView.frame
+        frame.origin.x = frame.size.width * CGFloat(page);
+        frame.origin.y = 0;
+        self.slideScrollView.scrollRectToVisible(frame, animated: animated)
     }
     
     func createSlidesForChapter1() -> [UIView]{
@@ -181,7 +190,11 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         let slide13: Task02_13_Slide = Bundle.main.loadNibNamed("Task02_13_Slide", owner: self, options: nil)?.first as! Task02_13_Slide
         taskTitle = NSLocalizedString("task02_13_title",comment:"nadpis")
         desc = NSLocalizedString("task02_13_desc",comment:"desc")
-        slide13.initSlide(taskTitle: taskTitle, description: desc)
+        let opt1 = NSLocalizedString("task02_13_val1", comment: "taskValue")
+        let opt2 = NSLocalizedString("task02_13_val2", comment: "taskValue")
+        let opt3 = NSLocalizedString("task02_13_val3", comment: "taskValue")
+        let opt4 = NSLocalizedString("task02_13_val4", comment: "taskValue")
+        slide13.initSlide(taskTitle: taskTitle, description: desc, taskOptions: [opt1, opt2, opt3, opt4], parent: self)
         return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide10, slide11, slide12, slide13]
     }
     
@@ -201,4 +214,25 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         chapterNameLabel.sizeToFit()
     }
     
+}
+
+extension UIViewController {
+    func showToast(message : String) {
+        let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 200, y: self.view.frame.size.height-100, width: 400, height: 70))
+        toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        toastLabel.textColor = UIColor.white
+        toastLabel.numberOfLines = 2
+        toastLabel.textAlignment = .center;
+        toastLabel.font = UIFont(name: "Montserrat-Light", size: 12.0)
+        toastLabel.text = message
+        toastLabel.alpha = 1.0
+        toastLabel.layer.cornerRadius = 10;
+        toastLabel.clipsToBounds  =  true
+        self.view.addSubview(toastLabel)
+        UIView.animate(withDuration: 8.0, delay: 0.1, options: .curveEaseOut, animations: {
+            toastLabel.alpha = 0.0
+        }, completion: {(isCompleted) in
+            toastLabel.removeFromSuperview()
+        })
+    }
 }

@@ -15,6 +15,10 @@ title_chapter06 = "Practical applications";
 title_chapter07 = "The future on our doorstep";
 title_chapter08 = "Augmented reality";
 
+
+task_ok = "Correct!";
+task_fail = "That\'s not it! Try again.";
+
 task01_1_title = "Positioning ";
 task01_1_text = "When prehistoric man went hunting and found a mammoth, he needed to remember its position in order to come back with the whole band. Hunters used landmarks such as trees, lakes or mountains for positioning. ";
 
@@ -101,14 +105,9 @@ task02_9_desc = "The most significant positioning error is caused by the receive
  task02_12_desc = "GNSS systems need to measure time with extreme accuracy in order to work well.  Since a satellite signal travels at the speed of light, even an inaccuracy corresponding to a thousandth of a second means a 300 km difference. This is about the distance from Prague to Berlin.\nAtomic clocks used in navigation satellites are so accurate that even if they had been used since the beginning of the universe, they would differ by only two seconds today.\n\nc = 299 792 458 m/s";
 
  task02_13_title = "Task";
- task02_13_desc = "If a satellite clock lost or gained time, it would be interesting to try and estimate the distance a signal from this satellite travelled during this time.\nEstimate the distance that light travels in ";
- task02_13_val1 = "1 s";
- task02_13_val2 = "1 ms";
- task02_13_val3 = "1 μs";
- task02_13_val4 = "1 ns";
- task02_13_ans1 = "300 000 000 m";
- task02_13_ans2 = "300 000 m";
- task02_13_ans3 = "300 m";
- task02_13_ans4 = "3 m";
- task02_13_ans5 = "0,3 m";
+ task02_13_desc = "If a satellite clock lost or gained time, it would be interesting to try and estimate the distance a signal from this satellite travelled during this time.\nEstimate the distance that light travels in";
+ task02_13_val1 = "<b>1 s</b>";
+ task02_13_val2 = "<b>1 ms</b>";
+ task02_13_val3 = "<b>1 μs</b>";
+ task02_13_val4 = "<b>1 ns</b>";
  task02_13_hint = "Hint: What is the speed of the signal?";

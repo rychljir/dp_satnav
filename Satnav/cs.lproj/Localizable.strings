@@ -15,6 +15,11 @@ title_chapter06 = "Použití v praxi";
 title_chapter07 = "Budoucnost za dveřmi";
 title_chapter08 = "Rozšířená realita";
 
+task_ok = "Správně!";
+task_fail = "Špatně! Zkus to znovu.";
+
+
+
 // --------- CHAPTER 1 -----------
 
 task01_1_title = "Princip určení polohy";
@@ -103,14 +108,9 @@ task02_9_desc = "Největší chybu v určení polohy způsobují hodiny přijím
  task02_12_desc = "Ke správnému fungování satelitní navigace je nutné velmi přesné určení času. Protože se signál z družice šíří rychlostí světla, už chyba v tisícině sekundy znamená rozdíl 300 km. To přibližně odpovídá vzdálenosti z Prahy do Berlína.\nAtomové hodiny používané v\u00A0navigačních družicích jsou tak přesné, že pokud by běžely od vzniku vesmíru, rozcházely by se dnes o pouhé dvě sekundy.\n\nc = 299 792 458 m/s";
 
  task02_13_title = "Úloha";
- task02_13_desc = "Pokud by se hodiny satelitu zpožďovaly nebo předbíhaly, bylo by zajímavé pokusit se odhadnout vzdálenost, kterou by signál ze satelitu za tento čas urazil.\nOdhadněte, jakou vzdálenost urazí světlo za ";
- task02_13_val1 = "1 s";
- task02_13_val2 = "1 ms";
- task02_13_val3 = "1 μs";
- task02_13_val4 = "1 ns";
- task02_13_ans1 = "300 000 000 m";
- task02_13_ans2 = "300 000 m";
- task02_13_ans3 = "300 m";
- task02_13_ans4 = "3 m";
- task02_13_ans5 = "0,3 m";
+ task02_13_desc = "Pokud by se hodiny satelitu zpožďovaly nebo předbíhaly, bylo by zajímavé pokusit se odhadnout vzdálenost, kterou by signál ze satelitu za tento čas urazil.\nOdhadněte, jakou vzdálenost urazí světlo za";
+ task02_13_val1 = "<b>1 s</b>";
+ task02_13_val2 = "<b>1 ms</b>";
+ task02_13_val3 = "<b>1 μs</b>";
+ task02_13_val4 = "<b>1 ns</b>";
  task02_13_hint = "Nápověda: Jakou rychlostí se signál pohybuje?";
