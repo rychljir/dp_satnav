@@ -45,6 +45,7 @@ class Task02_13_Slide: UIView {
         if(index == answerIndex){
             let msg = NSLocalizedString("task_ok", comment: "correct answer")
             parent!.showToast(message: msg)
+            taskDone()
         }else {
             let msg = NSLocalizedString("task_fail", comment: "wrong aswer")
             let hint = NSLocalizedString("task02_13_hint", comment: "hint")
@@ -62,6 +63,12 @@ class Task02_13_Slide: UIView {
         taskDesc.attributedText = taskValue
         
         self.parent = chapterVc
+    }
+    
+    func taskDone(){
+        for btn in buttons {
+            btn.isEnabled = false
+        }
     }
 
 }

@@ -114,3 +114,95 @@ task02_9_desc = "Největší chybu v určení polohy způsobují hodiny přijím
  task02_13_val3 = "<b>1 μs</b>";
  task02_13_val4 = "<b>1 ns</b>";
  task02_13_hint = "Nápověda: Jakou rychlostí se signál pohybuje?";
+
+// --------- CHAPTER 3 -----------
+
+task03_1_title = "Přehled satelitních navigačních systémů";
+task03_1_text = "Prohlédněte si dráhy jednotlivých\nsatelitních systémů.";
+task03_1_1 = "Galileo";
+task03_1_2 = "GPS";
+task03_1_3 = "GLONASS";
+task03_1_4 = "BeiDou";
+task03_1_5 = "IRNSS";
+
+task03_2_title = "Galileo";
+task03_2_stats = "Počet satelitů: 12\nOběžná výška: 23 220 km\nOběžná doba: 14,08 h\nOběžná rychlost : 3 670 m/s";
+task03_2_desc = "Nejvýznamnějším evropským počinem na poli satelitní navigace je projekt Galileo financovaný Evropskou komisí. Na jeho realizaci se podílí ESA (Evropská vesmírná agentura) a GSA (Agentura pro evropský GNSS). Galileo je stále ve fázi výstavby. Více se dozvíte v\u00A0samostatné kapitole.";
+
+task03_3_title = "GPS";
+task03_3_stats = "Počet satelitů: 31\nOběžná výška: 20 180 km\nOběžná doba: 11,97 h\nOběžná rychlost : 3 870 m/s";
+task03_3_desc = "Mezi uživateli se běžně zaměňují pojmy &#8222;satelitní navigace&#8220; a &#8222;GPS&#8220;. Americký GPS (Global Positioning System, globální polohový systém) je ovšem jen jeden z navigačních systémů. Nejprve sloužil pouze pro armádu USA. Jedním z\u00A0prvních důvodů pro zavedení GPS bylo určení přesných poloh (atomových) ponorek po vynoření. Později se aplikace GPS rozšiřovala – v roce 1983 byla uvolněna i pro civilní použití a plně funkční se stala v roce 1995. Nyní už jsou GPS moduly nedílnou součástí většiny moderních mobilních zařízení.";
+
+task03_4_title = "Nepřesnost GPS";
+task03_4_text = "Když byl systém GPS uvolněn pro civilní použití, obsahoval signál záměrnou chybu v\u00A0určení polohy – tzv. Selective Availability (SA). Ta způsobovala, že určení polohy bylo velmi nepřesné – chyba činila řádově desítky až stovky metrů. Když se ukázalo, že GPS má velký potenciál pro využití v\u00A0každodenním životě lidí, byla tato uměle vytvořená nepřesnost v\u00A0roce 2000 vypnuta. Do budoucna se plánuje, že vnášení záměrné systémové chyby bude u\u00A0nové generace GPS zcela zrušeno.";
+
+task03_5_title = "GLONASS";
+task03_5_stats = "Počet satelitů: 24\nOběžná výška: 19 130 km\nOběžná doba: 11,26 h\nOběžná rychlost : 3 950 m/s";
+task03_5_desc = "GLONASS je zkratkou názvu Globalnaya navigatsionnaya sputnikovaya sistema. Systém vznikl roku 1976 v\u00A0tehdejším SSSR jako konkurence amerického systému GPS. Na ruském území začal systém fungovat v\u00A0roce 2010, na celém světě pak o\u00A0rok později.\nV současnosti je velká část přístrojů s\u00A0GPS modulem schopna zpracovat jak signál GPS, tak GLONASS. Určení polohy se signály z\u00A0více navigačních systémů je rychlejší a přesnější.";
+
+task03_6_title = "BeiDou";
+task03_6_stats = "Počet satelitů: 20\nOběžná výška: 21 150 km\nOběžná doba: 12,63 h\nOběžná rychlost : 3 800 m/s";
+task03_6_desc = "Jedná se o čínský systém, celým názvem Beidou Navigation Satellite System, který původně vznikl na základě pěti geostacionárních satelitů Beidou-1. Ty obsluhovaly pouze území Číny. Navigační systém nové generace, budovaný od roku 2007 a pokrývající již celý svět, je někdy označován jako BeiDou-2.\nPřed výrobou Beidou-2 měla Čína zájem podílet se na projektu Galileo. Nakonec se ale rozhodla vytvořit si vlastní systém satelitní navigace.";
+
+task03_7_title = "IRNSS";
+task03_7_stats = "Počet satelitů: 5\nOběžná výška: 35 790 km\nOběžná doba: 23,93 h\nOběžná rychlost : 3 070 m/s";
+task03_7_desc = "IRNSS je zkratkou pro Indian Regional Navigation Satellite System. Hlavní motivací Indie k vývoji vlastního systému byla nezávislost na stávajících systémech satelitní navigace jiných mocností. IRNSS využívá družice na geostacionární dráze, které se pohybují nad rovníkem, stále na stejném místě vůči zemskému povrchu. V současné době tedy IRNSS pokrývá pouze území indického subkontinentu.";
+
+task03_8_title = "Přehledová tabulka";
+task03_8_table1_1 = "Navigační\nsystém";
+task03_8_table1_2 = "Galileo";
+task03_8_table1_3 = "GPS";
+task03_8_table1_4 = "GLONASS";
+task03_8_table1_5 = "BeiDou";
+task03_8_table1_6 = "IRNSS";
+task03_8_table2_1 = "Počet\nsatelitů";
+task03_8_table2_2 = "12";
+task03_8_table2_3 = "31";
+task03_8_table2_4 = "24";
+task03_8_table2_5 = "20";
+task03_8_table2_6 = "2";
+task03_8_table3_1 = "Výška nad\npovrchem";
+task03_8_table3_2 = "23 220 km";
+task03_8_table3_3 = "20 180 km";
+task03_8_table3_4 = "19 130 km";
+task03_8_table3_5 = "21 150 km";
+task03_8_table3_6 = "35 790 km";
+task03_8_table4_1 = "Oběžná\ndoba";
+task03_8_table4_2 = "14.08 h";
+task03_8_table4_3 = "11.97 h";
+task03_8_table4_4 = "11.26 h";
+task03_8_table4_5 = "12.63 h";
+task03_8_table4_6 = "23.93 h";
+task03_8_table5_1 = "Rychlost\noběhu";
+task03_8_table5_2 = "3 670 m/s";
+task03_8_table5_3 = "3 870 m/s";
+task03_8_table5_4 = "3 950 m/s";
+task03_8_table5_5 = "3 800 m/s";
+task03_8_table5_6 = "3 070 m/s";
+
+task03_9_title = "Zpřesňující navigační systém pro Evropu – EGNOS";
+task03_9_text = "Protože signál z navigačních družic je při svém průchodu ovlivňován atmosférou, a na satelit samotný působí celá řada fyzikálních vlivů, je přesnost navigačních systémů omezená. Proto byly navrženy korekční systémy pro jejich zpřesnění – SBAS (Satellite Based Augmentation System).\nEvropa využívá systém EGNOS (European Geostationary Navigation Overlay Service), který tvoří dvě geostacionární družice a síť pozemních stanic.\nOd roku 2011 pomáhá EGNOS např. při přistávání letadel na vybraných letištích.";
+
+task03_10_title = "Zpřesnění navigačních systémů ve světě";
+task03_10_text_1 = "Kromě EGNOSu je ve světě ještě několik dalších korekčních systémů typu SBAS. Využívají geostacionárních družic, společně se systémem pozemních stanic a řídících středisek.";
+task03_10_text_2 = "Mezi nejznámější sytémy patří WAAS pokrývající hlavně USA a Severní Ameriku, MSAS pokrývající Japonsko, GAGAN pokrývající Indii a SDCM pokrývající Rusko. Výhledově se plánuje rozšířit tento typ systému i na Jižní Ameriku a Afriku.";
+task03_10_btn_1 = "EGNOS\nEvropa";
+task03_10_btn_2 = "WASS\nUSA";
+task03_10_btn_3 = "MSAS\nJaponsko";
+task03_10_btn_4 = "GAGAN\nIndie";
+task03_10_btn_5 = "SDCM\nRusko";
+
+task03_12_title = "Úloha";
+task03_12_task = "Označ správné odpovědi:";
+task03_12_yes = "ANO";
+task03_12_no = "NE";
+task03_12_q1 = "Zpřesňující navigační systém EGNOS používá\njak geostacionární satelity, tak pozemní stanice.";
+task03_12_q2 = "Nejrychleji obíhající satelity ze zmíněných\nnavigačních systémů má Galileo.";
+task03_12_q3 = "Geostacionární satelit se vůči hvězdám nepohybuje.";
+task03_12_q4 = "Geostacionární satelit zůstává v ideálním\npřípadě vůči povrchu Země stále na stejném místě.";
+task03_12_q5 = "Satelity navigačních systémů obíhají blíže\nZemi než Mezinárodní vesmírná stanice ISS.";
+task03_12_q6 = "Satelitní systém s největším počtem satelitů je GPS.";
+task03_12_q7 = "Čím výše je oběžná dráha satelitu od zemského\npovrchu, tím rychleji se satelit pohybuje.";
+
+
+

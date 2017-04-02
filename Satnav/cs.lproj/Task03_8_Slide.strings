@@ -1,0 +1,98 @@
+
+/* Class = "UILabel"; text = "Orbital
+altitude"; ObjectID = "2Ej-pR-S2i"; */
+"2Ej-pR-S2i.text" = "Výška nad\npovrchem";
+
+/* Class = "UILabel"; text = "11.26 h"; ObjectID = "3MW-p1-b2i"; */
+"3MW-p1-b2i.text" = "11.26 h";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "6GI-Sc-eEO"; */
+"6GI-Sc-eEO.text" = "12";
+
+/* Class = "UILabel"; text = "3 670 m/s"; ObjectID = "7iN-fS-UmK"; */
+"7iN-fS-UmK.text" = "3 670 m/s";
+
+/* Class = "UILabel"; text = "12.63 h"; ObjectID = "7ro-cJ-j3F"; */
+"7ro-cJ-j3F.text" = "12.63 h";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "Af4-D6-ILf"; */
+"Af4-D6-ILf.text" = "20";
+
+/* Class = "UILabel"; text = "35 790 km"; ObjectID = "Akd-nv-opy"; */
+"Akd-nv-opy.text" = "35 790 km";
+
+/* Class = "UILabel"; text = "19 130 km"; ObjectID = "EFH-l5-1ue"; */
+"EFH-l5-1ue.text" = "19 130 km";
+
+/* Class = "UILabel"; text = "Navigation
+system"; ObjectID = "F1A-iD-dkv"; */
+"F1A-iD-dkv.text" = "Navigační\nsystém";
+
+/* Class = "UILabel"; text = "GLONASS"; ObjectID = "Gxs-FI-zUp"; */
+"Gxs-FI-zUp.text" = "GLONASS";
+
+/* Class = "UILabel"; text = "3 950 m/s"; ObjectID = "JwR-6c-fbt"; */
+"JwR-6c-fbt.text" = "3 950 m/s";
+
+/* Class = "UILabel"; text = "Galileo"; ObjectID = "LBs-Jg-hLz"; */
+"LBs-Jg-hLz.text" = "Galileo";
+
+/* Class = "UILabel"; text = "Orbital
+period"; ObjectID = "NZw-zF-Zxu"; */
+"NZw-zF-Zxu.text" = "Oběžná\ndoba";
+
+/* Class = "UILabel"; text = "24"; ObjectID = "NdY-Z7-PgY"; */
+"NdY-Z7-PgY.text" = "24";
+
+/* Class = "UILabel"; text = "3 070 m/s"; ObjectID = "PTA-3W-HbC"; */
+"PTA-3W-HbC.text" = "3 070 m/s";
+
+/* Class = "UILabel"; text = "3 800 m/s"; ObjectID = "Sab-la-NBi"; */
+"Sab-la-NBi.text" = "3 800 m/s";
+
+/* Class = "UILabel"; text = "Overview table"; ObjectID = "Vck-Lt-aNf"; */
+"Vck-Lt-aNf.text" = "Přehledová tabulka";
+
+/* Class = "UILabel"; text = "GPS"; ObjectID = "WNI-Rm-QzW"; */
+"WNI-Rm-QzW.text" = "GPS";
+
+/* Class = "UILabel"; text = "BeiDou"; ObjectID = "Xab-Hp-hSk"; */
+"Xab-Hp-hSk.text" = "BeiDou";
+
+/* Class = "UILabel"; text = "3 870 m/s"; ObjectID = "bTd-dz-riW"; */
+"bTd-dz-riW.text" = "3 870 m/s";
+
+/* Class = "UILabel"; text = "IRNSS"; ObjectID = "eOl-qi-4Zm"; */
+"eOl-qi-4Zm.text" = "IRNSS";
+
+/* Class = "UILabel"; text = "21 150 km"; ObjectID = "fNB-cT-8V9"; */
+"fNB-cT-8V9.text" = "21 150 km";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "iOQ-15-eNX"; */
+"iOQ-15-eNX.text" = "2";
+
+/* Class = "UILabel"; text = "Number
+of satellites"; ObjectID = "lyT-AY-c48"; */
+"lyT-AY-c48.text" = "Počet\nsatelitů";
+
+/* Class = "UILabel"; text = "20 180 km"; ObjectID = "mUo-o7-76J"; */
+"mUo-o7-76J.text" = "20 180 km";
+
+/* Class = "UILabel"; text = "Orbital
+speed"; ObjectID = "nvY-Dn-vkt"; */
+"nvY-Dn-vkt.text" = "Rychlost\noběhu";
+
+/* Class = "UILabel"; text = "23.93 h"; ObjectID = "nyU-cc-LC5"; */
+"nyU-cc-LC5.text" = "23.93 h";
+
+/* Class = "UILabel"; text = "23 220 km"; ObjectID = "qZf-eF-P4T"; */
+"qZf-eF-P4T.text" = "23 220 km";
+
+/* Class = "UILabel"; text = "14.08 h"; ObjectID = "tDR-Ys-tiy"; */
+"tDR-Ys-tiy.text" = "14.08 h";
+
+/* Class = "UILabel"; text = "11.97 h"; ObjectID = "uQ7-rA-mYl"; */
+"uQ7-rA-mYl.text" = "11.97 h";
+
+/* Class = "UILabel"; text = "31"; ObjectID = "v0n-2B-zfi"; */
+"v0n-2B-zfi.text" = "31";

@@ -111,3 +111,93 @@ task02_9_desc = "The most significant positioning error is caused by the receive
  task02_13_val3 = "<b>1 μs</b>";
  task02_13_val4 = "<b>1 ns</b>";
  task02_13_hint = "Hint: What is the speed of the signal?";
+
+// --------- CHAPTER 3 -----------
+
+
+task03_1_title = "GNSS overview";
+task03_1_text = "Look at the orbits of\ndifferent GNSS systems.";
+task03_1_1 = "Galileo";
+task03_1_2 = "GPS";
+task03_1_3 = "GLONASS";
+task03_1_4 = "BeiDou";
+task03_1_5 = "IRNSS";
+
+task03_2_title = "Galileo";
+task03_2_stats = "Number of satellites: 12\nOrbital altitude: 23 220 km\nOrbital period: 14,08 h\nOrbital speed: 3 670 m/s";
+task03_2_desc = "The Galileo project, funded by the European Union, is the most important European satellite navigation project. It is being implemented by the European Space Agency (ESA) and the European GNSS Agency (GSA). The Galileo system is still under construction. You will learn more in a dedicated chapter.";
+
+task03_3_title = "GPS";
+task03_3_stats = "Number of satellites: 31\nOrbital altitude: 20 180 km\nOrbital period: 11,97 h\nOrbital speed: 3 870 m/s";
+task03_3_desc = "People often use the terms \"GNSS\" and \"GPS\" interchangeably. However, GPS (Global Positioning System) is the name of one specific GNSS, run by the USA. In the beginning, it was used exclusively by the US Army. One of the reasons for launching GPS was the need to locate (nuclear) submarines after the fuel was burned up. Later on, the scope of application extended: in 1983, GPS was approved for civilian use to become fully operational in 1995. Today, GPS modules are integral parts of most modern mobile devices.";
+
+task03_4_title = "GPS inaccuracy";
+task03_4_text = "When GPS was released for civilian use, it included a feature called \"Selective Availability\" (SA), which added intentional positioning error to the signal. This resulted in inaccurate positioning, the error being in the order of tens to hundreds of metres. When the huge potential of GPS for people\'s everyday lives became apparent in 2000, this error feature was switched off. There are plans to completely eliminate this systemic error in future generations of GPS.";
+
+task03_5_title = "GLONASS";
+task03_5_stats = "Number of satellites: 24\nOrbital altitude: 19 130 km\nOrbital period: 11,26 h\nOrbital speed: 3 950 m/s";
+task03_5_desc = "GLONASS is an acronym standing for Globalnaya navigatsionnaya sputnikovaya sistema. The system was created in the USSR in 1976 to compete with the American GPS. In 2010 it became operational on the Russian territory, and its worldwide operation started a year later.\nToday, most devices with GPS modules are able to process signals from both GPS and GLONASS. It is faster and more accurate to determine position when signals from more than one GNSS are used.";
+
+task03_6_title = "BeiDou";
+task03_6_stats = "Number of satellites: 20\nOrbital altitude: 21 150 km\nOrbital period: 12,63 h\nOrbital speed: 3 800 m/s";
+task03_6_desc = "This Chinese system, its full name being Beidou Navigation Satellite System, was originally created with five Beidou-1 geostationary satellites. They only served China\'s territory. The new generation GNSS, built since 2007, covers the whole planet and is sometimes called BeiDou-2.\nBefore the launch of BeiDou-2, China was interested in participation in the Galileo project. However, the Chinese finally decided to create their own GNSS.";
+
+task03_7_title = "IRNSS";
+task03_7_stats = "Number of satellites: 5\nOrbital altitude: 35 790 km\nOrbital period: 23,93 h\nOrbital speed: 3 070 m/s";
+task03_7_desc = "IRNSS stands for \"Indian Regional Navigation Satellite System\. The decision to develop its own system was driven by India\'s desire to be independent of other powers\' systems. IRNSS uses geostationary satellites located above the equator, i.e. always at the same place relative to the Earth\'s surface. As a result, IRNSS now only covers the Indian subcontinent.";
+
+task03_8_title = "Overview table";
+task03_8_table1_1 = "Navigation\nsystem";
+task03_8_table1_2 = "Galileo";
+task03_8_table1_3 = "GPS";
+task03_8_table1_4 = "GLONASS";
+task03_8_table1_5 = "BeiDou";
+task03_8_table1_6 = "IRNSS";
+task03_8_table2_1 = "Number of\nsatellites";
+task03_8_table2_2 = "12";
+task03_8_table2_3 = "31";
+task03_8_table2_4 = "24";
+task03_8_table2_5 = "20";
+task03_8_table2_6 = "2";
+task03_8_table3_1 = "Orbital\naltitude";
+task03_8_table3_2 = "23 220 km";
+task03_8_table3_3 = "20 180 km";
+task03_8_table3_4 = "19 130 km";
+task03_8_table3_5 = "21 150 km";
+task03_8_table3_6 = "35 790 km";
+task03_8_table4_1 = "Orbital\nperiod";
+task03_8_table4_2 = "14.08 h";
+task03_8_table4_3 = "11.97 h";
+task03_8_table4_4 = "11.26 h";
+task03_8_table4_5 = "12.63 h";
+task03_8_table4_6 = "23.93 h";
+task03_8_table5_1 = "Orbital\nspeed";
+task03_8_table5_2 = "3 670 m/s";
+task03_8_table5_3 = "3 870 m/s";
+task03_8_table5_4 = "3 950 m/s";
+task03_8_table5_5 = "3 800 m/s";
+task03_8_table5_6 = "3 070 m/s";
+
+task03_9_title = "European Geostationary Navigation Overlay Service (EGNOS)";
+task03_9_text = "The accuracy of global navigation satellite systems is limited due to the fact that signals from the satellites are affected by the atmosphere as they pass through, and a number of physical effects act on the satellites themselves. Therefore, satellite-based augmentation systems (SBAS) have been designed to correct this inaccuracy.\nEurope uses the EGNOS system (European Geostationary Navigation Overlay Service), composed of two geostationary satellites and a network of ground stations.\nSince 2011 EGNOS has been used, for example, to assist in aircraft landing in selected airports.";
+
+task03_10_title = "SBAS in the world";
+task03_10_text_1 = "Besides EGNOS, there are several more SBAS-type systems in the world. They use geostationary satellites in combination with a system of ground stations and control centres.";
+task03_10_text_2 = "The best known systems are: WAAS, covering mainly the USA and North America; MSAS, covering Japan; GAGAN, covering India; and SDCM, covering Russia. There are also plans to introduce this type of system for South America and Africa.";
+task03_10_btn_1 = "EGNOS\nEurope";
+task03_10_btn_2 = "WASS\nUSA";
+task03_10_btn_3 = "MSAS\nJapan";
+task03_10_btn_4 = "GAGAN\nIndia";
+task03_10_btn_5 = "SDCM\nRussia";
+
+task03_12_title = "Task";
+task03_12_task = "Answer the following questions:";
+task03_12_yes = "YES";
+task03_12_no = "NO";
+task03_12_q1 = "The EGNOS satellite-based augmentation system relies on\nsatellites as well as ground stations. ";
+task03_12_q2 = "Galileo satellites have the highest orbital speed\nof all the GNSS systems mentioned.";
+task03_12_q3 = "A geostationary satellite does not move relative to the stars. ";
+task03_12_q4 = "Ideally, a geostationary satellite always stays\nat the same place relative to the Earth\'s surface.  ";
+task03_12_q5 = "GNSS satellites orbit closer to the Earth\'s surface\nthan the International Space Station (ISS";
+task03_12_q6 = "GPS has the highest number of satellites.";
+task03_12_q7 = "The higher above the Earth\'s surface a satellite orbits,\nthe higher the speed of the satellite. ";

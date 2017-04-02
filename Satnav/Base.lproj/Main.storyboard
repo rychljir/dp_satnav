@@ -73,6 +73,9 @@
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Global satellite systems (GNSS)" backgroundImage="menu_btn_3.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_3_pressed.png"/>
+                                                <connections>
+                                                    <action selector="btnChapter3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TgB-tm-MTK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="g42-ve-AEo">
                                                 <rect key="frame" x="760.5" y="0.0" width="223.5" height="296"/>
@@ -225,9 +228,13 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="b0e-d5-6kM" secondAttribute="trailing" id="5c8-DB-UPU"/>
                                     <constraint firstAttribute="bottom" secondItem="mmM-Un-rPT" secondAttribute="bottom" id="6XK-Pf-3Ke"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="mmM-Un-rPT" secondAttribute="trailing" id="D98-cI-O7q"/>
+                                    <constraint firstItem="b0e-d5-6kM" firstAttribute="top" secondItem="jlD-aX-BwH" secondAttribute="bottom" id="GPk-PY-w2O"/>
+                                    <constraint firstItem="b0e-d5-6kM" firstAttribute="leading" secondItem="94w-K8-24H" secondAttribute="leading" id="Lf6-7T-Ijp"/>
                                     <constraint firstItem="mmM-Un-rPT" firstAttribute="bottom" secondItem="94w-K8-24H" secondAttribute="bottomMargin" id="MxV-7W-0Si"/>
+                                    <constraint firstItem="mmM-Un-rPT" firstAttribute="top" secondItem="b0e-d5-6kM" secondAttribute="bottom" id="OsJ-fm-IYS"/>
                                     <constraint firstItem="b0e-d5-6kM" firstAttribute="leading" secondItem="94w-K8-24H" secondAttribute="leading" id="awr-wf-2Nl"/>
                                     <constraint firstItem="b0e-d5-6kM" firstAttribute="top" secondItem="jlD-aX-BwH" secondAttribute="bottom" id="e3U-kI-7wC"/>
                                     <constraint firstItem="jlD-aX-BwH" firstAttribute="leading" secondItem="94w-K8-24H" secondAttribute="leading" id="gaO-TM-42s"/>
