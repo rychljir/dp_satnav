@@ -117,11 +117,6 @@ task02_9_desc = "The most significant positioning error is caused by the receive
 
 task03_1_title = "GNSS overview";
 task03_1_text = "Look at the orbits of\ndifferent GNSS systems.";
-task03_1_1 = "Galileo";
-task03_1_2 = "GPS";
-task03_1_3 = "GLONASS";
-task03_1_4 = "BeiDou";
-task03_1_5 = "IRNSS";
 
 task03_2_title = "Galileo";
 task03_2_stats = "Number of satellites: 12\nOrbital altitude: 23 220 km\nOrbital period: 14,08 h\nOrbital speed: 3 670 m/s";

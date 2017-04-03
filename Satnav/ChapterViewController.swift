@@ -126,55 +126,92 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         let slide2: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_2_title",comment:"title")
         var desc = NSLocalizedString("task02_2_desc",comment:"desc")
-        var image = UIImage(named: "task02_2_img") as UIImage?
+        var image :UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_2_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_2_img") as UIImage?
+        }
         slide2.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide3: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_3_title",comment:"title")
         desc = NSLocalizedString("task02_3_desc",comment:"desc")
-        image = UIImage(named: "task02_3_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_3_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_3_img") as UIImage?
+        }
         slide3.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide4: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_4_title",comment:"title")
         desc = NSLocalizedString("task02_4_desc",comment:"desc")
-        image = UIImage(named: "task02_4_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_4_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_4_img") as UIImage?
+        }
         slide4.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide5: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_5_title",comment:"title")
         desc = NSLocalizedString("task02_5_desc",comment:"desc")
-        image = UIImage(named: "task02_5_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_5_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_5_img") as UIImage?
+        }
         slide5.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide6: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_6_title",comment:"title")
         desc = NSLocalizedString("task02_6_desc",comment:"desc")
-        image = UIImage(named: "task02_6_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_6_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_6_img") as UIImage?
+        }
         slide6.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide7: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_7_title",comment:"title")
         desc = NSLocalizedString("task02_7_desc",comment:"desc")
-        image = UIImage(named: "task02_7_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_7_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_7_img") as UIImage?
+        }
         slide7.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide8: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_8_title",comment:"title")
         desc = NSLocalizedString("task02_8_desc",comment:"desc")
-        image = UIImage(named: "task02_8_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_8_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_8_img") as UIImage?
+        }
         slide8.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide9: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_9_title",comment:"title")
         desc = NSLocalizedString("task02_9_desc",comment:"desc")
-        image = UIImage(named: "task02_9_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_9_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_9_img") as UIImage?
+        }
         slide9.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide10: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_10_title",comment:"title")
         desc = NSLocalizedString("task02_10_desc",comment:"desc")
-        image = UIImage(named: "task02_10_img") as UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task02_10_img") as UIImage?
+        }else{
+            image = UIImage(named: "task02_10_img") as UIImage?
+        }
         slide10.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide11: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
@@ -201,6 +238,8 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func createSlidesForChapter3() -> [UIView]{
+        let slide1: Task03_1_Slide = Bundle.main.loadNibNamed("Task03_1_Slide", owner: self, options: nil)?.first as! Task03_1_Slide
+        slide1.initSlide()
         
         let slide2: SatelliteSlide = Bundle.main.loadNibNamed("SatelliteSlide", owner: self, options: nil)?.first as! SatelliteSlide
         var title = NSLocalizedString("task03_2_title",comment:"title")
@@ -245,7 +284,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         text = NSLocalizedString("task03_9_text",comment:"desc")
         slide9.initSlide(taskTitle: title, description: text)
         
-        return [slide9, slide2, slide3, slide4, slide5, slide6, slide7, slide8]
+        let slide11: Task03_11_Slide = Bundle.main.loadNibNamed("Task03_11_Slide", owner: self, options: nil)?.first as! Task03_11_Slide
+        
+        return [slide11, slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9]
     
     }
 

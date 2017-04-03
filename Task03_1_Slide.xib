@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Task03_1_Slide" customModule="Satnav" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="tr6-wg-axi">
+                    <rect key="frame" x="15" y="15" width="994" height="738"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="GNSS Overivew" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZo-5C-EeJ">
+                            <rect key="frame" x="0.0" y="0.0" width="994" height="27.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jWY-AX-sWR">
+                            <rect key="frame" x="0.0" y="57.5" width="994" height="680.5"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fgB-jl-thy">
+                                    <rect key="frame" x="0.0" y="0.0" width="487" height="680.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="Look at the orbits of different GNSS systems." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3x-B1-oXM">
+                                            <rect key="frame" x="0.0" y="0.0" width="487" height="86"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ijm-WA-Z8Q">
+                                            <rect key="frame" x="0.0" y="106" width="487" height="574.5"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEB-nD-Ekr">
+                                                    <rect key="frame" x="0.0" y="0.0" width="487" height="91"/>
+                                                    <color key="backgroundColor" red="0.72549019607843135" green="0.72549019607843135" blue="0.72549019607843135" alpha="0.44921875" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <state key="normal" title="Galileo" backgroundImage="task03_1_1">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="selected">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="btn1Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="8Vh-zr-dg9"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNv-Rr-5Lk">
+                                                    <rect key="frame" x="0.0" y="121" width="487" height="91"/>
+                                                    <color key="backgroundColor" red="0.72549019607843135" green="0.72549019607843135" blue="0.72549019607843135" alpha="0.44921875" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <state key="normal" title="GLONASS" backgroundImage="task03_1_3">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="selected">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="btn2Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="81Z-hm-YvY"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTD-wi-Jx6">
+                                                    <rect key="frame" x="0.0" y="242" width="487" height="91"/>
+                                                    <color key="backgroundColor" red="0.72549019607843135" green="0.72549019607843135" blue="0.72549019607843135" alpha="0.44921875" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <state key="normal" title="GPS" backgroundImage="task03_1_2">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="selected">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="btn3Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="pyB-xn-Bef"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga2-Gs-7Rz">
+                                                    <rect key="frame" x="0.0" y="363" width="487" height="90.5"/>
+                                                    <color key="backgroundColor" red="0.72549019607843135" green="0.72549019607843135" blue="0.72549019607843135" alpha="0.44921875" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <state key="normal" title="BeiDou" backgroundImage="task03_1_4">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="selected">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="btn4Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="KYB-pX-vcL"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0h-Tn-Nd1">
+                                                    <rect key="frame" x="0.0" y="483.5" width="487" height="91"/>
+                                                    <color key="backgroundColor" red="0.72549019607843135" green="0.72549019607843135" blue="0.72549019607843135" alpha="0.44921875" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    <state key="normal" title="IRNSS" backgroundImage="task03_1_5">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="selected">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="btn5Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="HRU-Ew-Mp3"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3kT-6b-dif">
+                                    <rect key="frame" x="507" y="0.0" width="487" height="680.5"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_1_img" translatesAutoresizingMaskIntoConstraints="NO" id="mC8-im-MxK">
+                                            <rect key="frame" x="0.0" y="0.0" width="487" height="680.5"/>
+                                        </imageView>
+                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_1_ico_0" translatesAutoresizingMaskIntoConstraints="NO" id="lGw-Lq-h75">
+                                            <rect key="frame" x="0.0" y="-0.5" width="487" height="680.5"/>
+                                        </imageView>
+                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_1_ico_1" translatesAutoresizingMaskIntoConstraints="NO" id="Ybh-uC-v0R">
+                                            <rect key="frame" x="0.0" y="-0.5" width="487" height="680.5"/>
+                                        </imageView>
+                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_1_ico_2" translatesAutoresizingMaskIntoConstraints="NO" id="uHO-Pe-Zck">
+                                            <rect key="frame" x="0.0" y="-0.5" width="487" height="680.5"/>
+                                        </imageView>
+                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_1_ico_3" translatesAutoresizingMaskIntoConstraints="NO" id="YDd-py-zsB">
+                                            <rect key="frame" x="0.0" y="-0.5" width="487" height="680.5"/>
+                                        </imageView>
+                                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_1_ico_4" translatesAutoresizingMaskIntoConstraints="NO" id="PGs-rC-mjk">
+                                            <rect key="frame" x="0.0" y="-0.5" width="487" height="680.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="mC8-im-MxK" secondAttribute="bottom" id="0Ff-zi-yFk"/>
+                                        <constraint firstItem="lGw-Lq-h75" firstAttribute="top" secondItem="3kT-6b-dif" secondAttribute="top" id="4VV-x1-kKZ"/>
+                                        <constraint firstItem="Ybh-uC-v0R" firstAttribute="top" secondItem="3kT-6b-dif" secondAttribute="top" id="5gX-ld-htv"/>
+                                        <constraint firstItem="PGs-rC-mjk" firstAttribute="top" secondItem="3kT-6b-dif" secondAttribute="top" id="7Sr-lM-m8Z"/>
+                                        <constraint firstAttribute="trailing" secondItem="lGw-Lq-h75" secondAttribute="trailing" id="8Ag-Bb-KoH"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ybh-uC-v0R" secondAttribute="trailing" id="9iE-Mw-Bv6"/>
+                                        <constraint firstAttribute="bottom" secondItem="YDd-py-zsB" secondAttribute="bottom" id="C7Y-Pp-7lq"/>
+                                        <constraint firstAttribute="trailing" secondItem="mC8-im-MxK" secondAttribute="trailing" id="Chb-jC-HqE"/>
+                                        <constraint firstItem="YDd-py-zsB" firstAttribute="top" secondItem="3kT-6b-dif" secondAttribute="top" id="FVj-0F-lVy"/>
+                                        <constraint firstItem="uHO-Pe-Zck" firstAttribute="leading" secondItem="3kT-6b-dif" secondAttribute="leading" id="MsP-mg-w1A"/>
+                                        <constraint firstAttribute="trailing" secondItem="YDd-py-zsB" secondAttribute="trailing" id="Mxl-yD-Lq0"/>
+                                        <constraint firstAttribute="bottom" secondItem="uHO-Pe-Zck" secondAttribute="bottom" id="NPX-yi-lJH"/>
+                                        <constraint firstItem="mC8-im-MxK" firstAttribute="leading" secondItem="3kT-6b-dif" secondAttribute="leading" id="Qnv-d0-gjZ"/>
+                                        <constraint firstItem="lGw-Lq-h75" firstAttribute="leading" secondItem="3kT-6b-dif" secondAttribute="leading" id="ZNT-oC-RXW"/>
+                                        <constraint firstItem="Ybh-uC-v0R" firstAttribute="leading" secondItem="3kT-6b-dif" secondAttribute="leading" id="aMg-GZ-njf"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ybh-uC-v0R" secondAttribute="bottom" id="aeD-88-jmP"/>
+                                        <constraint firstAttribute="trailing" secondItem="PGs-rC-mjk" secondAttribute="trailing" id="bIs-0a-X0r"/>
+                                        <constraint firstItem="PGs-rC-mjk" firstAttribute="leading" secondItem="3kT-6b-dif" secondAttribute="leading" id="ffv-Nw-cec"/>
+                                        <constraint firstItem="uHO-Pe-Zck" firstAttribute="top" secondItem="3kT-6b-dif" secondAttribute="top" id="izY-Hk-ZFx"/>
+                                        <constraint firstItem="YDd-py-zsB" firstAttribute="leading" secondItem="3kT-6b-dif" secondAttribute="leading" id="rz9-eC-R5P"/>
+                                        <constraint firstAttribute="trailing" secondItem="uHO-Pe-Zck" secondAttribute="trailing" id="uqM-1e-O2X"/>
+                                        <constraint firstAttribute="bottom" secondItem="lGw-Lq-h75" secondAttribute="bottom" id="vxN-rh-WEA"/>
+                                        <constraint firstAttribute="bottom" secondItem="PGs-rC-mjk" secondAttribute="bottom" id="wQh-sy-V25"/>
+                                        <constraint firstItem="mC8-im-MxK" firstAttribute="top" secondItem="3kT-6b-dif" secondAttribute="top" id="x2L-QR-HwM"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="3kT-6b-dif" firstAttribute="top" secondItem="jWY-AX-sWR" secondAttribute="top" id="HtL-cW-dwc"/>
+                                <constraint firstAttribute="bottom" secondItem="3kT-6b-dif" secondAttribute="bottom" id="YBh-kL-rxO"/>
+                                <constraint firstAttribute="trailing" secondItem="3kT-6b-dif" secondAttribute="trailing" id="d19-XQ-r8M"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="tr6-wg-axi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="3oZ-i2-G5I"/>
+                <constraint firstItem="tr6-wg-axi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="EP2-ea-Uv8"/>
+                <constraint firstAttribute="bottom" secondItem="tr6-wg-axi" secondAttribute="bottom" constant="15" id="GY0-pg-73v"/>
+                <constraint firstAttribute="trailing" secondItem="tr6-wg-axi" secondAttribute="trailing" constant="15" id="Hvw-9K-eaW"/>
+            </constraints>
+            <connections>
+                <outlet property="btn1" destination="uEB-nD-Ekr" id="GQA-nw-AaP"/>
+                <outlet property="btn2" destination="SNv-Rr-5Lk" id="Elv-UP-Hgd"/>
+                <outlet property="btn3" destination="pTD-wi-Jx6" id="cKT-p1-6hI"/>
+                <outlet property="btn4" destination="ga2-Gs-7Rz" id="wiK-7V-3Yn"/>
+                <outlet property="btn5" destination="c0h-Tn-Nd1" id="9Qb-gM-6Qz"/>
+                <outlet property="img1" destination="lGw-Lq-h75" id="AEA-Vn-5DZ"/>
+                <outlet property="img2" destination="Ybh-uC-v0R" id="TBD-NY-TAZ"/>
+                <outlet property="img3" destination="uHO-Pe-Zck" id="tj6-po-x9t"/>
+                <outlet property="img4" destination="YDd-py-zsB" id="kgg-xV-DLD"/>
+                <outlet property="img5" destination="PGs-rC-mjk" id="Ckx-MJ-xJx"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="task03_1_1" width="776" height="136"/>
+        <image name="task03_1_2" width="776" height="137"/>
+        <image name="task03_1_3" width="776" height="137"/>
+        <image name="task03_1_4" width="776" height="137"/>
+        <image name="task03_1_5" width="776" height="137"/>
+        <image name="task03_1_ico_0" width="1052" height="1052"/>
+        <image name="task03_1_ico_1" width="1052" height="1052"/>
+        <image name="task03_1_ico_2" width="1052" height="1052"/>
+        <image name="task03_1_ico_3" width="1052" height="1052"/>
+        <image name="task03_1_ico_4" width="1052" height="1052"/>
+        <image name="task03_1_img" width="1052" height="1052"/>
+    </resources>
+</document>

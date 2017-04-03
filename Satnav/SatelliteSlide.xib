@@ -58,7 +58,7 @@
                                         <constraint firstAttribute="trailing" secondItem="m4W-CP-j6o" secondAttribute="trailing" constant="9" id="wbB-UG-23p"/>
                                     </constraints>
                                 </stackView>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_2_img" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-mH-saJ">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_2_img" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-mH-saJ">
                                     <rect key="frame" x="497" y="0.0" width="511" height="636"/>
                                     <rect key="contentStretch" x="0.0" y="0.5" width="0.5" height="0.5"/>
                                 </imageView>

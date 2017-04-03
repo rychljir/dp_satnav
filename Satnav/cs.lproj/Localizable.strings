@@ -119,11 +119,7 @@ task02_9_desc = "Největší chybu v určení polohy způsobují hodiny přijím
 
 task03_1_title = "Přehled satelitních navigačních systémů";
 task03_1_text = "Prohlédněte si dráhy jednotlivých\nsatelitních systémů.";
-task03_1_1 = "Galileo";
-task03_1_2 = "GPS";
-task03_1_3 = "GLONASS";
-task03_1_4 = "BeiDou";
-task03_1_5 = "IRNSS";
+
 
 task03_2_title = "Galileo";
 task03_2_stats = "Počet satelitů: 12\nOběžná výška: 23 220 km\nOběžná doba: 14,08 h\nOběžná rychlost : 3 670 m/s";
@@ -134,7 +130,7 @@ task03_3_stats = "Počet satelitů: 31\nOběžná výška: 20 180 km\nOběžná 
 task03_3_desc = "Mezi uživateli se běžně zaměňují pojmy &#8222;satelitní navigace&#8220; a &#8222;GPS&#8220;. Americký GPS (Global Positioning System, globální polohový systém) je ovšem jen jeden z navigačních systémů. Nejprve sloužil pouze pro armádu USA. Jedním z\u00A0prvních důvodů pro zavedení GPS bylo určení přesných poloh (atomových) ponorek po vynoření. Později se aplikace GPS rozšiřovala – v roce 1983 byla uvolněna i pro civilní použití a plně funkční se stala v roce 1995. Nyní už jsou GPS moduly nedílnou součástí většiny moderních mobilních zařízení.";
 
 task03_4_title = "Nepřesnost GPS";
-task03_4_text = "Když byl systém GPS uvolněn pro civilní použití, obsahoval signál záměrnou chybu v\u00A0určení polohy – tzv. Selective Availability (SA). Ta způsobovala, že určení polohy bylo velmi nepřesné – chyba činila řádově desítky až stovky metrů. Když se ukázalo, že GPS má velký potenciál pro využití v\u00A0každodenním životě lidí, byla tato uměle vytvořená nepřesnost v\u00A0roce 2000 vypnuta. Do budoucna se plánuje, že vnášení záměrné systémové chyby bude u\u00A0nové generace GPS zcela zrušeno.";
+task03_4_text = "Když byl systém GPS uvolněn pro civilní použití, obsahoval signál záměrnou chybu v určení polohy – tzv. Selective Availability (SA). Ta způsobovala, že určení polohy bylo velmi nepřesné – chyba činila řádově desítky až stovky metrů. Když se ukázalo, že GPS má velký potenciál pro využití v každodenním životě lidí, byla tato uměle vytvořená nepřesnost v roce 2000 vypnuta. Do budoucna se plánuje, že vnášení záměrné systémové chyby bude u    nové generace GPS zcela zrušeno.";
 
 task03_5_title = "GLONASS";
 task03_5_stats = "Počet satelitů: 24\nOběžná výška: 19 130 km\nOběžná doba: 11,26 h\nOběžná rychlost : 3 950 m/s";

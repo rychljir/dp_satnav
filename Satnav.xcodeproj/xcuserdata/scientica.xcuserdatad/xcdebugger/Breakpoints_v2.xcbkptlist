@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Satnav/ChapterViewController.swift"
-            timestampString = "512840306.470405"
+            timestampString = "512916419.143306"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
             landmarkName = "setupForChapter2()"
             landmarkType = "7">
          </BreakpointContent>

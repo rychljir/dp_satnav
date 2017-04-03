@@ -31,11 +31,11 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="tZ0-Ud-iy2">
                                     <rect key="frame" x="0.0" y="0.0" width="489" height="689.5"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_9_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wb1-80-31o">
-                                            <rect key="frame" x="0.0" y="0.0" width="489" height="383.5"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_9_img2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wb1-80-31o">
+                                            <rect key="frame" x="0.0" y="0.0" width="489" height="283"/>
                                         </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceRightToLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_9_img2.png" translatesAutoresizingMaskIntoConstraints="NO" id="tRw-JS-eYw">
-                                            <rect key="frame" x="0.0" y="413.5" width="489" height="276"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceRightToLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_9_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="tRw-JS-eYw">
+                                            <rect key="frame" x="0.0" y="313" width="489" height="376.5"/>
                                         </imageView>
                                     </subviews>
                                 </stackView>
