@@ -48,7 +48,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="984" height="296"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8HL-og-aRh">
-                                                <rect key="frame" x="0.0" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Positioning" backgroundImage="menu_btn_1.png"/>
@@ -58,7 +58,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="q3x-7V-Y4T">
-                                                <rect key="frame" x="253.5" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="254" y="0.0" width="223" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="How satellite work" backgroundImage="menu_btn_2.png"/>
@@ -68,7 +68,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wD1-ME-79R">
-                                                <rect key="frame" x="507" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="507" y="0.0" width="224" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Global satellite systems (GNSS)" backgroundImage="menu_btn_3.png"/>
@@ -78,11 +78,14 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="g42-ve-AEo">
-                                                <rect key="frame" x="760.5" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="761" y="0.0" width="223" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Galileo project" backgroundImage="menu_btn_4.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_4_pressed.png"/>
+                                                <connections>
+                                                    <action selector="btnChapter4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xQq-us-TFB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.5" height="0.5"/>
@@ -103,28 +106,28 @@
                                         <rect key="frame" x="0.0" y="326" width="984" height="296"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="For-xr-wnL">
-                                                <rect key="frame" x="0.0" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Issues facing GNSS systems" backgroundImage="menu_btn_5.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_5_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bst-R2-Kcf">
-                                                <rect key="frame" x="253.5" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="254" y="0.0" width="223" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Practical applications" backgroundImage="menu_btn_6.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_6_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="olM-DV-zz7">
-                                                <rect key="frame" x="507" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="507" y="0.0" width="224" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="The future on our doorstep" backgroundImage="menu_btn_7.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_7_pressed.png"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0vs-RK-Nxl">
-                                                <rect key="frame" x="760.5" y="0.0" width="223.5" height="296"/>
+                                                <rect key="frame" x="761" y="0.0" width="223" height="296"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Augmented reality" backgroundImage="menu_btn_8.png"/>
@@ -193,13 +196,13 @@
                                                 <rect key="frame" x="117" y="0.0" width="286" height="72"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Satelitní navigace &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9s-un-8ky">
-                                                        <rect key="frame" x="0.0" y="26" width="149" height="20.5"/>
+                                                        <rect key="frame" x="0.0" y="26" width="149" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zaměření polohy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXx-hr-AeZ">
-                                                        <rect key="frame" x="149" y="26" width="137" height="20.5"/>
+                                                        <rect key="frame" x="149" y="26" width="137" height="21"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>

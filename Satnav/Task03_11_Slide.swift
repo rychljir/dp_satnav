@@ -9,6 +9,12 @@
 import UIKit
 
 class Task03_11_Slide: UIView {
+    var parent: UIViewController?
+    
+    var correct = [1, 2, 2, 1, 2, 1, 2]
+    var answered = [0, 0, 0, 0, 0, 0, 0]
+    var yesButtons: [UIButton] = []
+    var noButtons: [UIButton] = []
 
     @IBOutlet weak var yes1: UIButton!
     @IBOutlet weak var no1: UIButton!
@@ -24,6 +30,7 @@ class Task03_11_Slide: UIView {
     @IBOutlet weak var no6: UIButton!
     @IBOutlet weak var yes7: UIButton!
     @IBOutlet weak var no7: UIButton!
+
     
     @IBAction func yes1Click(_ sender: UIButton) {
         performClick(whichButton: true, index: 0)
@@ -68,7 +75,64 @@ class Task03_11_Slide: UIView {
         performClick(whichButton: false, index: 6)
     }
 
-    func performClick(whichButton: Bool, index: Int){
+    @IBAction func evaluateClick(_ sender: UIButton) {
+        var mistakes = 0
+        for i in 1 ... answered.count-1
+        {
+            if(correct[i] != answered[i]){
+                mistakes = mistakes + 1;
+                yesButtons[i].backgroundColor = UIColor.black
+                noButtons[i].backgroundColor = UIColor.black
+                answered[i] = 0
+            }
+        }
         
+        if(mistakes == 0){
+            let msg = NSLocalizedString("task_ok", comment: "correct answer")
+            parent!.showToast(message: msg)
+            taskDone()
+        }else{
+            let msg = NSLocalizedString("task_fail", comment: "wrong answer")
+            parent!.showToast(message: msg)
+        }
+    
+    }
+
+    func performClick(whichButton: Bool, index: Int){
+        if(whichButton){
+            answered[index] = 1
+        }else{
+            answered[index] = 2
+        }
+        
+        if(whichButton){
+            yesButtons[index].backgroundColor = UIColor.red
+            noButtons[index].backgroundColor = UIColor.black
+        }else{
+            yesButtons[index].backgroundColor = UIColor.black
+            noButtons[index].backgroundColor = UIColor.red
+        }
+    }
+    
+    func taskDone(){
+        for i in 1 ... yesButtons.count-1{
+            yesButtons[i].isEnabled = false
+            noButtons[i].isEnabled = false
+            if(correct[i] == 1){
+                yesButtons[i].backgroundColor = UIColor.red
+                noButtons[i].backgroundColor = UIColor.black
+            }else{
+                yesButtons[i].backgroundColor = UIColor.black
+                noButtons[i].backgroundColor = UIColor.red
+            }
+        }
+    }
+    
+    
+    
+    func initSlide(parent chapterVc:UIViewController){
+        yesButtons = [yes1, yes2, yes3, yes4, yes5, yes6, yes7]
+        noButtons = [no1, no2, no3, no4, no5, no6, no7]
+        self.parent = chapterVc
     }
 }

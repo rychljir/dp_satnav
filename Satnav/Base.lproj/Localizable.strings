@@ -193,6 +193,6 @@ task03_12_q1 = "The EGNOS satellite-based augmentation system relies on\nsatelli
 task03_12_q2 = "Galileo satellites have the highest orbital speed\nof all the GNSS systems mentioned.";
 task03_12_q3 = "A geostationary satellite does not move relative to the stars. ";
 task03_12_q4 = "Ideally, a geostationary satellite always stays\nat the same place relative to the Earth\'s surface.  ";
-task03_12_q5 = "GNSS satellites orbit closer to the Earth\'s surface\nthan the International Space Station (ISS";
+task03_12_q5 = "GNSS satellites orbit closer to the Earth\'s surface\nthan the International Space Station (ISS)";
 task03_12_q6 = "GPS has the highest number of satellites.";
 task03_12_q7 = "The higher above the Earth\'s surface a satellite orbits,\nthe higher the speed of the satellite. ";

@@ -31,6 +31,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         case 3:
             slides = createSlidesForChapter3()
             setupForChapter3()
+        case 4:
+            slides = createSlidesForChapter4()
+            setupForChapter4()
         default:
             slides = createSlidesForChapter1()
             setupForChapter1()
@@ -285,10 +288,26 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         slide9.initSlide(taskTitle: title, description: text)
         
         let slide11: Task03_11_Slide = Bundle.main.loadNibNamed("Task03_11_Slide", owner: self, options: nil)?.first as! Task03_11_Slide
+        slide11.initSlide(parent: self)
         
         return [slide11, slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9]
-    
     }
+    
+    func createSlidesForChapter4() -> [UIView]{
+        let slide1: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
+        var taskTitle = NSLocalizedString("task04_1_title",comment:"title")
+        var desc = NSLocalizedString("task04_1_desc",comment:"desc")
+        var image :UIImage?
+        if(Locale.current.languageCode=="cs"){
+            image = UIImage(named: "task04_1_img") as UIImage?
+        }else{
+            image = UIImage(named: "task04_1_img") as UIImage?
+        }
+        slide1.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
+        
+        return [slide1]
+    }
+    
 
     func setupForChapter1()  {
         backgroundImage.image = UIImage(named: "chapter_bck_1") as UIImage?
@@ -309,6 +328,13 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         homeButton.setImage(UIImage(named: "base_home_3") as UIImage?, for: .normal)
         homeButton.setImage(UIImage(named: "base_home_3_pressed") as UIImage?, for: .highlighted)
         chapterNameLabel.text = NSLocalizedString("title_chapter03",comment:"chapterTitle")
+    }
+    
+    func setupForChapter4()  {
+        backgroundImage.image = UIImage(named: "chapter_bck_4") as UIImage?
+        homeButton.setImage(UIImage(named: "base_home_4") as UIImage?, for: .normal)
+        homeButton.setImage(UIImage(named: "base_home_4_pressed") as UIImage?, for: .highlighted)
+        chapterNameLabel.text = NSLocalizedString("title_chapter04",comment:"chapterTitle")
     }
 }
 

@@ -1,0 +1,77 @@
+
+/* Class = "UILabel"; text = "The EGNOS satellite-based augmentation system relies on
+satellites as well as ground stations."; ObjectID = "24F-7a-LXE"; */
+"24F-7a-LXE.text" = "Zpřesňující navigační systém EGNOS používá\njak geostacionární satelity, tak pozemní stanice.";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "7Lh-zq-4Q0"; */
+"7Lh-zq-4Q0.normalTitle" = "ANO";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "8zb-aB-jgy"; */
+"8zb-aB-jgy.normalTitle" = "ANO";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "9kD-hv-TB7"; */
+"9kD-hv-TB7.normalTitle" = "NE";
+
+/* Class = "UILabel"; text = "GNSS satellites orbit closer to the Earth\\'s surface
+than the International Space Station (ISS)"; ObjectID = "HRM-w7-DiN"; */
+"HRM-w7-DiN.text" = "Satelity navigačních systémů obíhají blíže\nZemi než Mezinárodní vesmírná stanice ISS.";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "Hx2-xJ-dhd"; */
+"Hx2-xJ-dhd.normalTitle" = "NE";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "K7r-7f-PpM"; */
+"K7r-7f-PpM.normalTitle" = "ANO";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "LmQ-5Q-zaZ"; */
+"LmQ-5Q-zaZ.normalTitle" = "ANO";
+
+/* Class = "UILabel"; text = "Ideally, a geostationary satellite always stays
+at the same place relative to the Earth\\'s surface. "; ObjectID = "NMS-sN-lhP"; */
+"NMS-sN-lhP.text" = "Geostacionární satelit zůstává v ideálním\npřípadě vůči povrchu Země stále na stejném místě.";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "Npr-eZ-Z2o"; */
+"Npr-eZ-Z2o.normalTitle" = "NE";
+
+/* Class = "UILabel"; text = "Galileo satellites have the highest orbital speed
+of all the GNSS systems mentioned."; ObjectID = "W6k-aR-JAc"; */
+"W6k-aR-JAc.text" = "Nejrychleji obíhající satelity ze zmíněných\nnavigačních systémů má Galileo.";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "X6e-fH-8nk"; */
+"X6e-fH-8nk.normalTitle" = "NE";
+
+/* Class = "UILabel"; text = "GPS has the highest number of satellites."; ObjectID = "Xi4-gX-qJi"; */
+"Xi4-gX-qJi.text" = "Satelitní systém s největším počtem satelitů je GPS.";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "ZB4-lC-VxS"; */
+"ZB4-lC-VxS.normalTitle" = "ANO";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "eVR-a0-hJl"; */
+"eVR-a0-hJl.normalTitle" = "NE";
+
+/* Class = "UILabel"; text = "Task"; ObjectID = "fOT-Dw-pbV"; */
+"fOT-Dw-pbV.text" = "Úloha";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "fQc-ob-fKm"; */
+"fQc-ob-fKm.normalTitle" = "ANO";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "h3u-i6-d9T"; */
+"h3u-i6-d9T.normalTitle" = "NE";
+
+/* Class = "UIButton"; normalTitle = "Evaluate"; ObjectID = "k5x-cf-zMr"; */
+"k5x-cf-zMr.normalTitle" = "Vyhodnotit";
+
+/* Class = "UILabel"; text = "Answer the following questions:"; ObjectID = "lju-vt-Iwu"; */
+"lju-vt-Iwu.text" = "Označ správné odpovēdi:";
+
+/* Class = "UIButton"; normalTitle = "YES"; ObjectID = "ud6-j5-EJD"; */
+"ud6-j5-EJD.normalTitle" = "ANO";
+
+/* Class = "UILabel"; text = "The higher above the Earth\\'s surface a satellite orbits,
+the higher the speed of the satellite."; ObjectID = "wrN-KA-6ZB"; */
+"wrN-KA-6ZB.text" = "Čím výše je oběžná dráha satelitu od zemského\npovrchu, tím rychleji se satelit pohybuje.";
+
+/* Class = "UILabel"; text = "A geostationary satellite does not move relative to the stars. "; ObjectID = "yIZ-h0-gvd"; */
+"yIZ-h0-gvd.text" = "Geostacionární satelit se vůči hvězdám nepohybuje.";
+
+/* Class = "UIButton"; normalTitle = "NO"; ObjectID = "yZr-wg-ZG2"; */
+"yZr-wg-ZG2.normalTitle" = "NE";

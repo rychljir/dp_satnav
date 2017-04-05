@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         startChapter(3)
     }
     
+    @IBAction func btnChapter4(_ sender: UIButton) {
+        startChapter(4)
+    }
+    
     func startChapter(_ index: Int){
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "baseChapter") as! ChapterViewController
         vc.indexOfChapter = index
