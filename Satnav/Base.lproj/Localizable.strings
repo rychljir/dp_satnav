@@ -196,3 +196,146 @@ task03_12_q4 = "Ideally, a geostationary satellite always stays\nat the same pla
 task03_12_q5 = "GNSS satellites orbit closer to the Earth\'s surface\nthan the International Space Station (ISS)";
 task03_12_q6 = "GPS has the highest number of satellites.";
 task03_12_q7 = "The higher above the Earth\'s surface a satellite orbits,\nthe higher the speed of the satellite. ";
+
+task04_1_title = "Galileo GNSS";
+task04_1_desc = "The idea to create a European GNSS system dates back to the 1990s. The aim was to build a system independent of the then available military systems&#x2013; GPS and GLONASS, The first experimental Galileo satellite – GIOVE A – was launched in 2005. Galileo is a joint project of the European Space Agency and the European Commission. Its operation is currently the responsibility of the European Global Navigation Satellite Systems Agency (GSA). Unlike the other GNSS systems, Galileo is a civilian project.";
+
+task04_2_title = "Four levels of Galileo";
+task04_2_header = "Open Service (OS)";
+task04_2_header_2 = "";
+task04_2_desc = "This is the basic positioning service, available to all Galileo users. The service is free of charge, so that he broadest possible spectrum of users can benefit from it.";
+
+task04_3_header = "Služba &#8222;kritická&#8220; z hlediska bezpečnosti";
+task04_3_header_2 = " &#x2013; Safety of Life Service (SoL)";
+task04_3_header_bottom = "Služba záchrany života";
+task04_3_header_2_bottom = "Safety of Life Service\n(SoL)";
+task04_3_desc = "Velmi důležitou službou Galilea je také jeho zapojení do služeb, kde hrozí ohrožení lidských životů. Takovým odvětvím je například letecká doprava, pro kterou bude využita vylepšená verze Základní služby.";
+
+task04_4_header = "Commercial Service (CS)";
+task04_4_header_2 = "";
+task04_4_desc = "If a user needs more accurate positioning (e.g. for surveying), they can use Galileo\'s Commercial Service. This paid service provides better positioning accuracy by giving the user access to two more signals from each satellite (encrypted for the common user).";
+
+task04_5_header = "Search and Rescue Service (SAR)";
+task04_5_header_2 = "";
+task04_5_desc = "The purpose of Galileo\'s SAR service is to help find missing persons, aircraft, ships and cars. This service makes it possible to receive distress signals from the Earth\'s surface and transfer the coordinates to search and rescue centres. The service will have the benefit of two-way communication.";
+
+task04_6_header = "Public Regulated Service (PRS)";
+task04_6_header_2 = "";
+task04_6_desc = "This service is primarily intended for government institutions responsible for security. For security reasons, the service is encrypted and protected against disturbances. It can be used by security forces and security agencies, e.g. for transporting important persons, money or valuable objects.";
+
+task04_7_title = "@string/title_test";
+task04_7_desc = "Match each of the Galileo services\nwith an example of its use.";
+task04_7_a2 = "Public Regulated Service";
+task04_7_b2 = "Following and protection\nof prominent politicians";
+task04_7_a3 = "Commercial Service";
+task04_7_b3 = "Paid service providing\nhigher accuracy";
+task04_7_a4 = "Search and Rescue Service";
+task04_7_b4 = "Rescue of lost people";
+task04_7_a5 = "Open Service";
+task04_7_b5 = "Available to all common users";
+
+
+task05_1_title = "What affects the performance of GNSS systems?";
+task05_1_text = "The problems and inaccuracies found in satellite systems can be divided into two groups. The first group has to do with the satellite itself and its trajectory; the second is related to the signal a satellite sends towards the receiver.<br/>A critical factor for the satellite itself is its position, which is regularly checked and adjusted from ground stations.\nFor the signal to work correctly, there are more factors to watch: the source of the signal, mounted on the satellite, but also the passage of the signal through the atmosphere, and possible disturbances.";
+
+task05_2_title = "Impacts";
+
+task05_2_capt_a = "Space objects";
+task05_2_capt_b = "Solar storms";
+task05_2_capt_c = "Space junk";
+task05_2_desc_a = "There are a great number of objects moving in the Solar System. Most of them are harmless for the Earth: they would burn down when passing through the atmosphere. For satellites, however, even small objects are very dangerous. A collision with a space object can cause the following problems:\n- damage to or loss of the satellite\n- deflection of the satellite from its orbit\n- destruction of / damage to solar panels\n- loss of communication\n- failure of the GPS transmitter.";
+task05_2_desc_b = "Satellites are constantly subjected to solar radiation pressure. In addition to radiation pressure, the Sun acts on satellites by showering them with particles from solar storms. Such particles cause the following issues:\n- deflection of a satellite from its original trajectory during a heavy storm\n- noise or complete loss of signal\n- possible damage to electronic equipment";
+task05_2_desc_c = "Space junk is a general term used for the thousands of fragments of defunct satellites, but also tools that astronauts dropped, that travel through space. Due to their very high speed, these small pieces can cause irreversible damage to sensitive devices such as satellites. A collision with a piece of space junk may result in:\n- damage to or loss of the satellite\n- deflection of the satellite from its orbit\n- destruction of / damage to solar panels\n- loss of communication\n- failure of the GPS transmitter";
+
+
+task05_3_title = "Gravitational action of the Earth and other space objects ";
+task05_3_text = "The Earth's gravitational field is not entirely symmetrical: there are spots where gravity is weaker. Such small differences have an impact on satellites' trajectories. Even a small change in the position of a satellite can result in serious positioning inaccuracy; therefore, the influence of this phenomenon on trajectory needs to be compensated for.\nThe gravitational fields of the Moon, the Sun and other large space objects have a similar effect.";
+
+task05_4_title = "Radiation pressure";
+task05_4_text = "Radiation pressure is caused by the Sun's action of emitting photons. Photons travel through space, and their movement can affect the objects they hit. When photons collide with a satellite, they move it away from the Sun. Since a satellite's solar panels automatically turn towards the Sun to provide enough energy for the satellite, radiation pressure is the most important factor affecting the satellite's position.";
+
+task05_5_title = "Solar wind";
+task05_5_text = "The Sun also emits streams of particles called the solar wind. It originates in the Sun's corona. The extremely hot upper atmosphere of the Sun (the temperature is several million degrees Celsius) makes it possible for the particles to escape the Sun's gravity. The intensity of the solar wind is approximately 10,000 times lower compared to solar radiation pressure. However, solar wind still presents a risk as the charged particles cause signal noise and, in the worst case, even failure of the satellite.";
+
+task05_6_title = "Interaction between a signal and the atmosphere";
+task05_6_text = "On its way from a satellite to a receiver, signal has to pass through the Earth's atmosphere. Since satellite signals have the form of electromagnetic waves, effects we know from optics occur in the atmosphere: reflection, refraction, and slow-down by the individual layers of the atmosphere.\nThe effect of signal refraction is most pronounced in the ionosphere, as this layer contains large amounts of charged particles, and in the lower atmospheric layers, as atmospheric density changes significantly with altitude.\nSignal reflection also occurs on the Earth's surface.";
+
+task05_7_title = "Special theory of relativity";
+task05_7_text = "Since satellites orbit the Earth at high speeds (3 km/s in a geostationary orbit), the functioning of atomic clocks is affected by relativistic effects (time dilation). If the trajectories were not adjusted using the special theory of relativity, the time differences would result in a positioning inaccuracy of approximately 57 m for each hour in orbit.";
+
+task05_8_title = "General theory of relativity";
+task05_8_text = "Another type of inaccuracy that needs compensation is described in the general theory of relativity. Since the Earth's mass is relatively big (6 * 10<small><sup>24</sup></small> kg), spacetime is deformed in its vicinity. This is why time passes faster in orbit than it passes on the Earth's surface. This effect is much more pronounced e.g. in black holes.";
+
+task05_9_title = "@string/title_test";
+task05_9_desc = "Match the effects that may have a negative impact\non GNSS systems with their sources.";
+task05_9_a1 = "Special theory of relativity";
+task05_9_b1 = "Satellite clocks losing time";
+task05_9_a2 = "General theory of relativity";
+task05_9_b2 = "Satellite clocks gaining time";
+task05_9_a3 = "Space objects\nand space junk";
+task05_9_b3 = "Physical damage to a satellite";
+task05_9_a4 = "Solar storm";
+task05_9_b4 = "Damage to electronic\nequipment, signal noise ";
+task05_9_a5 = "Ionosphere";
+task05_9_b5 = "Signal refraction";
+task05_9_a6 = "The Earth\'s surface";
+task05_9_b6 = "Signal reflection";
+task05_9_a7 = "Gravitational action of the\nMoon, the Sun and the Earth";
+task05_9_b7 = "Deflection of a satellite from\nits pre-calculated position ";
+task05_9_a8 = "Radiation pressure";
+task05_9_b8 = "Deflection of a satellite\naway from the Sun";
+
+task06_1_title = "Vehicles and vehicle traffic";
+task06_1_capt_a = "Toll\ncollection ";
+task06_1_capt_b = "Navigation ";
+task06_1_capt_c = "eCall ";
+task06_1_desc_a = "GNSS enables tracking truck routes and calculate the toll based on the distance travelled. This solution allows building tolling systems without toll gates. Similarly, it would be possible to impose toll on other types of motor vehicles. ";
+task06_1_desc_b = "Today, many drivers cannot imagine driving without using navigation. Navigation is integrated into modern cars, and drivers can choose out of various routes to their destination. ";
+task06_1_desc_c = "eCall is a system which is installed in some of the new cars. This system sends a signal to the rescue services with information about the position of the vehicle in case of an accident. ";
+
+task06_2_title = "Railway traffic";
+task06_2_desc = "GNSS is an important element of providing safety of railway traffic. Due to the fact that most accidents are caused by the human factor, systems get equipped with automatic control. If two trains enter the same track and there is risk of an accident, the system will generate an automatic stop signal. Another practical element is position tracking which provides information about train delay or enables tracking of carried goods.";
+
+task06_3_title = "Air traffic";
+task06_3_desc = "Providing safety is the main role of GNSS in air traffic. Aircraft rely on GNSS to establish their exact position (geographic coordinates and altitude). In combination with an ATC radar it is possible to provide automatic navigation for landing. Certain events in air traffic were one of the main reasons why GPS signal was released for civil use. After a civil passenger aircraft was shot down in 1983, President Ronald Reagan gave orders to allow access to the system.";
+
+task06_4_title = "Maritime traffic";
+task06_4_desc = "Maritime traffic uses its own systems for vessel identification (AIS - Automatic Identification Systems) and for traffic management (Vessel Traffic Management Systems). GNSS is also used for tracking cargo or fishing vessels. GNSS is also used in rescue operations as it allows rapid location of a vessel in the open sea.";
+
+task06_5_title = "Hiking";
+task06_5_capt_a = "Geocaching ";
+task06_5_capt_b = "Geolocation games ";
+task06_5_capt_c = "Hiking ";
+task06_5_desc_a = "Since the intentional mistake was removed from GPS, it became possible to identify location with a very high level of precision - up to a few meters. This gave birth to a game halfway between a sport and hiking - the players have to use geographic coordinates to find a cache - usually, a durable box with a logbook and various objects left by previous players. ";
+task06_5_desc_b = "Besides geocaching, hikers can try a whole array of geolocation games which can guide them through a town or a landscape, or be used as a teaching method at school. ";
+task06_5_desc_c = "GNSS has also changed hiking. GNSS is already integrated into most new mobile phones. The possibility of downloading offline maps is a great advantage. With navigation, a lost hiker will easily find his way. It is also practical that GNSS allows to establish the exact location in case of an accident or an injury. ";
+
+task06_6_title = "Environmental protection";
+task06_6_capt_a = "Fauna protection\nand tracking ";
+task06_6_capt_b = "Flora\nmapping ";
+task06_6_capt_c = "Tracking\nof natural\nprocesses ";
+task06_6_desc_a = "GNSS can be used for mapping fauna, especially, some of the protected species. It is also interesting, for example, to track migration routes of migratory birds and discover their wintering places. ";
+task06_6_desc_b = "Similarly to animals, plants can also be mapped exactly in remote areas. ";
+task06_6_desc_c = "GNSS also allows to study inanimate nature. Devices have reached such high levels of precision that it is possible to track litospheric plate movements, glacier retreat, oceanic current direction and many other natural phenomena. ";
+
+
+task06_7_title = "@string/title_test";
+task06_7_desc = "GNSS has a very wide range of applications.\nMatch the pictures with the correct description.";
+task06_7_1 = "Toll collection";
+task06_7_2 = "Tracking of natural\nprocesses";
+task06_7_3 = "eCall";
+task06_7_4 = "Calling for help";
+task06_7_5 = "Flora mapping ";
+task06_7_6 = "Fauna migration\ntracking";
+
+task07_1_title = "Self-driving vehicles";
+task07_1_text = "GNSS opens way to self-driving vehicles. The car can be tracked en route and if any complications arise, changing the planned route is easy. Besides GNSS, the cars have many other systems to adjust the navigation. Those include, for instance, sensors determining the distance towards other cars and objects or cameras monitoring movement within the given lane. If GNSS becomes standard equipment of a car, it will be easier to optimize traffic and monitor safety automatically. Autonomous systems are able to quickly evaluate and respond to critical situations. The problem is in the third party liability in case of an accident - whether the liability is imposed on the driver or on the car manufacturer who developed the autonomous system. Cargo transportation can be a separate chapter in the development of autonomous systems because such systems can make drivers redundant. This could help drive transportation costs significantly lower.";
+
+task07_2_title = "Self-driving trains";
+task07_2_text = "Rail traffic is a system which can experience significant changes due to GNSS. As trains can only ride on tracks, autonomous systems would be much easier to introduce. Tracking and control will be performed remotely. During the first stage, autonomous systems will be introduced in cargo transportation; passenger trains will follow suit. We can look forward to the era when trains will carry goods automatically, or even when a train would recognize a hurrying passenger and wait for him for a few seconds.";
+
+task07_3_title = "Autonomous aircraft ";
+task07_3_text = "Already today, many aircraft are equipped for automatic landing. Automatic collision avoidance systems are used to change the route of an aircraft. Even today, it would be entirely  possible to aviate the whole flight using GNSS. Psychologically, thought, passengers of an aircraft feel safer when a pilot is in the cockpit.";
+
+task07_4_title = "Parcel delivery - robots and quadcopters ";
+task07_4_text = "Navigated robots and quadcopters will be delivering parcels to any given destination and we will be able to pinpoint their real-time location. Statistics of parcel pick-up and deliver will enable us to optimize the number of drones and robots necessary to service a given area. The great advantage of quadcopters is rapid accessibility of locations with frequent traffic jams.";

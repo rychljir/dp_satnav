@@ -16,12 +16,12 @@ class StringStyler{
         var attrString = NSMutableAttributedString(string: inputText)
         let boldFont = UIFont(name: "Helvetica-Bold", size: 20)
         let italicFont = UIFont(name: "Verdana-Italic", size: 20)
-        let fontSub:UIFont? = UIFont(name: "Helvetica", size:15)
-        
+        let fontForIndex:UIFont? = UIFont(name: "Helvetica", size:15)
         
         attrString = fixText(inputText: attrString, attributeName: NSBaselineOffsetAttributeName as AnyObject, attributeValue: -5 as AnyObject, propsIndicator: "<sub>", propsEndIndicator: "</sub>")
+        attrString = fixText(inputText: attrString, attributeName: NSBaselineOffsetAttributeName as AnyObject, attributeValue: 5 as AnyObject, propsIndicator: "<sup>", propsEndIndicator: "</sup>")
         attrString = fixText(inputText: attrString, attributeName: NSFontAttributeName as AnyObject, attributeValue: boldFont!, propsIndicator: "<b>", propsEndIndicator: "</b>")
-        attrString = fixText(inputText: attrString, attributeName: NSFontAttributeName as AnyObject, attributeValue: fontSub!, propsIndicator: "<small>", propsEndIndicator: "</small>")
+        attrString = fixText(inputText: attrString, attributeName: NSFontAttributeName as AnyObject, attributeValue: fontForIndex!, propsIndicator: "<small>", propsEndIndicator: "</small>")
         attrString = fixText(inputText: attrString, attributeName: NSFontAttributeName as AnyObject, attributeValue: boldFont!, propsIndicator: "<b>", propsEndIndicator: "</b>")
         attrString = fixText(inputText: attrString, attributeName: NSUnderlineStyleAttributeName as AnyObject, attributeValue: NSUnderlineStyle.styleDouble.rawValue as AnyObject, propsIndicator: "<u>", propsEndIndicator: "</u>")
         attrString = fixText(inputText: attrString, attributeName: NSFontAttributeName as AnyObject, attributeValue: italicFont!, propsIndicator: "<i>", propsEndIndicator: "</i>")

@@ -201,4 +201,139 @@ task03_12_q6 = "Satelitní systém s největším počtem satelitů je GPS.";
 task03_12_q7 = "Čím výše je oběžná dráha satelitu od zemského\npovrchu, tím rychleji se satelit pohybuje.";
 
 
+task04_1_title = "Navigační systém Galileo";
+task04_1_desc = "Koncept vlastního evropského navigačního systému začal vznikat během 90. let 20. století. Cílem bylo vytvořit nezávislý systém na tehdy dostupných vojenských navigačních systémech / GPS a GLONASS. První experimentální satelit projektu Galileo - GIOVE A byl vypuštěn v roce 2005. Galileo je společným projektem Evropské vesmírné agentury a Evropské komise. O jeho provoz se momentálně stará Agentura GSA (European Global Navigation Satellite Systems Agency). Na rozdíl od ostatních navigačních systémů je Galileo projekt nevojenský.";
+
+task04_2_title = "Čtyři úrovně Galilea";
+
+task04_2_header = "Základní služba";
+task04_2_header_2 = " - Open Service (OS)";
+task04_2_desc = "Jedná se o základní službu pro určení polohy, která je dostupná všem uživatelům Galilea. Služba je bez poplatků, aby ji mohlo využít co nejširší spektrum uživatelů.";
+
+task04_3_header = "Komerční služba";
+task04_3_header_2 = " - Commercial Service (CS)";
+task04_3_desc = "Pokud uživatel potřebuje přesnější určení polohy (například při geodetických pracích), je možné využít Komerční službu systému Galileo. Tato placená služba poskytuje přesnější určení polohy zpřístupněním dalších dvou (pro běžného uživatele zakódovaných) signálů z každé družice.";
+
+task04_4_header = "Vyhledávací a záchranná služba";
+task04_4_header_2 = " - Search and Rescue Service (SAR)";
+task04_4_desc = "Nalezení pohřešované osoby, letadla, lodě, případně automobilu je účelem Vyhledávací a záchranné služby Galilea. Služba nouzové lokalizace umožňuje zachycení nouzových signálů ze zemského povrchu a předání jejich souřadnic složkám záchranných systémů.";
+
+task04_5_header = "Veřejně regulovaná služba";
+task04_5_header_2 = " - Public Regulated Service (PRS)";
+task04_5_desc = "Tato služba bude primárně určená převážně státním institucím, jejichž hlavní náplní je bezpečnost. Služba je z důvodu bezpečnosti šifrovaná a chráněná proti rušení. Mohou ji využívat bezpečnostní složky a bezpečnostní agentury - např. pro transport důležitých osob, nebo pro převoz peněz a cenin.";
+
+task04_6_title = "@string/title_test";
+task04_6_desc = "Přiřaďte ke každé ze služeb Galilea\njejí příklad použití.";
+task04_6_a2 = "Veřejně regulovaná služba";
+task04_6_b2 = "Sledování a ochrana\nvýznamných politiků";
+task04_6_a3 = "Komerční služba";
+task04_6_b3 = "Placená služba s vyšší přesností";
+task04_6_a4 = "Vyhledávací a záchranná služba";
+task04_6_b4 = "Záchrana ztracených osob";
+task04_6_a5 = "Základní služba";
+task04_6_b5 = "Dostupná všem běžným uživatelům";
+
+task05_1_title = "Co způsobuje navigaci problémy?";
+task05_1_text = "Problémy a nepřesnosti satelitní navigace lze rozdělit do dvou skupin. První skupina souvisí s družicí a její trajektorií, druhá se signálem vyslaným ze satelitu směrem k přijímači.\nPro samotný satelit je důležitá hlavně jeho přesná poloha, která je pravidelně kontrolována a upravována z pozemních stanic.<br/>Pro správný chod signálu se řeší nejen jeho zdroj na satelitu, ale i průchod atmosférou a jeho rušení.";
+
+task05_2_title = "Nárazové ovlivnění";
+task05_2_capt_a = "Vesmírná tělesa";
+task05_2_capt_b = "Solární bouře";
+task05_2_capt_c = "Kosmické smetí";
+task05_2_desc_a = "Ve vesmíru je velké množství objektů, které se pohybují Sluneční soustavou. Většina z nich je pro planetu Zemi neškodná, při průchodu atmosférou by totiž shořely. Pro satelity však i velmi malé objekty představují veliké nebezpečí. Srážka s vesmírným tělesem může způsobit následující poruchy:\n- poškození či úplná ztráta satelitu\n- vychýlení satelitu ze své orbity\n- zničení/poškození solárních panelů\n- ztráta komunikace\n- porucha vysílače GPS";
+task05_2_desc_b = "Družice jsou pod neustálým působením tlaku slunečního záření. Kromě tlaku záření působí Slunce na satelit i nárazově v podobě spršky částic ze solárních bouří. Tyto částice způsobují následující problémy:\n- odchýlení satelitu z původní dráhy při intenzivní bouři\n- šum signálu nebo jeho úplná ztráta\n- možné poškození elektroniky";
+task05_2_desc_c = "Kosmické smetí je souhrnné označení pro tisíce úlomků nefunkčních družic, ale například i pro upuštěné nářadí astronautů, které putuje vesmírem. Díky velmi vysoké rychlosti i malé kousky mohou způsobit nevratné poškození citlivých zařízení, jakými jsou satelity. Srážka s kosmickým smetím může mít za následek:\n- poškození či úplná ztráta satelitu\n- vychýlení satelitu ze své orbity\n- zničení/poškození solárních panelů\n- ztráta komunikace\n- porucha vysílače GPS";
+
+
+task05_3_title = "Gravitační působení Země a dalších těles";
+task05_3_text = "Gravitační pole Země není zcela symetrické; jsou místa, kde je gravitace slabší. Tyto drobné odchylky ovlivňují trajektorii satelitů. I nepatrná odchylka v poloze satelitu ovšem může způsobit velkou nepřesnost v určení polohy, a proto je potřeba trajektorie satelitů vůči těmto jevům korigovat. Obdobně na satelity působí gravitační pole Měsíce, Slunce a dalších velkých těles.";
+
+task05_4_title = "Tlak záření";
+task05_4_text = "Tlak záření vyvolává Slunce vyzařováním fotonů. Fotony se šíří prostorem, přičemž svou hybností mohou působit na předměty, do nichž narazí. Při dopadu fotonů na satelit, dojde k jeho posunutí směrem od Slunce. Jelikož solární panely satelitu se svou plochou automaticky natáčejí směrem ke Slunci, aby družice měla dostatek energie, je tlak záření nejvýznamnějším faktorem ovlivňujícím polohu satelitu.";
+
+task05_5_title = "Sluneční vítr";
+task05_5_text = "Ze Slunce vychází také proud částic označovaný jako sluneční vítr. Jeho zdrojem je sluneční koróna. Extrémně horká svrchní vrstva sluneční atmosféry (teplota zde dosahuje několika milionů stupňů Celsia) umožňuje únik částic z blízkosti Slunce. Oproti tlaku slunečního záření je intenzita slunečního větru asi 10 000x menší. Přesto může být velmi nebezpečný, obsahuje totiž nabité částice způsobující šum signálu, v horším případě způsobí výpadek satelitu.";
+
+task05_6_title = "Interakce signálu s atmosférou";
+task05_6_text = "Během pohybu od satelitu k přijímači musí signál projít zemskou atmosférou. Protože signál z družice má podobu elektromagnetických vln, dochází v atmosféře k jevům známým z optiky – odrazu, lomu a zpomalování v jednotlivých vrstvách atmosféry. Nejvíce se lom (refrakce) signálu projevuje v ionosféře, jelikož obsahuje velké množství nabitých částic a v nižších vrstvách atmosféry, jelikož se významně mění její hustota s výškou. K odrazům signálu dochází také na povrchu Země.";
+
+task05_7_title = "Speciální teorie relativity";
+task05_7_text = "Jelikož se satelity  kolem Země pohybují  vysokou  rychlostí (3 km/s pro geostacionární orbitu), projevují se při chodu atomových hodin relativistické efekty (dilatace času). Pokud by se dráhy neupravovaly pomocí speciální teorie relativity, rozdíl času by způsobil chybu v přesnosti navigace cca 57 m za jednu hodinu oběhu.";
+
+task05_8_title = "Obecná teorie relativity";
+task05_8_text = "Další nepřesnost, kterou je potřeba korigovat, je chyba popsaná v obecné teorii relativity. Jelikož má Země relativně vysokou hmotnost (6 * 10<small><sup>24</sup></small> kg), dochází v jejím okolí k deformaci prostoročasu. Proto plyne čas v místě, kde obíhá satelit, rychleji, než na povrchu Země. Tento efekt je mnohem názorněji vidět např. u černých děr.";
+
+task05_9_title = "@string/title_test";
+task05_9_desc = "Přiřaďte jevy, které mohou činit satelitní\nnavigaci problémy, k jejich zdrojům.";
+task05_9_a1 = "Speciální teorie relativity";
+task05_9_b1 = "Zpožďování hodin satelitu";
+task05_9_a2 = "Obecná teorie relativity";
+task05_9_b2 = "Předbíhaní hodin satelitu";
+task05_9_a3 = "Vesmírná tělesa\na kosmické smetí";
+task05_9_b3 = "Fyzické poškození satelitu";
+task05_9_a4 = "Solární bouře";
+task05_9_b4 = "Vyřazení elektroniky\nšum signálu";
+task05_9_a5 = "Ionosféra";
+task05_9_b5 = "Lom (refrakce) signálu";
+task05_9_a6 = "Povrch Země";
+task05_9_b6 = "Odraz signálu";
+task05_9_a7 = "Gravitační působení\nMěsíce, Slunce a Země";
+task05_9_b7 = "Odchýlení satelitu\nz předem vypočítané polohy";
+task05_9_a8 = "Tlak záření";
+task05_9_b8 = "Odchýlení satelitu\nsměrem od Slunce";
+
+task06_1_title = "Automobily a automobilová doprava";
+
+task06_1_capt_a = "Výběr\nmýtného ";
+task06_1_capt_b = "Navigace ";
+task06_1_capt_c = "eCall ";
+task06_1_desc_a = "Pomocí GNSS je možné sledovat trasy nákladních automobilů a z ujeté vzdálenosti následně vypočítávat výši mýtného. Díky tomuto řešení odpadá potřeba mýtných bran. Obdobně by bylo možné zavést mýtné i pro ostatní motorová vozidla. ";
+task06_1_desc_b = "Dnes by si již řada řidičů nedokázala bez navigace cestování autem představit. Integrovaná navigace je součástí dnešních automobilů, stejně jako výběr z několika různých tras, kterými je možné se dostat na místo určení. ";
+task06_1_desc_c = "Do vybraných automobilů se v současné době instaluje tzv. eCall. Toto zařízení umožňuje v případě nehody vyslat signál záchranným složkám s aktuální polohou vozu. ";
+
+task06_2_title = "Železniční doprava";
+task06_2_text = "V železniční dopravě slouží GNSS jako bezpečnostní prvek. Jelikož nejvíce nehod způsobuje lidský faktor, je snahou zabezpečit systémy automatickou kontrolou. Pokud se na stejné koleji objeví vlaky, které se mohou srazit, systém automaticky vydá signál k jejich zastavení. Dalším praktickým prvkem je sledování aktuální polohy vlaku, ze které je možné určit předpokládanou dobu zpoždění, případně sledovat přepravované zboží.";
+
+task06_3_title = "Letecká doprava";
+task06_3_text = "Bezpečnost je také hlavní náplní použití GNSS v letecké dopravě. Letadla pomocí GNSS zjišťují svou přesnou polohu (zeměpisné souřadnice a výšku). Ve spolupráci s radarem na letišti je rovněž možné navést automaticky letadlo na přistání. Události v letecké dopravě byly jednou z hlavních příčin, díky nimž došlo k uvolnění signálu GPS pro civilní použití. V roce 1983 po sestřelení civilního dopravního letadla tak učinil tehdejší prezident USA Ronald Reagan.";
+
+task06_4_title = "Námořní doprava";
+task06_4_text = "Námořní doprava má své vlastní systémy pro identifikaci plavidel (AIS - Automatic Identification Systems) a řízení lodní dopravy (Vessel Traffic Managment Systems). Satelitní navigace je i využívána pro sledování lodí při přepravě nákladů či při rybolovu. Díky možnosti rychlého určení polohy na otevřeném moři se používá i během záchranných akcí.";
+
+task06_5_title = "Turistika";
+task06_5_capt_a = "Geocaching ";
+task06_5_capt_b = "Geolokační hry ";
+task06_5_capt_c = "Turistika ";
+task06_5_desc_a = "Jelikož byla z GPS odstraněna záměrná chyba, bylo možné začít určovat polohu s velmi velkou přesností – na jednotky metrů. Díky tomu mohla vzniknout hra na pomezí sportu a turistiky, jejímž cílem je na základě zeměpisných souřadnic najít cache - obvykle odolnou krabičku s logbookem (deníkem) a různými předměty, které do ní vkládají nálezci. ";
+task06_5_desc_b = "Kromě geocachingu je možné vyzkoušet si celou řadu geolokačních her, které mohou turisty provést městem či krajinou, případně je lze využít během školní výuky. ";
+task06_5_desc_c = "Satelitní navigace také změnila běžnou turistiku. Ve většině nových mobilních telefonů je satelitní navigace již integrovaná. Velkou výhodou je možnost stažení offline map. Ztracený turista tak díky navigaci snadno dorazí do cíle. Praktická je rovněž možnost určení své přesné polohy v případě nehody či zranění. ";
+
+task06_6_title = "Ochrana životního prostředí";
+task06_6_capt_a = "Ochrana\na sledování\nživočichů ";
+task06_6_capt_b = "Mapování\nrostlin ";
+task06_6_capt_c = "Sledování\npřírodních\nprocesů ";
+task06_6_desc_a = "Satelitní navigaci lze využít při mapování živočichů, zejména pak chráněných druhů. Zajímavé je například sledování migračních tras stěhovavých ptáků a určování míst jejich zimovišť. ";
+task06_6_desc_b = "Obdobně jako u živočichů je možné provádět přesné mapování rostlin v obtížně dostupných oblastech. ";
+task06_6_desc_c = "Satelitní navigací lze studovat i neživou přírodu. Přístroje dosáhly takové přesnosti, že je možné zaznamenávat pohyby litosférických desek, ubývání ledovců, směry oceánského proudění a mnohé další jevy. ";
+
+task06_7_title = "@string/title_test";
+task06_7_desc = "Použití satelitní navigace v praxi je velmi široké.\nPřiřaďte k obrázkům správné popisky.";
+task06_7_1 = "Výběr mýtného";
+task06_7_2 = "Sledování přírodních\nprocesů";
+task06_7_3 = "eCall";
+task06_7_4 = "Přivolání pomoci";
+task06_7_5 = "Mapování rostlin";
+task06_7_6 = "Sledování migrace\nzvířat";
+
+task07_1_title = "Samonaváděné automobily";
+task07_1_text = "Satelitní navigace otevírá cestu k samonaváděným automobilům. Automobil je možné sledovat v průběhu cesty a v případě nečekané komplikace na plánované trase je snadné ji změnit. Kromě satelitní navigace mají automobily řadu dalších systémů korigujících navigaci. Jsou jimi například senzory vzdálenosti od jiných vozidel a objektů nebo kamery hlídající jízdu v daném pruhu. Pokud se satelitní navigace stanou standardní výbavou automobilů, bude snazší optimalizovat provoz a automaticky hlídat jeho bezpečnost. Autonomní systémy jsou totiž schopné rychle vyhodnocovat a reagovat na kritické situace. Problémem je ovšem právní odpovědnost v případě nehody – nese-li ji řidič automobilu nebo automobilka, která autonomní systém řízení vyvinula. Samostatnou kapitolou je nákladní přeprava, ve které již díky tomuto systému nebude potřeba řidičů. Náklady by se tak mohly výrazně snížit.";
+
+task07_2_title = "Samonaváděné vlaky";
+task07_2_text = "Železniční doprava je odvětví, ve kterém se dají očekávat díky satelitní navigaci výrazné změny. Jelikož trasa pohybu vlaku je dána kolejemi, je zavedení autonomních systémů daleko snazší. Vlaky lze lépe monitorovat a ovládat na dálku. V první fázi dojde k aplikaci systémů na nákladní dopravu. Následně pak i na dopravu osobní. Můžeme se tak těšit na dobu, kdy budou vlaky automaticky rozvážet zboží, nebo dokonce kdy vlak pozná dobíhajícího cestujícího a pár sekund na něj počká.";
+
+task07_3_title = "Samonaváděná letadla";
+task07_3_text = "Již dnes je běžné, že letadla na letištích přistávají zcela automaticky. Rovněž tímto způsobem dochází k odklonění tras v případě, že hrozí srážka. Řídit pomocí satelitní navigace celý let by bylo i v tento okamžik naprosto bezproblémové. Psychologicky se ovšem pasažéři na palubě letadla cítíbezpečněji v přítomnosti pilota v kabině.";
+
+task07_4_title = "Doručování zásilek - roboti a kvadrokoptéry";
+task07_4_text = "Pomocí navigovaných robotů a kvadrokoptér bude možné doručovat zásilky na libovolné místo a sledovat v reálném čase jejich aktuální polohu. Statistiky vyzvedávání a doručování zásilek umožní optimalizovat množství robotů a dronů potřebných pro danou oblast. Velkou výhodou kvadrokoptér je rychlá dosažitelnost lokalit s častými dopravními zácpami.";
 

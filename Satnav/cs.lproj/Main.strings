@@ -1,36 +1,36 @@
 
 /* Class = "UIButton"; normalTitle = "Augmented reality"; ObjectID = "0vs-RK-Nxl"; */
-"0vs-RK-Nxl.normalTitle" = "Augmented reality";
+"0vs-RK-Nxl.normalTitle" = "Rozšířená realita";
 
 /* Class = "UIButton"; normalTitle = "Positioning"; ObjectID = "8HL-og-aRh"; */
-"8HL-og-aRh.normalTitle" = "Positioning";
+"8HL-og-aRh.normalTitle" = "Zaměření polohy";
 
 /* Class = "UIViewController"; title = "Satellite navigation"; ObjectID = "BYZ-38-t0r"; */
 "BYZ-38-t0r.title" = "Satellite navigation";
 
 /* Class = "UIButton"; normalTitle = "Issues facing GNSS systems"; ObjectID = "For-xr-wnL"; */
-"For-xr-wnL.normalTitle" = "Issues facing GNSS systems";
+"For-xr-wnL.normalTitle" = "Problémy navigace";
 
 /* Class = "UILabel"; text = "Zaměření polohy"; ObjectID = "aXx-hr-AeZ"; */
 "aXx-hr-AeZ.text" = "Zaměření polohy";
 
 /* Class = "UIButton"; normalTitle = "Practical applications"; ObjectID = "bst-R2-Kcf"; */
-"bst-R2-Kcf.normalTitle" = "Practical applications";
+"bst-R2-Kcf.normalTitle" = "Použití v praxi";
 
 /* Class = "UIButton"; normalTitle = "Galileo project"; ObjectID = "g42-ve-AEo"; */
-"g42-ve-AEo.normalTitle" = "Galileo project";
+"g42-ve-AEo.normalTitle" = "Projekt Galileo";
 
 /* Class = "UILabel"; text = "Satelitni navigace"; ObjectID = "iZz-eb-RcU"; */
 "iZz-eb-RcU.text" = "Satelitni navigace";
 
 /* Class = "UIButton"; normalTitle = "The future on our doorstep"; ObjectID = "olM-DV-zz7"; */
-"olM-DV-zz7.normalTitle" = "The future on our doorstep";
+"olM-DV-zz7.normalTitle" = "Budoucnost za dveřmi";
 
 /* Class = "UIButton"; normalTitle = "How satellite work"; ObjectID = "q3x-7V-Y4T"; */
-"q3x-7V-Y4T.normalTitle" = "How satellite work";
+"q3x-7V-Y4T.normalTitle" = "Princip satelitní navigace";
 
 /* Class = "UIButton"; normalTitle = "Global satellite systems (GNSS)"; ObjectID = "wD1-ME-79R"; */
-"wD1-ME-79R.normalTitle" = "Global satellite systems (GNSS)";
+"wD1-ME-79R.normalTitle" = "Globální navigační systémy";
 
 /* Class = "UILabel"; text = "Satelitní navigace >"; ObjectID = "z9s-un-8ky"; */
 "z9s-un-8ky.text" = "Satelitní navigace >";

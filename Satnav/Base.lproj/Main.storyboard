@@ -111,6 +111,9 @@
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Issues facing GNSS systems" backgroundImage="menu_btn_5.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_5_pressed.png"/>
+                                                <connections>
+                                                    <action selector="btnChapter5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xgc-3Q-OUh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bst-R2-Kcf">
                                                 <rect key="frame" x="254" y="0.0" width="223" height="296"/>
@@ -118,6 +121,9 @@
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Practical applications" backgroundImage="menu_btn_6.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_6_pressed.png"/>
+                                                <connections>
+                                                    <action selector="btnChapter6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yuj-Sf-xhI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="olM-DV-zz7">
                                                 <rect key="frame" x="507" y="0.0" width="224" height="296"/>
@@ -125,6 +131,9 @@
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="The future on our doorstep" backgroundImage="menu_btn_7.png"/>
                                                 <state key="highlighted" backgroundImage="menu_btn_7_pressed.png"/>
+                                                <connections>
+                                                    <action selector="btnChapter7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="skr-hV-RgT"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0vs-RK-Nxl">
                                                 <rect key="frame" x="761" y="0.0" width="223" height="296"/>
