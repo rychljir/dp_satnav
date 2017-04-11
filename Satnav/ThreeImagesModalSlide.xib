@@ -89,12 +89,33 @@
                         <constraint firstAttribute="trailing" secondItem="rJn-jw-cZ7" secondAttribute="trailing" id="gvu-rD-1OT"/>
                     </constraints>
                 </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ue-Ve-jzq">
+                    <rect key="frame" x="272.5" y="98.5" width="72" height="62"/>
+                    <state key="normal" image="ico_zoom.png"/>
+                    <state key="highlighted" image="ico_zoom_pressed.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgJ-PQ-VLV">
+                    <rect key="frame" x="627.5" y="98.5" width="72" height="62"/>
+                    <state key="normal" image="ico_zoom.png"/>
+                    <state key="highlighted" image="ico_zoom_pressed.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRB-u7-Wgk">
+                    <rect key="frame" x="922" y="38.5" width="72" height="62"/>
+                    <state key="normal" image="ico_zoom.png"/>
+                    <state key="highlighted" image="ico_zoom_pressed.png"/>
+                </button>
             </subviews>
             <constraints>
                 <constraint firstItem="UCx-O2-EdT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7l3-dw-9eu"/>
+                <constraint firstItem="DgJ-PQ-VLV" firstAttribute="trailing" secondItem="wKF-65-vmK" secondAttribute="trailing" constant="30" id="ATH-Eo-n7B"/>
+                <constraint firstItem="4Ue-Ve-jzq" firstAttribute="top" secondItem="RKZ-SE-TZq" secondAttribute="top" constant="30" id="T9R-xc-phS"/>
                 <constraint firstAttribute="bottom" secondItem="UCx-O2-EdT" secondAttribute="bottom" id="ZlV-0I-bw0"/>
+                <constraint firstItem="iAA-fE-7MV" firstAttribute="trailing" secondItem="aRB-u7-Wgk" secondAttribute="trailing" constant="30" id="eDc-0U-MpK"/>
+                <constraint firstItem="iAA-fE-7MV" firstAttribute="top" secondItem="aRB-u7-Wgk" secondAttribute="top" constant="30" id="fnx-fw-uNB"/>
                 <constraint firstAttribute="trailing" secondItem="UCx-O2-EdT" secondAttribute="trailing" id="hIg-bI-Dso"/>
+                <constraint firstItem="DgJ-PQ-VLV" firstAttribute="top" secondItem="wKF-65-vmK" secondAttribute="top" constant="30" id="igr-mv-fct"/>
                 <constraint firstItem="UCx-O2-EdT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vB0-84-XgM"/>
+                <constraint firstItem="4Ue-Ve-jzq" firstAttribute="trailing" secondItem="RKZ-SE-TZq" secondAttribute="trailing" constant="30" id="wdY-FX-YeF"/>
             </constraints>
             <connections>
                 <outlet property="img1" destination="RKZ-SE-TZq" id="1iw-Ty-bC3"/>
@@ -108,6 +129,8 @@
         </view>
     </objects>
     <resources>
+        <image name="ico_zoom.png" width="72" height="62"/>
+        <image name="ico_zoom_pressed.png" width="72" height="62"/>
         <image name="task02_1_a.png" width="561" height="561"/>
         <image name="task02_1_b.png" width="561" height="561"/>
         <image name="task02_1_c.png" width="561" height="561"/>

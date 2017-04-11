@@ -20,8 +20,10 @@ class ThreeImageModalSlide: UIView {
     @IBOutlet weak var label3: UILabel!
     var labelsView:[UILabel] = []
     var btnsView:[UIButton] = []
+    var parentVC:ChapterViewController?
     
     @IBAction func img1Click(_ sender: UIButton) {
+        parentVC?.showModal()
     }
     
     @IBAction func img2Click(_ sender: UIButton) {
@@ -31,9 +33,10 @@ class ThreeImageModalSlide: UIView {
     }
     
     
-    func initSlide(taskTitle title:String, captions labels:[String], images imgs:[UIImage], descriptions desc:[String]){
+    func initSlide(taskTitle title:String, captions labels:[String], images imgs:[UIImage], descriptions desc:[String], parent modalVC:ChapterViewController){
         labelsView = [label1, label2, label3]
         btnsView = [img1,img2,img3]
+        parentVC = modalVC
         
         taskTitle.text = title
         for i in 0 ... 2{
