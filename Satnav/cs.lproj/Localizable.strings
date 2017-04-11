@@ -70,9 +70,9 @@ task02_1_title = "Segmenty satelitních navigačních systémů";
 task02_1_capt_a = "Kosmický segment";
 task02_1_capt_b = "Řídící segment";
 task02_1_capt_c = "Uživatelský segment";
-task02_1_desc_a = "Páteří satelitních navigačních systémů je kosmický segment. Tvoří ho soustava satelitů posílajících na Zemi informace o\u00A0své poloze a aktuálním čase. Do kosmického segmentu patří rovněž rakety, dopravující satelity do vesmíru, a kosmodromy, ze kterých rakety startují.";
-task02_1_desc_b = "Řídící segment koordinuje provoz satelitů, snaží se systém satelitní navigace zlepšovat a hledat další možnosti jeho použití.\nV rámci Evropské unie má řídící segment na starosti agentura GSA (European GNSS Agency) se sídlem v\u00A0Praze.";
-task02_1_desc_c = "Se satelitní navigací se běžný člověk (uživatel) setká nejčastěji při navigaci pomocí mobilního telefonu nebo v\u00A0automobilu.\nKromě svého obvyklého použití – určování polohy a rychlosti zvolených objektů – se satelitní navigace díky přesnému měření času používá např. i pro finanční transakce.\nJiné příklady použití v\u00A0praxi naleznete v\u00A0dalších kapitolách.";
+task02_1_desc_a = "Páteří satelitních navigačních systémů je kosmický segment. Tvoří ho soustava satelitů posílajících na Zemi informace o své poloze a aktuálním čase. Do kosmického segmentu patří rovněž rakety, dopravující satelity do vesmíru, a kosmodromy, ze kterých rakety startují.";
+task02_1_desc_b = "Řídící segment koordinuje provoz satelitů, snaží se systém satelitní navigace zlepšovat a hledat další možnosti jeho použití.\nV rámci Evropské unie má řídící segment na starosti agentura GSA (European GNSS Agency) se sídlem v Praze.";
+task02_1_desc_c = "Se satelitní navigací se běžný člověk (uživatel) setká nejčastěji při navigaci pomocí mobilního telefonu nebo v automobilu.\nKromě svého obvyklého použití – určování polohy a rychlosti zvolených objektů – se satelitní navigace díky přesnému měření času používá např. i pro finanční transakce.\nJiné příklady použití v praxi naleznete v dalších kapitolách.";
 
 task02_2_title = "Měření pomocí čtyř satelitů";
 task02_2_desc = "Pro určení polohy na povrchu Země by nám měly stačit signály ze tří satelitů se známou polohou. Určili bychom tak souřadnice <i>x</i>, <i>y</i>, <i>z</i> nebo jim odpovídající zeměpisnou šířku, délku a nadmořskou výšku místa, kde senacházíme. Ve skutečnosti jsou ale potřeba signály ze čtyř satelitů, jelikož vzdálenost od satelitů se určuje pomocí času, který přijímač neměří tak přesně.";

@@ -134,8 +134,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         let localizedDesc3 = NSLocalizedString("task02_1_desc_c",comment:"desc")
         let decriptions = [localizedDesc1, localizedDesc2, localizedDesc3]
         
-        let images = [UIImage(named: "task02_1_img1") as UIImage?,UIImage(named: "task02_1_img2") as UIImage?,UIImage(named: "task02_1_img3") as UIImage?]
-        slide1.initSlide(taskTitle: taskTitle, captions: titles, images: images as! [UIImage], descriptions: decriptions, parent: self)
+        let images = [UIImage(named: "task02_1_a_full") as UIImage?,UIImage(named: "task02_1_b_full") as UIImage?,UIImage(named: "task02_1_c_full") as UIImage?]
+        let previews = [UIImage(named: "task02_1_img1") as UIImage?,UIImage(named: "task02_1_img2") as UIImage?,UIImage(named: "task02_1_img3") as UIImage?]
+        slide1.initSlide(title: taskTitle, captions: titles, previews: previews as! [UIImage], images: images as! [UIImage], desc: decriptions, parent: self)
         
         let slide2: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_2_title",comment:"title")
@@ -370,8 +371,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         let localizedDesc3 = NSLocalizedString("task05_2_desc_c",comment:"desc")
         let decriptions = [localizedDesc1, localizedDesc2, localizedDesc3]
         
-        let images = [UIImage(named: "task05_2_a") as UIImage?,UIImage(named: "task05_2_b") as UIImage?,UIImage(named: "task05_2_c") as UIImage?]
-        slide2.initSlide(taskTitle: title, captions: titles, images: images as! [UIImage], descriptions: decriptions,parent: self)
+        let images = [UIImage(named: "task05_2_a_full") as UIImage?,UIImage(named: "task05_2_b_full") as UIImage?,UIImage(named: "task05_2_c_full") as UIImage?]
+        let previews = [UIImage(named: "task05_2_a") as UIImage?,UIImage(named: "task05_2_b") as UIImage?,UIImage(named: "task05_2_c") as UIImage?]
+        slide2.initSlide(title: title, captions: titles, previews: previews as! [UIImage], images: images as! [UIImage], desc: decriptions,parent: self)
         
         let slide3: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         title = NSLocalizedString("task05_3_title",comment:"title")
@@ -425,8 +427,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         var localizedDesc3 = NSLocalizedString("task06_1_desc_c",comment:"desc")
         var decriptions = [localizedDesc1, localizedDesc2, localizedDesc3]
         
-        var images = [UIImage(named: "task06_1_a") as UIImage?,UIImage(named: "task06_1_b") as UIImage?,UIImage(named: "task06_1_c") as UIImage?]
-        slide1.initSlide(taskTitle: title, captions: titles, images: images as! [UIImage], descriptions: decriptions, parent: self)
+        var images = [UIImage(named: "task06_1_a_full") as UIImage?,UIImage(named: "task06_1_b_full") as UIImage?,UIImage(named: "task06_1_c_full") as UIImage?]
+        var previews = [UIImage(named: "task06_1_a") as UIImage?,UIImage(named: "task06_1_b") as UIImage?,UIImage(named: "task06_1_c") as UIImage?]
+        slide1.initSlide(title: title, captions: titles,previews: previews as! [UIImage], images: images as! [UIImage], desc: decriptions, parent: self)
         
         let slide2: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         title = NSLocalizedString("task06_2_title",comment:"title")
@@ -458,8 +461,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         localizedDesc3 = NSLocalizedString("task06_5_desc_c",comment:"desc")
         decriptions = [localizedDesc1, localizedDesc2, localizedDesc3]
         
-        images = [UIImage(named: "task06_5_a") as UIImage?,UIImage(named: "task06_5_b") as UIImage?,UIImage(named: "task06_5_c") as UIImage?]
-        slide5.initSlide(taskTitle: title, captions: titles, images: images as! [UIImage], descriptions: decriptions,parent: self)
+        images = [UIImage(named: "task06_5_a_full") as UIImage?,UIImage(named: "task06_5_b_full") as UIImage?,UIImage(named: "task06_5_c_full") as UIImage?]
+        previews = [UIImage(named: "task06_5_a") as UIImage?,UIImage(named: "task06_5_b") as UIImage?,UIImage(named: "task06_5_c") as UIImage?]
+        slide5.initSlide(title: title, captions: titles, previews: previews as! [UIImage], images: images as! [UIImage], desc: decriptions,parent: self)
         
         let slide6: ThreeImageModalSlide = Bundle.main.loadNibNamed("ThreeImagesModalSlide", owner: self, options: nil)?.first as! ThreeImageModalSlide
         title = NSLocalizedString("task06_6_title",comment:"title")
@@ -473,8 +477,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         localizedDesc3 = NSLocalizedString("task06_6_desc_c",comment:"desc")
         decriptions = [localizedDesc1, localizedDesc2, localizedDesc3]
         
-        images = [UIImage(named: "task06_6_a") as UIImage?,UIImage(named: "task06_6_b") as UIImage?,UIImage(named: "task06_6_c") as UIImage?]
-        slide6.initSlide(taskTitle: title, captions: titles, images: images as! [UIImage], descriptions: decriptions, parent: self)
+        images = [UIImage(named: "task06_6_a_full") as UIImage?,UIImage(named: "task06_6_b_full") as UIImage?,UIImage(named: "task06_6_c_full") as UIImage?]
+        previews = [UIImage(named: "task06_6_a") as UIImage?,UIImage(named: "task06_6_b") as UIImage?,UIImage(named: "task06_6_c") as UIImage?]
+        slide6.initSlide(title: title, captions: titles, previews: previews as! [UIImage], images: images as! [UIImage], desc: decriptions, parent: self)
     
         return [slide1, slide2, slide3, slide4, slide5, slide6]
     }
@@ -556,8 +561,10 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         chapterNameLabel.text = NSLocalizedString("title_chapter07",comment:"chapterTitle")
     }
     
-    func showModal(){
+    func showModal(image: UIImage, text: String){
+        modalVC.setContent(image: image, text: text)
         modalVC.modalTransitionStyle = UIModalTransitionStyle.partialCurl
+        modalVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
         present(modalVC, animated: true, completion: nil)
     }
 }
