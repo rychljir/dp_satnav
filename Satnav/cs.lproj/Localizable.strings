@@ -39,18 +39,20 @@ task01_4_text3 = "Jakubova hůl sloužila jako jednoduchý měřicí přístroj,
 
 task01_5_title = "Nástroje (za)měření dnes";
 task01_5_text = "V dnešní době je měření polohy spojené hlavně se dvěma základními principy. Prvním je měření doby, za kterou signál dorazí od vysílače k přijímači – sem patří např. satelitní navigační systém, nebo zaměřování pomocí mobilních sítí. Druhým principem je měření doby, za níž se vyslaný signál, který se odrazí od objektu, vrátí zpět k vysílači. Tohoto principu využívají např. radary nebo laserová měření v geodézii.";
-task01_5_titleText1 = "Mobilní sítě";
-task01_5_text1 = "Z polohy vysílačů signálu je možné určit polohu mobilního telefonu. Tato metoda se používá při určování místa dopravní nehody nebo při pátrání po pohřešované osobě. Přesnost se pohybuje v řádu stovek, případně i desítek metrů.";
-task01_5_titleText2 = "Satelity";
-task01_5_text2 = "Nejmodernější způsob zaměření polohy je satelitní navigace s přesností od několika set metrů až po jednotky centimetrů.";
-task01_5_titleText3 = "Geodézie";
-task01_5_text3 = "Při velmi přesném určování vzdáleností se využívá práce geodetů. Ti jsou pomocí svých přístrojů, nejčastěji laserů, schopni zaměřovat např. budovy s přesností decimetrů až centimetrů.";
-task01_5_titleText4 = "Radar";
-task01_5_text4 = "Pomocí vysílání signálu a jeho zpětného odrazu od objektu je možné určit vzdálenost objektu. Přesnost radarů v návaznosti na jejich použití a dosah se pohybuje v řádech kilometrů až desítek metrů.";
-task01_5_titleText5 = "Sonar";
-task01_5_text5 = "Na rozdíl od většiny ostatních metod, které různou formou využívají elektromagnetické záření, funguje sonar na principu ultrazvuku. Sonarů se využívá především při rybolovu, obecně pak určování polohy objektů pod hladinou. Jejich přesnost se pohybuje v řádu metrů až centimetrů.";
-task01_5_titleText6 = "Wi-Fi";
-task01_5_text6 = "Pomocí GPS v mobilních telefonech a tabletech dojde k zaměření Wi-Fi routeru a uložení jeho polohy a identifikačních údajů. Když pak prochází kolem tohoto routeru osoba s mobilním telefonem, může být zpětně určena její poloha. Přesnost této metody se liší podle počtu routerů, které se v okolí zařízení nacházejí. Pohybuje se od několika metrů po decimetry. Díky husté síti signálů až z desítek routerů funguje velmi dobře ve městech.";
+task01_5_titleText1 = "Wi-Fi";
+task01_5_text1 = "Pomocí GPS v mobilních telefonech a tabletech dojde k zaměření Wi-Fi routeru a uložení jeho polohy a identifikačních údajů. Když pak prochází kolem tohoto routeru osoba s mobilním telefonem, může být zpětně určena její poloha. Přesnost této metody se liší podle počtu routerů, které se v okolí zařízení nacházejí. Pohybuje se od několika metrů po decimetry. Díky husté síti signálů až z desítek routerů funguje velmi dobře ve městech.";
+task01_5_titleText2 = "Sonar";
+task01_5_text2 = "Na rozdíl od většiny ostatních metod, které různou formou využívají elektromagnetické záření, funguje sonar na principu ultrazvuku. Sonarů se využívá především při rybolovu, obecně pak určování polohy objektů pod hladinou. Jejich přesnost se pohybuje v řádu metrů až centimetrů.";
+task01_5_titleText3 = "Satelity";
+task01_5_text3 = "Nejmodernější způsob zaměření polohy je satelitní navigace s přesností od několika set metrů až po jednotky centimetrů.";
+task01_5_titleText4 = "Geodézie";
+task01_5_text4 = "Při velmi přesném určování vzdáleností se využívá práce geodetů. Ti jsou pomocí svých přístrojů, nejčastěji laserů, schopni zaměřovat např. budovy s přesností decimetrů až centimetrů.";
+task01_5_titleText5 = "Mobilní sítě";
+task01_5_text5 = "Z polohy vysílačů signálu je možné určit polohu mobilního telefonu. Tato metoda se používá při určování místa dopravní nehody nebo při pátrání po pohřešované osobě. Přesnost se pohybuje v řádu stovek, případně i desítek metrů.";
+task01_5_titleText6 = "Radar";
+task01_5_text6 = "Pomocí vysílání signálu a jeho zpětného odrazu od objektu je možné určit vzdálenost objektu. Přesnost radarů v návaznosti na jejich použití a dosah se pohybuje v řádech kilometrů až desítek metrů.";
+
+
 
 task01_7_text = "Roztažením vyznač přesnost\njednotlivých metod určení polohy:";
 task01_7_rsb1_caption = "Radar";
@@ -67,9 +69,9 @@ task01_7_rsb_size_6 = "km";
 // --------- CHAPTER 2 -----------
 
 task02_1_title = "Segmenty satelitních navigačních systémů";
-task02_1_capt_a = "Kosmický segment";
-task02_1_capt_b = "Řídící segment";
-task02_1_capt_c = "Uživatelský segment";
+task02_1_capt_a = "Kosmický\nsegment";
+task02_1_capt_b = "Řídící\nsegment";
+task02_1_capt_c = "Uživatelský\nsegment";
 task02_1_desc_a = "Páteří satelitních navigačních systémů je kosmický segment. Tvoří ho soustava satelitů posílajících na Zemi informace o své poloze a aktuálním čase. Do kosmického segmentu patří rovněž rakety, dopravující satelity do vesmíru, a kosmodromy, ze kterých rakety startují.";
 task02_1_desc_b = "Řídící segment koordinuje provoz satelitů, snaží se systém satelitní navigace zlepšovat a hledat další možnosti jeho použití.\nV rámci Evropské unie má řídící segment na starosti agentura GSA (European GNSS Agency) se sídlem v Praze.";
 task02_1_desc_c = "Se satelitní navigací se běžný člověk (uživatel) setká nejčastěji při navigaci pomocí mobilního telefonu nebo v automobilu.\nKromě svého obvyklého použití – určování polohy a rychlosti zvolených objektů – se satelitní navigace díky přesnému měření času používá např. i pro finanční transakce.\nJiné příklady použití v praxi naleznete v dalších kapitolách.";
@@ -105,7 +107,7 @@ task02_9_desc = "Největší chybu v určení polohy způsobují hodiny přijím
  task02_11_desc = "Vidí-li přijímač další satelity, je možné zvýšit přesnost určení polohy až na jednotky metrů. Kromě satelitů lze využít i systému pozemních stanic zpřesňujících navigačních systémů jako je EGNOS.\nS využitím těchto podpůrných systémů můžeme určit polohu v řádu cm.";
  
  task02_12_title = "Přesné měření času";
- task02_12_desc = "Ke správnému fungování satelitní navigace je nutné velmi přesné určení času. Protože se signál z družice šíří rychlostí světla, už chyba v tisícině sekundy znamená rozdíl 300 km. To přibližně odpovídá vzdálenosti z Prahy do Berlína.\nAtomové hodiny používané v\u00A0navigačních družicích jsou tak přesné, že pokud by běžely od vzniku vesmíru, rozcházely by se dnes o pouhé dvě sekundy.\n\nc = 299 792 458 m/s";
+ task02_12_desc = "Ke správnému fungování satelitní navigace je nutné velmi přesné určení času. Protože se signál z družice šíří rychlostí světla, už chyba v tisícině sekundy znamená rozdíl 300 km. To přibližně odpovídá vzdálenosti z Prahy do Berlína.\nAtomové hodiny používané v navigačních družicích jsou tak přesné, že pokud by běžely od vzniku vesmíru, rozcházely by se dnes o pouhé dvě sekundy.\n\nc = 299 792 458 m/s";
 
  task02_13_title = "Úloha";
  task02_13_desc = "Pokud by se hodiny satelitu zpožďovaly nebo předbíhaly, bylo by zajímavé pokusit se odhadnout vzdálenost, kterou by signál ze satelitu za tento čas urazil.\nOdhadněte, jakou vzdálenost urazí světlo za";

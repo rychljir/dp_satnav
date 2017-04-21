@@ -11,8 +11,7 @@ import UIKit
 class Task01_4_Slide: UIView {
     @IBOutlet weak var taskTitle: UILabel!
     @IBOutlet weak var textTitle: UILabel!
-    @IBOutlet weak var desc: UILabel!
-
+    @IBOutlet weak var desc: UITextView!
 
     @IBOutlet weak var img1: UIButton!
     @IBOutlet weak var img2: UIButton!

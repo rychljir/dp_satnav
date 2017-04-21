@@ -6,7 +6,7 @@
 "8HL-og-aRh.normalTitle" = "Zaměření polohy";
 
 /* Class = "UIViewController"; title = "Satellite navigation"; ObjectID = "BYZ-38-t0r"; */
-"BYZ-38-t0r.title" = "Satellite navigation";
+"BYZ-38-t0r.title" = "Satelitní navigace";
 
 /* Class = "UIButton"; normalTitle = "Issues facing GNSS systems"; ObjectID = "For-xr-wnL"; */
 "For-xr-wnL.normalTitle" = "Problémy navigace";
@@ -21,7 +21,7 @@
 "g42-ve-AEo.normalTitle" = "Projekt Galileo";
 
 /* Class = "UILabel"; text = "Satelitni navigace"; ObjectID = "iZz-eb-RcU"; */
-"iZz-eb-RcU.text" = "Satelitni navigace";
+"iZz-eb-RcU.text" = "Satelitní navigace";
 
 /* Class = "UIButton"; normalTitle = "The future on our doorstep"; ObjectID = "olM-DV-zz7"; */
 "olM-DV-zz7.normalTitle" = "Budoucnost za dveřmi";

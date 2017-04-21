@@ -65,17 +65,16 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         self.present(vc, animated: true, completion:nil)
     }
     
+    
     func setupSlideScrollView(slides:[UIView]){
-        slideScrollView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
-        //slideScrollView.contentSize = CGSize(width: view.frame.width*CGFloat(slides.count), height: view.frame.height)
-        slideScrollView.contentSize = CGSize(width: view.frame.width*CGFloat(slides.count), height: 1.0)
-        
+    
+        slideScrollView.contentSize = CGSize(width: view.frame.width*CGFloat(slides.count), height: slideScrollView.frame.height)
         slideScrollView.isPagingEnabled = true
         slideScrollView.showsVerticalScrollIndicator = false
         slideScrollView.showsHorizontalScrollIndicator = false
         
         for i in 0 ..< slides.count{
-            slides[i].frame = CGRect(x: view.frame.width*CGFloat(i), y: 0, width: view.frame.width, height: view.frame.height)
+            slides[i].frame = CGRect(x: view.frame.width*CGFloat(i), y: 0, width: view.frame.width, height: slideScrollView.frame.height)
             slideScrollView.addSubview(slides[i])
         }
     }
@@ -142,18 +141,14 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_2_title",comment:"title")
         var desc = NSLocalizedString("task02_2_desc",comment:"desc")
         var image :UIImage?
-        if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_2_img") as UIImage?
-        }else{
-            image = UIImage(named: "task02_2_img") as UIImage?
-        }
+        image = UIImage(named: "task02_2_img") as UIImage?
         slide2.initSlide(taskTitle: taskTitle, description: desc, imageCont: image!)
         
         let slide3: SplitImageDescSlide = Bundle.main.loadNibNamed("SplitImageDescSlide", owner: self, options: nil)?.first as! SplitImageDescSlide
         taskTitle = NSLocalizedString("task02_3_title",comment:"title")
         desc = NSLocalizedString("task02_3_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_3_img") as UIImage?
+            image = UIImage(named: "task02_3_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_3_img") as UIImage?
         }
@@ -163,7 +158,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_4_title",comment:"title")
         desc = NSLocalizedString("task02_4_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_4_img") as UIImage?
+            image = UIImage(named: "task02_4_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_4_img") as UIImage?
         }
@@ -173,7 +168,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_5_title",comment:"title")
         desc = NSLocalizedString("task02_5_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_5_img") as UIImage?
+            image = UIImage(named: "task02_5_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_5_img") as UIImage?
         }
@@ -183,7 +178,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_6_title",comment:"title")
         desc = NSLocalizedString("task02_6_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_6_img") as UIImage?
+            image = UIImage(named: "task02_6_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_6_img") as UIImage?
         }
@@ -193,7 +188,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_7_title",comment:"title")
         desc = NSLocalizedString("task02_7_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_7_img") as UIImage?
+            image = UIImage(named: "task02_7_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_7_img") as UIImage?
         }
@@ -203,7 +198,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_8_title",comment:"title")
         desc = NSLocalizedString("task02_8_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_8_img") as UIImage?
+            image = UIImage(named: "task02_8_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_8_img") as UIImage?
         }
@@ -213,7 +208,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_9_title",comment:"title")
         desc = NSLocalizedString("task02_9_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_9_img") as UIImage?
+            image = UIImage(named: "task02_9_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_9_img") as UIImage?
         }
@@ -223,7 +218,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task02_10_title",comment:"title")
         desc = NSLocalizedString("task02_10_desc",comment:"desc")
         if(Locale.current.languageCode=="cs"){
-            image = UIImage(named: "task02_10_img") as UIImage?
+            image = UIImage(named: "task02_10_img_cs") as UIImage?
         }else{
             image = UIImage(named: "task02_10_img") as UIImage?
         }

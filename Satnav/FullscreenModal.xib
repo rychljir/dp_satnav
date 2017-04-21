@@ -25,17 +25,17 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7d-wF-YEr">
-                    <rect key="frame" x="922" y="30" width="72" height="62"/>
-                    <state key="normal" image="ico_close.png"/>
-                    <state key="highlighted" image="ico_close_pressed.png"/>
+                    <rect key="frame" x="958" y="30" width="36" height="31"/>
+                    <state key="normal" image="ico_close"/>
+                    <state key="highlighted" image="ico_close_pressed"/>
                     <connections>
                         <action selector="closeBtnClick:" destination="-1" eventType="touchUpInside" id="iTu-0R-q6M"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAS-08-Bww">
-                    <rect key="frame" x="20" y="718" width="984" height="30"/>
+                    <rect key="frame" x="20" y="738" width="984" height="30"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -43,7 +43,7 @@
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="PAS-08-Bww" secondAttribute="trailing" constant="20" id="6cd-pS-f41"/>
-                <constraint firstAttribute="bottom" secondItem="PAS-08-Bww" secondAttribute="bottom" constant="20" id="INA-8g-tcu"/>
+                <constraint firstAttribute="bottom" secondItem="PAS-08-Bww" secondAttribute="bottom" id="INA-8g-tcu"/>
                 <constraint firstItem="PAS-08-Bww" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="R3H-xx-Zfg"/>
                 <constraint firstAttribute="trailing" secondItem="EKx-ry-Zqu" secondAttribute="trailing" id="a5Z-5m-BxY"/>
                 <constraint firstItem="E7d-wF-YEr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="or5-wP-CXM"/>
@@ -55,8 +55,8 @@
         </view>
     </objects>
     <resources>
-        <image name="ico_close.png" width="72" height="62"/>
-        <image name="ico_close_pressed.png" width="72" height="62"/>
+        <image name="ico_close" width="36" height="31"/>
+        <image name="ico_close_pressed" width="36" height="31"/>
         <image name="task02_1_a_full" width="1183" height="1180"/>
     </resources>
 </document>
