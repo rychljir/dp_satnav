@@ -15,371 +15,409 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIH-pE-pgk">
-                    <rect key="frame" x="20" y="20" width="984" height="728"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOT-Dw-pbV">
+                    <rect key="frame" x="20" y="20" width="66.5" height="42"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="center" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tDE-gk-EGs">
+                    <rect key="frame" x="162" y="82" width="700" height="656"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hu3-Uy-mgI">
-                            <rect key="frame" x="20" y="45" width="944" height="663"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="e26-6A-mRQ">
+                            <rect key="frame" x="0.0" y="0.0" width="700" height="93.5"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOT-Dw-pbV">
-                                    <rect key="frame" x="0.0" y="0.0" width="944" height="42"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="The EGNOS satellite-based augmentation system relies on satellites as well as ground stations." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24F-7a-LXE">
+                                    <rect key="frame" x="0.0" y="47" width="460" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <stackView opaque="NO" contentMode="center" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tDE-gk-EGs">
-                                    <rect key="frame" x="0.0" y="42" width="944" height="621"/>
-                                    <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="e26-6A-mRQ">
-                                            <rect key="frame" x="122" y="0.0" width="700" height="88.5"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="The EGNOS satellite-based augmentation system relies on satellites as well as ground stations." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24F-7a-LXE">
-                                                    <rect key="frame" x="0.0" y="44.5" width="460" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7r-7f-PpM">
-                                                    <rect key="frame" x="500" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="bxM-DO-hOs"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="YES">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="yes1Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="Py6-Io-7Wf"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3u-i6-d9T">
-                                                    <rect key="frame" x="620" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="Ink-HH-Uou"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="NO">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="no1Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="wkR-9M-qWz"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="700" id="UVd-AE-7XJ"/>
-                                            </constraints>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Ipz-Nh-8Nc">
-                                            <rect key="frame" x="122" y="88.5" width="700" height="89"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="Galileo satellites have the highest orbital speed of all the GNSS systems mentioned." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6k-aR-JAc">
-                                                    <rect key="frame" x="0.0" y="44.5" width="460" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQc-ob-fKm">
-                                                    <rect key="frame" x="500" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="qWo-sg-YFg"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="YES">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="yes2Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="9MZ-0I-ijR"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZr-wg-ZG2">
-                                                    <rect key="frame" x="620" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="pkD-wh-hgQ"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="NO">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="no2Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="EA4-dP-rKg"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="700" id="o17-MR-Niz"/>
-                                            </constraints>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="XrZ-uT-fH9">
-                                            <rect key="frame" x="122" y="177.5" width="700" height="88.5"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="A geostationary satellite does not move relative to the stars. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIZ-h0-gvd">
-                                                    <rect key="frame" x="0.0" y="44.5" width="460" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ud6-j5-EJD">
-                                                    <rect key="frame" x="500" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="4hV-YX-9Og"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="YES">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="yes3Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="k3P-dL-KXF"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hx2-xJ-dhd">
-                                                    <rect key="frame" x="620" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="x3X-Uz-DSV"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="NO">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="no3Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="9EA-bA-48w"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="700" id="Fxa-Ni-bye"/>
-                                            </constraints>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="9HI-a4-jsI">
-                                            <rect key="frame" x="122" y="266" width="700" height="89"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="Ideally, a geostationary satellite always stays at the same place relative to the Earth's surface. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMS-sN-lhP">
-                                                    <rect key="frame" x="0.0" y="44.5" width="460" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmQ-5Q-zaZ">
-                                                    <rect key="frame" x="500" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="UYu-g3-bcE"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="YES">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="yes4Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="OPG-fr-HNN"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npr-eZ-Z2o">
-                                                    <rect key="frame" x="620" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="LAP-t0-aIU"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="NO">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="no4Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="JDj-Jl-0Nh"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="700" id="Dyz-wB-JPD"/>
-                                            </constraints>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="WbO-GV-XZp">
-                                            <rect key="frame" x="122" y="355" width="700" height="88.5"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="GNSS satellites orbit closer to the Earth's surface than the International Space Station (ISS)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRM-w7-DiN">
-                                                    <rect key="frame" x="0.0" y="44" width="460" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Lh-zq-4Q0">
-                                                    <rect key="frame" x="500" y="29" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="XvX-MX-FeJ"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="YES">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="yes5Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="L1O-nQ-ITc"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6e-fH-8nk">
-                                                    <rect key="frame" x="620" y="29" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="Dth-wL-DQD"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="NO">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="no5Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="cTg-UL-r7R"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="700" id="ZG3-Hr-TzU"/>
-                                            </constraints>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="LyH-l0-0KX">
-                                            <rect key="frame" x="122" y="443.5" width="700" height="89"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="GPS has the highest number of satellites." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi4-gX-qJi">
-                                                    <rect key="frame" x="0.0" y="44.5" width="460" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zb-aB-jgy">
-                                                    <rect key="frame" x="500" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="nyM-8p-n3T"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="YES">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="yes6Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="nmN-Iu-7wT"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kD-hv-TB7">
-                                                    <rect key="frame" x="620" y="29.5" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="Vvy-Yb-c2T"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="NO">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="no6Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="WG1-kW-tLY"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="700" id="MgR-YR-9UV"/>
-                                            </constraints>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="MeZ-Zv-NSC">
-                                            <rect key="frame" x="122" y="532.5" width="700" height="88.5"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" text="The higher above the Earth's surface a satellite orbits, the higher the speed of the satellite." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrN-KA-6ZB">
-                                                    <rect key="frame" x="0.0" y="44" width="460" height="0.0"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZB4-lC-VxS">
-                                                    <rect key="frame" x="500" y="29" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="FBu-jB-ag2"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="YES">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="yes7Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="uYB-cx-s6q"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVR-a0-hJl">
-                                                    <rect key="frame" x="620" y="29" width="80" height="30"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="zYI-yC-VjX"/>
-                                                    </constraints>
-                                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="NO">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="no7Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="xOJ-FY-IPQ"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="700" id="0mW-qm-MU0"/>
-                                            </constraints>
-                                        </stackView>
-                                    </subviews>
-                                </stackView>
-                            </subviews>
-                            <constraints>
-                                <constraint firstItem="tDE-gk-EGs" firstAttribute="top" secondItem="fOT-Dw-pbV" secondAttribute="bottom" id="X1b-6p-BsN"/>
-                            </constraints>
-                        </stackView>
-                        <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="SLC-fh-LiF">
-                            <rect key="frame" x="491.5" y="20" width="472.5" height="48"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer the following questions:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lju-vt-Iwu">
-                                    <rect key="frame" x="0.0" y="0.0" width="242.5" height="48"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5x-cf-zMr">
-                                    <rect key="frame" x="272.5" y="0.0" width="200" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7r-7f-PpM">
+                                    <rect key="frame" x="500" y="29" width="80" height="36"/>
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="200" id="0zP-xq-Hrr"/>
+                                        <constraint firstAttribute="width" constant="80" id="bxM-DO-hOs"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
-                                    <state key="normal" title="Evaluate">
-                                        <color key="titleColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="evaluateClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="wHV-r5-XCU"/>
+                                        <action selector="yes1Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="Py6-Io-7Wf"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3u-i6-d9T">
+                                    <rect key="frame" x="620" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="Ink-HH-Uou"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="no1Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="wkR-9M-qWz"/>
                                     </connections>
                                 </button>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="k5x-cf-zMr" secondAttribute="bottom" id="Uxq-Rv-PNo"/>
-                                <constraint firstItem="k5x-cf-zMr" firstAttribute="top" secondItem="SLC-fh-LiF" secondAttribute="top" id="fSZ-Iw-DoW"/>
+                                <constraint firstAttribute="width" constant="700" id="UVd-AE-7XJ"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Ipz-Nh-8Nc">
+                            <rect key="frame" x="0.0" y="93.5" width="700" height="94"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="Galileo satellites have the highest orbital speed of all the GNSS systems mentioned." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6k-aR-JAc">
+                                    <rect key="frame" x="0.0" y="47" width="460" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQc-ob-fKm">
+                                    <rect key="frame" x="500" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="qWo-sg-YFg"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="yes2Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="9MZ-0I-ijR"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZr-wg-ZG2">
+                                    <rect key="frame" x="620" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="pkD-wh-hgQ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="no2Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="EA4-dP-rKg"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="700" id="o17-MR-Niz"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="XrZ-uT-fH9">
+                            <rect key="frame" x="0.0" y="187.5" width="700" height="93.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="A geostationary satellite does not move relative to the stars. " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIZ-h0-gvd">
+                                    <rect key="frame" x="0.0" y="47" width="460" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ud6-j5-EJD">
+                                    <rect key="frame" x="500" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="4hV-YX-9Og"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="yes3Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="k3P-dL-KXF"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hx2-xJ-dhd">
+                                    <rect key="frame" x="620" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="x3X-Uz-DSV"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="no3Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="9EA-bA-48w"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="700" id="Fxa-Ni-bye"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="9HI-a4-jsI">
+                            <rect key="frame" x="0.0" y="281" width="700" height="94"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="Ideally, a geostationary satellite always stays at the same place relative to the Earth's surface. " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMS-sN-lhP">
+                                    <rect key="frame" x="0.0" y="47" width="460" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmQ-5Q-zaZ">
+                                    <rect key="frame" x="500" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="UYu-g3-bcE"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="yes4Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="OPG-fr-HNN"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npr-eZ-Z2o">
+                                    <rect key="frame" x="620" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="LAP-t0-aIU"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="no4Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="JDj-Jl-0Nh"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="700" id="Dyz-wB-JPD"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="WbO-GV-XZp">
+                            <rect key="frame" x="0.0" y="375" width="700" height="93.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="GNSS satellites orbit closer to the Earth's surface than the International Space Station (ISS)" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRM-w7-DiN">
+                                    <rect key="frame" x="0.0" y="46.5" width="460" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Lh-zq-4Q0">
+                                    <rect key="frame" x="500" y="28.5" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="XvX-MX-FeJ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="yes5Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="L1O-nQ-ITc"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6e-fH-8nk">
+                                    <rect key="frame" x="620" y="28.5" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="Dth-wL-DQD"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="no5Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="cTg-UL-r7R"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="700" id="ZG3-Hr-TzU"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="LyH-l0-0KX">
+                            <rect key="frame" x="0.0" y="468.5" width="700" height="94"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="GPS has the highest number of satellites." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi4-gX-qJi">
+                                    <rect key="frame" x="0.0" y="47" width="460" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zb-aB-jgy">
+                                    <rect key="frame" x="500" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="nyM-8p-n3T"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="yes6Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="nmN-Iu-7wT"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kD-hv-TB7">
+                                    <rect key="frame" x="620" y="29" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="Vvy-Yb-c2T"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="no6Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="WG1-kW-tLY"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="700" id="MgR-YR-9UV"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="MeZ-Zv-NSC">
+                            <rect key="frame" x="0.0" y="562.5" width="700" height="93.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="The higher above the Earth's surface a satellite orbits, the higher the speed of the satellite." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrN-KA-6ZB">
+                                    <rect key="frame" x="0.0" y="46.5" width="460" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZB4-lC-VxS">
+                                    <rect key="frame" x="500" y="28.5" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="FBu-jB-ag2"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="YES">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="yes7Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="uYB-cx-s6q"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVR-a0-hJl">
+                                    <rect key="frame" x="620" y="28.5" width="80" height="36"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="zYI-yC-VjX"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="NO">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="no7Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="xOJ-FY-IPQ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="700" id="0mW-qm-MU0"/>
                             </constraints>
                         </stackView>
                     </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="k5x-cf-zMr">
+                    <rect key="frame" x="874" y="20" width="140" height="36"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="hu3-Uy-mgI" firstAttribute="top" secondItem="cIH-pE-pgk" secondAttribute="top" constant="45" id="5Ob-ek-LBG"/>
-                        <constraint firstAttribute="trailing" secondItem="hu3-Uy-mgI" secondAttribute="trailing" constant="20" id="PHc-8l-ETm"/>
-                        <constraint firstItem="SLC-fh-LiF" firstAttribute="top" secondItem="cIH-pE-pgk" secondAttribute="top" constant="20" id="TSz-wQ-KFM"/>
-                        <constraint firstItem="hu3-Uy-mgI" firstAttribute="leading" secondItem="cIH-pE-pgk" secondAttribute="leading" constant="20" id="ZcD-Qg-R8i"/>
-                        <constraint firstAttribute="bottom" secondItem="hu3-Uy-mgI" secondAttribute="bottom" constant="20" id="b3t-gG-PIv"/>
-                        <constraint firstAttribute="trailing" secondItem="SLC-fh-LiF" secondAttribute="trailing" constant="20" id="hlm-XO-72e"/>
+                        <constraint firstAttribute="width" constant="140" id="i3z-hI-r1a"/>
                     </constraints>
-                </view>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
+                    <state key="normal" title="Evaluate">
+                        <color key="titleColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="evaluateClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="wHV-r5-XCU"/>
+                        <action selector="evaluateRelease:" destination="iN0-l3-epB" eventType="touchDown" id="vO9-Rz-bR5"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer the following questions:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lju-vt-Iwu">
+                    <rect key="frame" x="513" y="23.5" width="331" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="cIH-pE-pgk" secondAttribute="trailing" constant="20" id="Bam-Hp-FAE"/>
-                <constraint firstAttribute="bottom" secondItem="cIH-pE-pgk" secondAttribute="bottom" constant="20" id="FTr-Fi-Ayv"/>
-                <constraint firstItem="cIH-pE-pgk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Jcl-3k-b13"/>
-                <constraint firstItem="cIH-pE-pgk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="c5K-ut-ZE0"/>
+                <constraint firstItem="tDE-gk-EGs" firstAttribute="top" secondItem="fOT-Dw-pbV" secondAttribute="bottom" constant="20" id="6Kp-N6-QDT"/>
+                <constraint firstItem="tDE-gk-EGs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="MXt-UL-cK7"/>
+                <constraint firstItem="k5x-cf-zMr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="PzZ-IQ-q3P"/>
+                <constraint firstItem="fOT-Dw-pbV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="TVd-yJ-1l1"/>
+                <constraint firstAttribute="trailing" secondItem="k5x-cf-zMr" secondAttribute="trailing" constant="10" id="fQJ-P7-Quk"/>
+                <constraint firstItem="k5x-cf-zMr" firstAttribute="leading" secondItem="lju-vt-Iwu" secondAttribute="trailing" constant="30" id="hXr-Sy-abw"/>
+                <constraint firstItem="tDE-gk-EGs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="lTB-hq-2ca"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tDE-gk-EGs" secondAttribute="trailing" constant="30" id="oOe-XB-zUF"/>
+                <constraint firstItem="lju-vt-Iwu" firstAttribute="centerY" secondItem="k5x-cf-zMr" secondAttribute="centerY" id="ojs-GV-nbw"/>
+                <constraint firstItem="fOT-Dw-pbV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="xIb-5F-iwu"/>
+                <constraint firstAttribute="bottom" secondItem="tDE-gk-EGs" secondAttribute="bottom" constant="30" id="zxw-3J-43W"/>
             </constraints>
             <connections>
+                <outlet property="evaluate" destination="k5x-cf-zMr" id="8Tx-g7-bz0"/>
                 <outlet property="no1" destination="h3u-i6-d9T" id="Bpp-3C-pj9"/>
                 <outlet property="no2" destination="yZr-wg-ZG2" id="B3W-x3-XCH"/>
                 <outlet property="no3" destination="Hx2-xJ-dhd" id="eje-lZ-0fM"/>

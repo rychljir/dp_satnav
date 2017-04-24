@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,66 +15,46 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="7Nh-Qd-Kqo">
-                    <rect key="frame" x="8" y="8" width="1008" height="752"/>
-                    <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rvk-9Y-rdE">
-                            <rect key="frame" x="0.0" y="0.0" width="1008" height="86"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kv3-od-vJ1">
-                                    <rect key="frame" x="0.0" y="0.0" width="66.5" height="42"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="on8-EN-pHT">
-                                    <rect key="frame" x="0.0" y="62" width="102.5" height="24"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
-                        </stackView>
-                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="bottom" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="HmD-40-uM7">
-                            <rect key="frame" x="0.0" y="116" width="1008" height="636"/>
-                            <subviews>
-                                <stackView opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Sbl-Tu-69A">
-                                    <rect key="frame" x="0.0" y="398" width="457" height="238"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_2_flag" translatesAutoresizingMaskIntoConstraints="NO" id="unR-ER-dq0">
-                                            <rect key="frame" x="0.0" y="0.0" width="221" height="146"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Počet satelitů: 12Oběžná výška: 23 220 km\nOběžná doba: 14,08 h\nOběžná rychlost : 3 670 m/s" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4W-CP-j6o">
-                                            <rect key="frame" x="0.0" y="166" width="448" height="72"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="m4W-CP-j6o" firstAttribute="leading" secondItem="Sbl-Tu-69A" secondAttribute="leading" id="CY3-UN-J4E"/>
-                                        <constraint firstAttribute="bottom" secondItem="m4W-CP-j6o" secondAttribute="bottom" id="IR8-ze-ggp"/>
-                                        <constraint firstAttribute="trailing" secondItem="m4W-CP-j6o" secondAttribute="trailing" constant="9" id="wbB-UG-23p"/>
-                                    </constraints>
-                                </stackView>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_2_img" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-mH-saJ">
-                                    <rect key="frame" x="497" y="0.0" width="511" height="636"/>
-                                    <rect key="contentStretch" x="0.0" y="0.5" width="0.5" height="0.5"/>
-                                </imageView>
-                            </subviews>
-                        </stackView>
-                    </subviews>
-                    <constraints>
-                        <constraint firstAttribute="trailing" secondItem="Rvk-9Y-rdE" secondAttribute="trailing" id="i0l-pm-A3E"/>
-                        <constraint firstItem="Rvk-9Y-rdE" firstAttribute="leading" secondItem="7Nh-Qd-Kqo" secondAttribute="leading" id="kZe-oz-DdX"/>
-                    </constraints>
-                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kv3-od-vJ1">
+                    <rect key="frame" x="20" y="20" width="60.5" height="42"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="on8-EN-pHT">
+                    <rect key="frame" x="20" y="92" width="984" height="30"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" text="Počet satelitů: 12Oběžná výška: 23 220 km\nOběžná doba: 14,08 h\nOběžná rychlost : 3 670 m/s" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4W-CP-j6o">
+                    <rect key="frame" x="20" y="658" width="477" height="90"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_2_flag" translatesAutoresizingMaskIntoConstraints="NO" id="unR-ER-dq0">
+                    <rect key="frame" x="20" y="555" width="110" height="73"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_2_img" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-mH-saJ">
+                    <rect key="frame" x="527" y="395" width="477" height="353"/>
+                    <rect key="contentStretch" x="0.0" y="0.5" width="0.5" height="0.5"/>
+                </imageView>
             </subviews>
             <constraints>
-                <constraint firstItem="7Nh-Qd-Kqo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="Agg-Nx-kpG"/>
-                <constraint firstAttribute="bottomMargin" secondItem="7Nh-Qd-Kqo" secondAttribute="bottom" id="NVN-5K-Gcx"/>
-                <constraint firstAttribute="trailingMargin" secondItem="7Nh-Qd-Kqo" secondAttribute="trailing" id="aaB-2V-XK9"/>
-                <constraint firstItem="7Nh-Qd-Kqo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="kxM-tN-7gJ"/>
+                <constraint firstItem="on8-EN-pHT" firstAttribute="top" secondItem="Kv3-od-vJ1" secondAttribute="bottom" constant="30" id="2Vu-mW-Pr3"/>
+                <constraint firstItem="ctm-mH-saJ" firstAttribute="width" secondItem="m4W-CP-j6o" secondAttribute="width" id="3O1-XF-c14"/>
+                <constraint firstItem="on8-EN-pHT" firstAttribute="leading" secondItem="Kv3-od-vJ1" secondAttribute="leading" id="4Ox-xW-b4O"/>
+                <constraint firstItem="ctm-mH-saJ" firstAttribute="leading" secondItem="m4W-CP-j6o" secondAttribute="trailing" constant="30" id="AWz-yP-qXn"/>
+                <constraint firstAttribute="trailing" secondItem="on8-EN-pHT" secondAttribute="trailing" constant="20" id="M3H-AG-Z5a"/>
+                <constraint firstItem="Kv3-od-vJ1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Nku-GP-LNy"/>
+                <constraint firstAttribute="bottom" secondItem="ctm-mH-saJ" secondAttribute="bottom" constant="20" id="PDi-dh-Uw8"/>
+                <constraint firstItem="m4W-CP-j6o" firstAttribute="top" secondItem="unR-ER-dq0" secondAttribute="bottom" constant="30" id="PvK-xa-h4V"/>
+                <constraint firstItem="unR-ER-dq0" firstAttribute="leading" secondItem="Kv3-od-vJ1" secondAttribute="leading" id="TBC-Ee-yAA"/>
+                <constraint firstItem="Kv3-od-vJ1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="apb-Hd-3di"/>
+                <constraint firstAttribute="trailing" secondItem="ctm-mH-saJ" secondAttribute="trailing" constant="20" id="lkF-d6-pa2"/>
+                <constraint firstAttribute="bottom" secondItem="m4W-CP-j6o" secondAttribute="bottom" constant="20" id="mK5-Qz-8Kg"/>
+                <constraint firstItem="m4W-CP-j6o" firstAttribute="leading" secondItem="Kv3-od-vJ1" secondAttribute="leading" id="one-Yn-cpv"/>
             </constraints>
             <connections>
                 <outlet property="desc" destination="on8-EN-pHT" id="OzN-Vh-rJY"/>
@@ -87,7 +66,7 @@
         </view>
     </objects>
     <resources>
-        <image name="task03_2_flag" width="221" height="146"/>
-        <image name="task03_2_img" width="1004" height="707"/>
+        <image name="task03_2_flag" width="110" height="73"/>
+        <image name="task03_2_img" width="502" height="353"/>
     </resources>
 </document>

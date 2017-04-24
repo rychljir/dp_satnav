@@ -18,6 +18,7 @@ title_chapter08 = "Rozšířená realita";
 task_ok = "Správně!";
 task_fail = "Špatně! Zkus to znovu.";
 
+erased_data = "Data byla smazána.";
 
 
 // --------- CHAPTER 1 -----------
@@ -125,18 +126,18 @@ task03_1_text = "Prohlédněte si dráhy jednotlivých\nsatelitních systémů."
 
 task03_2_title = "Galileo";
 task03_2_stats = "Počet satelitů: 12\nOběžná výška: 23 220 km\nOběžná doba: 14,08 h\nOběžná rychlost : 3 670 m/s";
-task03_2_desc = "Nejvýznamnějším evropským počinem na poli satelitní navigace je projekt Galileo financovaný Evropskou komisí. Na jeho realizaci se podílí ESA (Evropská vesmírná agentura) a GSA (Agentura pro evropský GNSS). Galileo je stále ve fázi výstavby. Více se dozvíte v\u00A0samostatné kapitole.";
+task03_2_desc = "Nejvýznamnějším evropským počinem na poli satelitní navigace je projekt Galileo financovaný Evropskou komisí. Na jeho realizaci se podílí ESA (Evropská vesmírná agentura) a GSA (Agentura pro evropský GNSS). Galileo je stále ve fázi výstavby. Více se dozvíte v samostatné kapitole.";
 
 task03_3_title = "GPS";
 task03_3_stats = "Počet satelitů: 31\nOběžná výška: 20 180 km\nOběžná doba: 11,97 h\nOběžná rychlost : 3 870 m/s";
-task03_3_desc = "Mezi uživateli se běžně zaměňují pojmy &#8222;satelitní navigace&#8220; a &#8222;GPS&#8220;. Americký GPS (Global Positioning System, globální polohový systém) je ovšem jen jeden z navigačních systémů. Nejprve sloužil pouze pro armádu USA. Jedním z\u00A0prvních důvodů pro zavedení GPS bylo určení přesných poloh (atomových) ponorek po vynoření. Později se aplikace GPS rozšiřovala – v roce 1983 byla uvolněna i pro civilní použití a plně funkční se stala v roce 1995. Nyní už jsou GPS moduly nedílnou součástí většiny moderních mobilních zařízení.";
+task03_3_desc = "Mezi uživateli se běžně zaměňují pojmy \"satelitní navigace\" a \"GPS\". Americký GPS (Global Positioning System, globální polohový systém) je ovšem jen jeden z navigačních systémů. Nejprve sloužil pouze pro armádu USA. Jedním z prvních důvodů pro zavedení GPS bylo určení přesných poloh (atomových) ponorek po vynoření. Později se aplikace GPS rozšiřovala – v roce 1983 byla uvolněna i pro civilní použití a plně funkční se stala v roce 1995. Nyní už jsou GPS moduly nedílnou součástí většiny moderních mobilních zařízení.";
 
 task03_4_title = "Nepřesnost GPS";
-task03_4_text = "Když byl systém GPS uvolněn pro civilní použití, obsahoval signál záměrnou chybu v určení polohy – tzv. Selective Availability (SA). Ta způsobovala, že určení polohy bylo velmi nepřesné – chyba činila řádově desítky až stovky metrů. Když se ukázalo, že GPS má velký potenciál pro využití v každodenním životě lidí, byla tato uměle vytvořená nepřesnost v roce 2000 vypnuta. Do budoucna se plánuje, že vnášení záměrné systémové chyby bude u    nové generace GPS zcela zrušeno.";
+task03_4_text = "Když byl systém GPS uvolněn pro civilní použití, obsahoval signál záměrnou chybu v určení polohy – tzv. Selective Availability (SA). Ta způsobovala, že určení polohy bylo velmi nepřesné – chyba činila řádově desítky až stovky metrů. Když se ukázalo, že GPS má velký potenciál pro využití v každodenním životě lidí, byla tato uměle vytvořená nepřesnost v roce 2000 vypnuta. Do budoucna se plánuje, že vnášení záměrné systémové chyby bude u nové generace GPS zcela zrušeno.";
 
 task03_5_title = "GLONASS";
 task03_5_stats = "Počet satelitů: 24\nOběžná výška: 19 130 km\nOběžná doba: 11,26 h\nOběžná rychlost : 3 950 m/s";
-task03_5_desc = "GLONASS je zkratkou názvu Globalnaya navigatsionnaya sputnikovaya sistema. Systém vznikl roku 1976 v\u00A0tehdejším SSSR jako konkurence amerického systému GPS. Na ruském území začal systém fungovat v\u00A0roce 2010, na celém světě pak o\u00A0rok později.\nV současnosti je velká část přístrojů s\u00A0GPS modulem schopna zpracovat jak signál GPS, tak GLONASS. Určení polohy se signály z\u00A0více navigačních systémů je rychlejší a přesnější.";
+task03_5_desc = "GLONASS je zkratkou názvu Globalnaya navigatsionnaya sputnikovaya sistema. Systém vznikl roku 1976 v tehdejším SSSR jako konkurence amerického systému GPS. Na ruském území začal systém fungovat v roce 2010, na celém světě pak o rok později.\nV současnosti je velká část přístrojů s GPS modulem schopna zpracovat jak signál GPS, tak GLONASS. Určení polohy se signály z více navigačních systémů je rychlejší a přesnější.";
 
 task03_6_title = "BeiDou";
 task03_6_stats = "Počet satelitů: 20\nOběžná výška: 21 150 km\nOběžná doba: 12,63 h\nOběžná rychlost : 3 800 m/s";
@@ -236,7 +237,7 @@ task04_6_a5 = "Základní služba";
 task04_6_b5 = "Dostupná všem běžným uživatelům";
 
 task05_1_title = "Co způsobuje navigaci problémy?";
-task05_1_text = "Problémy a nepřesnosti satelitní navigace lze rozdělit do dvou skupin. První skupina souvisí s družicí a její trajektorií, druhá se signálem vyslaným ze satelitu směrem k přijímači.\nPro samotný satelit je důležitá hlavně jeho přesná poloha, která je pravidelně kontrolována a upravována z pozemních stanic.<br/>Pro správný chod signálu se řeší nejen jeho zdroj na satelitu, ale i průchod atmosférou a jeho rušení.";
+task05_1_text = "Problémy a nepřesnosti satelitní navigace lze rozdělit do dvou skupin. První skupina souvisí s družicí a její trajektorií, druhá se signálem vyslaným ze satelitu směrem k přijímači.\nPro samotný satelit je důležitá hlavně jeho přesná poloha, která je pravidelně kontrolována a upravována z pozemních stanic.\nPro správný chod signálu se řeší nejen jeho zdroj na satelitu, ale i průchod atmosférou a jeho rušení.";
 
 task05_2_title = "Nárazové ovlivnění";
 task05_2_capt_a = "Vesmírná tělesa";

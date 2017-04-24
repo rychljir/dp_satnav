@@ -19,35 +19,43 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var homeButton: UIButton!
     @IBOutlet weak var chapterNameLabel: UILabel!
+    @IBOutlet weak var topLine: UIView!
+    @IBOutlet weak var bottomLine: UIView!
+    
+    var chapterColors = [UIColor]()
+    var chapterBackImage = [UIImage?]()
+    var chapterHomeButtonImage = [UIImage?]()
+    var chapterHomeButtonImagePressed = [UIImage?]()
+    var chapterNames = [String]()
     
     override func viewDidLoad() {
         slideScrollView.delegate = self
         var slides:[UIView]
+        
+        initColors()
+        initHomeButton()
+        initBackgrounds()
+        initChapterNames()
+        
+        setupForChapter(index: indexOfChapter)
+        
         switch indexOfChapter {
-        case 1:
+        case 0:
             slides = createSlidesForChapter1()
-            setupForChapter1()
-        case 2:
+        case 1:
             slides = createSlidesForChapter2()
-            setupForChapter2()
-        case 3:
+        case 2:
             slides = createSlidesForChapter3()
-            setupForChapter3()
-        case 4:
+        case 3:
             slides = createSlidesForChapter4()
-            setupForChapter4()
-        case 5:
+        case 4:
             slides = createSlidesForChapter5()
-            setupForChapter5()
-        case 6:
+        case 5:
             slides = createSlidesForChapter6()
-            setupForChapter6()
-        case 7:
+        case 6:
             slides = createSlidesForChapter7()
-            setupForChapter7()
         default:
             slides = createSlidesForChapter1()
-            setupForChapter1()
         }
         
         setupSlideScrollView(slides: slides)
@@ -57,7 +65,9 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         view.bringSubview(toFront: slideScrollView)
         view.bringSubview(toFront: pageControl)
         
-        //self.scrollToPage(page: 12, animated: true)
+        if(slides.count >= 9){
+            self.scrollToPage(page: 9, animated: true)
+        }
     }
     
     @IBAction func homeButtonClick(_ sender: UIButton) {
@@ -89,6 +99,53 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         frame.origin.x = frame.size.width * CGFloat(page);
         frame.origin.y = 0;
         self.slideScrollView.scrollRectToVisible(frame, animated: animated)
+    }
+    
+    func initColors(){
+        chapterColors.append(UIColor(red: 10/255, green: 113/255, blue: 242/255, alpha: 1))
+        chapterColors.append(UIColor(red: 255/255, green: 115/255, blue: 203/255, alpha: 1))
+        chapterColors.append(UIColor(red: 242/255, green: 0/255, blue: 42/255, alpha: 1))
+        chapterColors.append(UIColor(red: 106/255, green: 255/255, blue: 39/255, alpha: 1))
+        chapterColors.append(UIColor(red: 242/255, green: 56/255, blue: 0/255, alpha: 1))
+        chapterColors.append(UIColor(red: 242/255, green: 230/255, blue: 0/255, alpha: 1))
+        chapterColors.append(UIColor(red: 255/255, green: 143/255, blue: 13/255, alpha: 1))
+    }
+    
+    func initBackgrounds(){
+        chapterBackImage.append(UIImage(named: "chapter_bck_1") as UIImage?)
+        chapterBackImage.append(UIImage(named: "chapter_bck_2") as UIImage?)
+        chapterBackImage.append(UIImage(named: "chapter_bck_3") as UIImage?)
+        chapterBackImage.append(UIImage(named: "chapter_bck_4") as UIImage?)
+        chapterBackImage.append(UIImage(named: "chapter_bck_5") as UIImage?)
+        chapterBackImage.append(UIImage(named: "chapter_bck_6") as UIImage?)
+        chapterBackImage.append(UIImage(named: "chapter_bck_7") as UIImage?)
+    }
+    
+    func initHomeButton(){
+        chapterHomeButtonImage.append(UIImage(named: "base_home_1") as UIImage?)
+        chapterHomeButtonImagePressed.append(UIImage(named: "base_home_1_pressed") as UIImage?)
+        chapterHomeButtonImage.append(UIImage(named: "base_home_2") as UIImage?)
+        chapterHomeButtonImagePressed.append(UIImage(named: "base_home_2_pressed") as UIImage?)
+        chapterHomeButtonImage.append(UIImage(named: "base_home_3") as UIImage?)
+        chapterHomeButtonImagePressed.append(UIImage(named: "base_home_3_pressed") as UIImage?)
+        chapterHomeButtonImage.append(UIImage(named: "base_home_4") as UIImage?)
+        chapterHomeButtonImagePressed.append(UIImage(named: "base_home_4_pressed") as UIImage?)
+        chapterHomeButtonImage.append(UIImage(named: "base_home_5") as UIImage?)
+        chapterHomeButtonImagePressed.append(UIImage(named: "base_home_5_pressed") as UIImage?)
+        chapterHomeButtonImage.append(UIImage(named: "base_home_6") as UIImage?)
+        chapterHomeButtonImagePressed.append(UIImage(named: "base_home_6_pressed") as UIImage?)
+        chapterHomeButtonImage.append(UIImage(named: "base_home_7") as UIImage?)
+        chapterHomeButtonImagePressed.append(UIImage(named: "base_home_7_pressed") as UIImage?)
+    }
+    
+    func initChapterNames(){
+        chapterNames.append("title_chapter01")
+        chapterNames.append("title_chapter02")
+        chapterNames.append("title_chapter03")
+        chapterNames.append("title_chapter04")
+        chapterNames.append("title_chapter05")
+        chapterNames.append("title_chapter06")
+        chapterNames.append("title_chapter07")
     }
     
     func createSlidesForChapter1() -> [UIView]{
@@ -297,7 +354,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         let slide11: Task03_11_Slide = Bundle.main.loadNibNamed("Task03_11_Slide", owner: self, options: nil)?.first as! Task03_11_Slide
         slide11.initSlide(parent: self)
         
-        return [slide11, slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9]
+        return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide11]
     }
     
     func createSlidesForChapter4() -> [UIView]{
@@ -340,7 +397,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task04_2_title",comment:"title")
         desc = NSLocalizedString("task04_5_desc",comment:"desc")
         sub = NSLocalizedString("task04_5_header", comment: "subtitle")
-        header = NSLocalizedString("task04_5_header_2 ", comment: "header")
+        header = ""
         image = UIImage(named: "task04_5_img") as UIImage?
         slide5.initSlide(taskTitle: taskTitle, subtitle: sub, header: header, description: desc, imageCont: image!)
         
@@ -397,13 +454,13 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         let slide7: Task05_7_8_Slide = Bundle.main.loadNibNamed("Task05_7_8_Slide", owner: self, options: nil)?.first as! Task05_7_8_Slide
         title = NSLocalizedString("task05_7_title",comment:"title")
         text = NSLocalizedString("task05_7_text",comment:"desc")
-        image = UIImage(named: "task05_7_img") as UIImage?
+        image = UIImage(named: "task05_7_imgbig") as UIImage?
         slide7.initSlide(taskTitle: title, description: text, imageCont: image!)
         
         let slide8: Task05_7_8_Slide = Bundle.main.loadNibNamed("Task05_7_8_Slide", owner: self, options: nil)?.first as! Task05_7_8_Slide
         title = NSLocalizedString("task05_8_title",comment:"title")
         text = NSLocalizedString("task05_8_text",comment:"desc")
-        image = UIImage(named: "task05_8_img") as UIImage?
+        image = UIImage(named: "task05_8_imgbig") as UIImage?
         slide8.initSlide(taskTitle: title, description: text, imageCont: image!)
         
         return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8]
@@ -506,55 +563,17 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         
         return [slide1, slide2, slide3, slide4]
     }
+    
 
-    func setupForChapter1()  {
-        backgroundImage.image = UIImage(named: "chapter_bck_1") as UIImage?
-        homeButton.setImage(UIImage(named: "base_home_1") as UIImage?, for: .normal)
-        homeButton.setImage(UIImage(named: "base_home_1_pressed") as UIImage?, for: .highlighted)
-        chapterNameLabel.text = NSLocalizedString("title_chapter01",comment:"chapterTitle")
+    func setupForChapter(index: Int){
+        backgroundImage.image = chapterBackImage[index]
+        homeButton.setImage(chapterHomeButtonImage[index], for: .normal)
+        homeButton.setImage(chapterHomeButtonImagePressed[index], for: .highlighted)
+        chapterNameLabel.text = NSLocalizedString(chapterNames[index],comment:"chapterTitle")
+        topLine.backgroundColor = chapterColors[index]
+        bottomLine.backgroundColor = chapterColors[index]
     }
     
-    func setupForChapter2()  {
-        backgroundImage.image = UIImage(named: "chapter_bck_2") as UIImage?
-        homeButton.setImage(UIImage(named: "base_home_2") as UIImage?, for: .normal)
-        homeButton.setImage(UIImage(named: "base_home_2_pressed") as UIImage?, for: .highlighted)
-        chapterNameLabel.text = NSLocalizedString("title_chapter02",comment:"chapterTitle")
-    }
-    
-    func setupForChapter3()  {
-        backgroundImage.image = UIImage(named: "chapter_bck_3") as UIImage?
-        homeButton.setImage(UIImage(named: "base_home_3") as UIImage?, for: .normal)
-        homeButton.setImage(UIImage(named: "base_home_3_pressed") as UIImage?, for: .highlighted)
-        chapterNameLabel.text = NSLocalizedString("title_chapter03",comment:"chapterTitle")
-    }
-    
-    func setupForChapter4()  {
-        backgroundImage.image = UIImage(named: "chapter_bck_4") as UIImage?
-        homeButton.setImage(UIImage(named: "base_home_4") as UIImage?, for: .normal)
-        homeButton.setImage(UIImage(named: "base_home_4_pressed") as UIImage?, for: .highlighted)
-        chapterNameLabel.text = NSLocalizedString("title_chapter04",comment:"chapterTitle")
-    }
-    
-    func setupForChapter5()  {
-        backgroundImage.image = UIImage(named: "chapter_bck_5") as UIImage?
-        homeButton.setImage(UIImage(named: "base_home_5") as UIImage?, for: .normal)
-        homeButton.setImage(UIImage(named: "base_home_5_pressed") as UIImage?, for: .highlighted)
-        chapterNameLabel.text = NSLocalizedString("title_chapter05",comment:"chapterTitle")
-    }
-    
-    func setupForChapter6()  {
-        backgroundImage.image = UIImage(named: "chapter_bck_6") as UIImage?
-        homeButton.setImage(UIImage(named: "base_home_6") as UIImage?, for: .normal)
-        homeButton.setImage(UIImage(named: "base_home_6_pressed") as UIImage?, for: .highlighted)
-        chapterNameLabel.text = NSLocalizedString("title_chapter06",comment:"chapterTitle")
-    }
-    
-    func setupForChapter7()  {
-        backgroundImage.image = UIImage(named: "chapter_bck_7") as UIImage?
-        homeButton.setImage(UIImage(named: "base_home_7") as UIImage?, for: .normal)
-        homeButton.setImage(UIImage(named: "base_home_7_pressed") as UIImage?, for: .highlighted)
-        chapterNameLabel.text = NSLocalizedString("title_chapter07",comment:"chapterTitle")
-    }
     
     func showModal(image: UIImage, text: String){
         modalVC.setContent(image: image, text: text)
@@ -566,7 +585,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
 
 extension UIViewController {
     func showToast(message : String) {
-        let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 200, y: self.view.frame.size.height-100, width: 400, height: 70))
+        let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 200, y: self.view.frame.size.height-150, width: 400, height: 70))
         toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
         toastLabel.textColor = UIColor.white
         toastLabel.numberOfLines = 2

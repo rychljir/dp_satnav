@@ -34,3 +34,7 @@
 
 /* Class = "UILabel"; text = "Satelitní navigace >"; ObjectID = "z9s-un-8ky"; */
 "z9s-un-8ky.text" = "Satelitní navigace >";
+
+
+/* Class = "UIButton"; normalTitle = "Delete data"; ObjectID = "xdP-zj-Jti"; */
+"xdP-zj-Jti.normalTitle" = "Smaž data";

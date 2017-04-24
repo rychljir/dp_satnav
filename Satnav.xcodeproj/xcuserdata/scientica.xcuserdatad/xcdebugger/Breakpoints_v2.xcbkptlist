@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Satnav/ChapterViewController.swift"
-            timestampString = "513590051.484246"
+            timestampString = "514722243.799364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -73,44 +73,76 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Satnav/ViewController.swift"
-            timestampString = "512830622.861826"
+            filePath = "Satnav/SplitImageDescSlide.swift"
+            timestampString = "514486622.133483"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "btnChapter1(_:)"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "initSlide(taskTitle:description:imageCont:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Satnav/ApplicationState.swift"
+            timestampString = "514717391.63886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "deleteTaskStates()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Satnav/ApplicationState.swift"
+            timestampString = "514717236.900354"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "loadTaskStates()"
             landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Satnav.ViewController.btnChapter1 (__ObjC.UIButton) -&gt; ()"
+                  symbolName = "static Satnav.ApplicationState.loadTaskStates () -&gt; ()"
                   moduleName = "Satnav"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav/ViewController.swift"
-                  timestampString = "512571695.612211"
+                  urlString = "file:///Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav/ApplicationState.swift"
+                  timestampString = "514717639.741403"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "24">
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "80">
                </Location>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Satnav.ViewController.btnChapter1 (__ObjC.UIButton) -&gt; ()"
+                  symbolName = "static Satnav.ApplicationState.loadTaskStates () -&gt; ()"
                   moduleName = "Satnav"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav/ViewController.swift"
-                  timestampString = "512571695.613805"
+                  urlString = "file:///Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav/ApplicationState.swift"
+                  timestampString = "514717639.742966"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "692">
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "380">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -121,61 +153,45 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Satnav/ViewController.swift"
-            timestampString = "512830622.861826"
+            filePath = "Satnav/ApplicationState.swift"
+            timestampString = "514716768.79075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "btnChapter2(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Satnav.ViewController.btnChapter2 (__ObjC.UIButton) -&gt; ()"
-                  moduleName = "Satnav"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav/ViewController.swift"
-                  timestampString = "512571695.617144"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Satnav.ViewController.btnChapter2 (__ObjC.UIButton) -&gt; ()"
-                  moduleName = "Satnav"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav/ViewController.swift"
-                  timestampString = "512571695.61878"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "692">
-               </Location>
-            </Locations>
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ApplicationState"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Satnav/SplitImageDescSlide.swift"
-            timestampString = "514486622.133483"
+            filePath = "Satnav/ApplicationState.swift"
+            timestampString = "514717391.63886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "initSlide(taskTitle:description:imageCont:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "setTaskState(index:state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Satnav/ApplicationState.swift"
+            timestampString = "514717391.63886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getTaskState(index:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

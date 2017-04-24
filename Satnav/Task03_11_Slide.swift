@@ -11,6 +11,8 @@ import UIKit
 class Task03_11_Slide: UIView {
     var parent: UIViewController?
     
+    @IBOutlet weak var evaluate: UIButton!
+    
     var correct = [1, 2, 2, 1, 2, 1, 2]
     var answered = [0, 0, 0, 0, 0, 0, 0]
     var yesButtons: [UIButton] = []
@@ -76,6 +78,9 @@ class Task03_11_Slide: UIView {
     }
 
     @IBAction func evaluateClick(_ sender: UIButton) {
+        sender.backgroundColor = UIColor.black
+        
+        
         var mistakes = 0
         for i in 1 ... answered.count-1
         {
@@ -97,6 +102,9 @@ class Task03_11_Slide: UIView {
         }
     
     }
+    @IBAction func evaluateRelease(_ sender: UIButton) {
+        sender.backgroundColor = (parent as! ChapterViewController).chapterColors[2]
+    }
 
     func performClick(whichButton: Bool, index: Int){
         if(whichButton){
@@ -115,9 +123,14 @@ class Task03_11_Slide: UIView {
     }
     
     func taskDone(){
-        for i in 1 ... yesButtons.count-1{
+        evaluate.isEnabled = false
+        evaluate.layer.borderColor = UIColor.gray.cgColor
+        
+        for i in 0 ... yesButtons.count-1{
             yesButtons[i].isEnabled = false
             noButtons[i].isEnabled = false
+            yesButtons[i].layer.borderColor = UIColor.gray.cgColor
+            noButtons[i].layer.borderColor = UIColor.gray.cgColor
             if(correct[i] == 1){
                 yesButtons[i].backgroundColor = UIColor.red
                 noButtons[i].backgroundColor = UIColor.black
@@ -126,6 +139,7 @@ class Task03_11_Slide: UIView {
                 noButtons[i].backgroundColor = UIColor.red
             }
         }
+        ApplicationState.setTaskState(index: 2, state: true)
     }
     
     
@@ -134,5 +148,21 @@ class Task03_11_Slide: UIView {
         yesButtons = [yes1, yes2, yes3, yes4, yes5, yes6, yes7]
         noButtons = [no1, no2, no3, no4, no5, no6, no7]
         self.parent = chapterVc
+        
+        for i in 0 ... yesButtons.count-1{
+            yesButtons[i].layer.cornerRadius = 7.0;
+            yesButtons[i].layer.borderColor = (parent as! ChapterViewController).chapterColors[2].cgColor
+            yesButtons[i].layer.borderWidth = 1.2
+            noButtons[i].layer.cornerRadius = 7.0;
+            noButtons[i].layer.borderColor = (parent as! ChapterViewController).chapterColors[2].cgColor
+            noButtons[i].layer.borderWidth = 1.2
+        }
+        evaluate.layer.cornerRadius = 7.0;
+        evaluate.layer.borderColor = (parent as! ChapterViewController).chapterColors[2].cgColor
+        evaluate.layer.borderWidth = 1.2
+        
+        if(ApplicationState.getTaskState(index: 2)){
+            taskDone()
+        }
     }
 }

@@ -18,6 +18,7 @@ title_chapter08 = "Augmented reality";
 
 task_ok = "Correct!";
 task_fail = "That\'s not it! Try again.";
+erased_data = "Data were deleted.";
 
 task01_1_title = "Positioning ";
 task01_1_text = "When prehistoric man went hunting and found a mammoth, he needed to remember its position in order to come back with the whole band. Hunters used landmarks such as trees, lakes or mountains for positioning. ";

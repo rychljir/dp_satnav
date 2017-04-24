@@ -59,16 +59,24 @@ class Task02_13_Slide: UIView {
         let formattedFilledTask = "\(descText) \(taskValues[answerIndex])."
         let taskValue = stringStyler.convertText(inputText: formattedFilledTask)
         
+        buttons = [btn1, btn2, btn3, btn4, btn5]
+        
         taskTitle.text = title
         taskDesc.attributedText = taskValue
         
         self.parent = chapterVc
+        
+        if(ApplicationState.getTaskState(index: 1)){
+            taskDone()
+        }
     }
     
     func taskDone(){
         for btn in buttons {
             btn.isEnabled = false
         }
+        
+        ApplicationState.setTaskState(index: 1,state: true)
     }
 
 }
