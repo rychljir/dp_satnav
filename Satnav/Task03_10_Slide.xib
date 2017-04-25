@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Task03_10_Slide" customModule="Satnav" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="SBAS in the world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3r-Uy-w1L">
+                    <rect key="frame" x="20" y="20" width="256" height="42"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wA-JZ-ajt">
+                    <rect key="frame" x="20" y="82" width="984" height="149.5"/>
+                    <mutableString key="text">Besides EGNOS, there are several more SBAS-type systems in the world. They use geostationary satellites in combination with a system of ground stations and control centres. The best known systems are: WAAS, covering mainly the USA and North America; MSAS, covering Japan; GAGAN, covering India; and SDCM, covering Russia. There are also plans to introduce this type of system for South America and Africa.</mutableString>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iHD-T7-IZV">
+                    <rect key="frame" x="652" y="261.5" width="161" height="76"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="EGNOS Europe" backgroundImage="task03_10_btn1">
+                        <color key="titleColor" red="0.94901960784313721" green="0.0" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="rMM-B2-Fcg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="w9R-h9-T6Z">
+                    <rect key="frame" x="652" y="367.5" width="161" height="76"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="MSAS Japan" backgroundImage="task03_10_btn3">
+                        <color key="titleColor" red="0.94901960784313721" green="0.0" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="hD2-gn-brg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VgY-ZX-s6X">
+                    <rect key="frame" x="652" y="473.5" width="161" height="76"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="SDCM Russia" backgroundImage="task03_10_btn5">
+                        <color key="titleColor" red="0.94901960784313721" green="0.0" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="57H-Xi-aCO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Zmu-dY-DpK">
+                    <rect key="frame" x="843" y="261.5" width="161" height="76"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="WASS USA" backgroundImage="task03_10_btn2">
+                        <color key="titleColor" red="0.94901960784313721" green="0.0" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="m9H-ch-6I5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="P1D-in-5sE">
+                    <rect key="frame" x="843" y="367.5" width="161" height="76"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="GAGAN India" backgroundImage="task03_10_btn4">
+                        <color key="titleColor" red="0.94901960784313721" green="0.0" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="4u9-Iu-qs6"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="740" verticalCompressionResistancePriority="740" translatesAutoresizingMaskIntoConstraints="NO" id="2YM-jo-dnc">
+                    <rect key="frame" x="20" y="261.5" width="602" height="486.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_10_img" translatesAutoresizingMaskIntoConstraints="NO" id="1xP-mQ-LjD">
+                            <rect key="frame" x="0.0" y="0.0" width="602" height="486.5"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_10_1" translatesAutoresizingMaskIntoConstraints="NO" id="iTJ-L9-puS">
+                            <rect key="frame" x="0.0" y="0.0" width="602" height="486.5"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_10_2" translatesAutoresizingMaskIntoConstraints="NO" id="iQV-GJ-jil">
+                            <rect key="frame" x="0.0" y="0.0" width="602" height="486.5"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_10_3" translatesAutoresizingMaskIntoConstraints="NO" id="YZ6-XH-tAk">
+                            <rect key="frame" x="0.0" y="0.0" width="602" height="486.5"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_10_4" translatesAutoresizingMaskIntoConstraints="NO" id="DJ1-WT-IEC">
+                            <rect key="frame" x="0.0" y="0.0" width="602" height="486.5"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task03_10_5" translatesAutoresizingMaskIntoConstraints="NO" id="Hoq-z7-eVh">
+                            <rect key="frame" x="0.0" y="0.0" width="602" height="486.5"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="iTJ-L9-puS" firstAttribute="top" secondItem="2YM-jo-dnc" secondAttribute="top" id="3xy-xq-SFT"/>
+                        <constraint firstItem="1xP-mQ-LjD" firstAttribute="leading" secondItem="2YM-jo-dnc" secondAttribute="leading" id="67V-tL-Urq"/>
+                        <constraint firstAttribute="trailing" secondItem="DJ1-WT-IEC" secondAttribute="trailing" id="6qe-nd-wJ3"/>
+                        <constraint firstAttribute="bottom" secondItem="DJ1-WT-IEC" secondAttribute="bottom" id="9si-Oe-CCh"/>
+                        <constraint firstItem="Hoq-z7-eVh" firstAttribute="leading" secondItem="2YM-jo-dnc" secondAttribute="leading" id="F6X-c1-kuf"/>
+                        <constraint firstItem="YZ6-XH-tAk" firstAttribute="top" secondItem="2YM-jo-dnc" secondAttribute="top" id="GLx-as-vqH"/>
+                        <constraint firstItem="iTJ-L9-puS" firstAttribute="leading" secondItem="2YM-jo-dnc" secondAttribute="leading" id="KH2-aI-SBv"/>
+                        <constraint firstAttribute="trailing" secondItem="iTJ-L9-puS" secondAttribute="trailing" id="Kb5-dU-a48"/>
+                        <constraint firstAttribute="bottom" secondItem="iTJ-L9-puS" secondAttribute="bottom" id="LjZ-VO-O5u"/>
+                        <constraint firstAttribute="trailing" secondItem="1xP-mQ-LjD" secondAttribute="trailing" id="MlB-hz-691"/>
+                        <constraint firstItem="YZ6-XH-tAk" firstAttribute="leading" secondItem="2YM-jo-dnc" secondAttribute="leading" id="PC1-UV-3LV"/>
+                        <constraint firstAttribute="trailing" secondItem="iQV-GJ-jil" secondAttribute="trailing" id="S3z-Cm-rZs"/>
+                        <constraint firstItem="DJ1-WT-IEC" firstAttribute="top" secondItem="2YM-jo-dnc" secondAttribute="top" id="VdN-cw-ywq"/>
+                        <constraint firstAttribute="trailing" secondItem="YZ6-XH-tAk" secondAttribute="trailing" id="WAX-HH-cvg"/>
+                        <constraint firstItem="Hoq-z7-eVh" firstAttribute="top" secondItem="2YM-jo-dnc" secondAttribute="top" id="Z4w-NF-uzX"/>
+                        <constraint firstItem="iQV-GJ-jil" firstAttribute="leading" secondItem="2YM-jo-dnc" secondAttribute="leading" id="aXR-k7-gFI"/>
+                        <constraint firstAttribute="bottom" secondItem="iQV-GJ-jil" secondAttribute="bottom" id="avV-oM-hHs"/>
+                        <constraint firstItem="iQV-GJ-jil" firstAttribute="top" secondItem="2YM-jo-dnc" secondAttribute="top" id="cnU-xn-tG5"/>
+                        <constraint firstAttribute="bottom" secondItem="Hoq-z7-eVh" secondAttribute="bottom" id="gTT-Wm-hPM"/>
+                        <constraint firstAttribute="trailing" secondItem="Hoq-z7-eVh" secondAttribute="trailing" id="jzr-FS-Eil"/>
+                        <constraint firstItem="1xP-mQ-LjD" firstAttribute="top" secondItem="2YM-jo-dnc" secondAttribute="top" id="lqX-NQ-bXo"/>
+                        <constraint firstItem="DJ1-WT-IEC" firstAttribute="leading" secondItem="2YM-jo-dnc" secondAttribute="leading" id="nGj-cr-ki6"/>
+                        <constraint firstAttribute="bottom" secondItem="YZ6-XH-tAk" secondAttribute="bottom" id="wtE-1g-hI3"/>
+                        <constraint firstAttribute="bottom" secondItem="1xP-mQ-LjD" secondAttribute="bottom" id="x25-L4-XGz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2YM-jo-dnc" secondAttribute="bottom" constant="20" id="4Dh-zW-opz"/>
+                <constraint firstItem="7wA-JZ-ajt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="5ku-pb-OG3"/>
+                <constraint firstItem="Zmu-dY-DpK" firstAttribute="leading" secondItem="iHD-T7-IZV" secondAttribute="trailing" constant="30" id="E3P-If-H2V"/>
+                <constraint firstItem="P1D-in-5sE" firstAttribute="top" secondItem="Zmu-dY-DpK" secondAttribute="bottom" constant="30" id="G23-e7-Q7a"/>
+                <constraint firstItem="2YM-jo-dnc" firstAttribute="leading" secondItem="7wA-JZ-ajt" secondAttribute="leading" id="Ik4-Yc-4Wz"/>
+                <constraint firstItem="2YM-jo-dnc" firstAttribute="top" secondItem="iHD-T7-IZV" secondAttribute="top" id="Ivd-D5-wu9"/>
+                <constraint firstItem="7wA-JZ-ajt" firstAttribute="top" secondItem="u3r-Uy-w1L" secondAttribute="bottom" constant="20" id="MfU-UV-WFv"/>
+                <constraint firstItem="iHD-T7-IZV" firstAttribute="top" secondItem="Zmu-dY-DpK" secondAttribute="top" id="O9q-1q-LT9"/>
+                <constraint firstAttribute="trailing" secondItem="7wA-JZ-ajt" secondAttribute="trailing" constant="20" id="QSz-1w-EmW"/>
+                <constraint firstItem="w9R-h9-T6Z" firstAttribute="top" secondItem="iHD-T7-IZV" secondAttribute="bottom" constant="30" id="U3p-hV-AYC"/>
+                <constraint firstItem="w9R-h9-T6Z" firstAttribute="leading" secondItem="iHD-T7-IZV" secondAttribute="leading" id="XuS-A8-dfg"/>
+                <constraint firstItem="VgY-ZX-s6X" firstAttribute="top" secondItem="w9R-h9-T6Z" secondAttribute="bottom" constant="30" id="YQr-9V-5wQ"/>
+                <constraint firstItem="VgY-ZX-s6X" firstAttribute="leading" secondItem="w9R-h9-T6Z" secondAttribute="leading" id="kdh-Pc-A3y"/>
+                <constraint firstItem="P1D-in-5sE" firstAttribute="leading" secondItem="Zmu-dY-DpK" secondAttribute="leading" id="mAc-il-1jd"/>
+                <constraint firstAttribute="trailing" secondItem="Zmu-dY-DpK" secondAttribute="trailing" constant="20" id="qCn-Xg-ffK"/>
+                <constraint firstItem="iHD-T7-IZV" firstAttribute="leading" secondItem="2YM-jo-dnc" secondAttribute="trailing" constant="30" id="sJG-dW-bUV"/>
+                <constraint firstItem="u3r-Uy-w1L" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="wTZ-QL-tWZ"/>
+                <constraint firstItem="u3r-Uy-w1L" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="xCe-Ti-Qhx"/>
+                <constraint firstItem="Zmu-dY-DpK" firstAttribute="top" secondItem="7wA-JZ-ajt" secondAttribute="bottom" constant="30" id="zwF-7H-xKE"/>
+            </constraints>
+            <connections>
+                <outlet property="btn1" destination="iHD-T7-IZV" id="fsj-rr-Z8z"/>
+                <outlet property="btn2" destination="Zmu-dY-DpK" id="VCT-cm-AzY"/>
+                <outlet property="btn3" destination="w9R-h9-T6Z" id="Z9g-ti-DsU"/>
+                <outlet property="btn4" destination="P1D-in-5sE" id="lkz-Cb-NqU"/>
+                <outlet property="btn5" destination="VgY-ZX-s6X" id="mDE-CE-pSy"/>
+                <outlet property="img1" destination="iTJ-L9-puS" id="JkV-KZ-Gwq"/>
+                <outlet property="img2" destination="iQV-GJ-jil" id="pKp-5t-Xev"/>
+                <outlet property="img3" destination="YZ6-XH-tAk" id="Icg-ix-JVu"/>
+                <outlet property="img4" destination="DJ1-WT-IEC" id="586-N3-fkk"/>
+                <outlet property="img5" destination="Hoq-z7-eVh" id="O2y-ZS-i0Q"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="task03_10_1" width="587" height="289"/>
+        <image name="task03_10_2" width="587" height="289"/>
+        <image name="task03_10_3" width="587" height="289"/>
+        <image name="task03_10_4" width="587" height="289"/>
+        <image name="task03_10_5" width="587" height="289"/>
+        <image name="task03_10_btn1" width="161" height="76"/>
+        <image name="task03_10_btn2" width="161" height="76"/>
+        <image name="task03_10_btn3" width="161" height="76"/>
+        <image name="task03_10_btn4" width="161" height="76"/>
+        <image name="task03_10_btn5" width="161" height="76"/>
+        <image name="task03_10_img" width="587" height="289"/>
+    </resources>
+</document>

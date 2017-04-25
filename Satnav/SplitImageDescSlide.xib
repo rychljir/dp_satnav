@@ -28,7 +28,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwu-Sx-Nfw">
                     <rect key="frame" x="565.5" y="87" width="438.5" height="671"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZN-Kj-iBf">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZN-Kj-iBf">
                             <rect key="frame" x="10" y="10" width="418.5" height="30"/>
                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -39,6 +39,7 @@
                         <constraint firstItem="tZN-Kj-iBf" firstAttribute="leading" secondItem="dwu-Sx-Nfw" secondAttribute="leading" constant="10" id="Y2R-SG-6ar"/>
                         <constraint firstItem="tZN-Kj-iBf" firstAttribute="top" secondItem="dwu-Sx-Nfw" secondAttribute="top" constant="10" id="az6-fM-AHL"/>
                         <constraint firstAttribute="trailing" secondItem="tZN-Kj-iBf" secondAttribute="trailing" constant="10" id="coT-5j-vDm"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="tZN-Kj-iBf" secondAttribute="bottom" constant="10" id="pFw-eF-BB2"/>
                     </constraints>
                 </view>
             </subviews>
@@ -55,7 +56,7 @@
                 <constraint firstItem="dwu-Sx-Nfw" firstAttribute="bottom" secondItem="MTG-PB-EYZ" secondAttribute="bottom" id="yEG-dA-31m"/>
             </constraints>
             <connections>
-                <outlet property="desc" destination="tZN-Kj-iBf" id="tEL-Al-VoZ"/>
+                <outlet property="desc" destination="tZN-Kj-iBf" id="hcb-ID-wqr"/>
                 <outlet property="img" destination="MTG-PB-EYZ" id="nqL-2u-nlc"/>
                 <outlet property="taskTitle" destination="Cmo-9E-RYl" id="Qx5-Kj-FtE"/>
             </connections>

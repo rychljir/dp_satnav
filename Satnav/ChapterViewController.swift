@@ -66,7 +66,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         view.bringSubview(toFront: pageControl)
         
         if(slides.count >= 9){
-            self.scrollToPage(page: 9, animated: true)
+            //self.scrollToPage(page: 9, animated: true)
         }
     }
     
@@ -351,10 +351,13 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         text = NSLocalizedString("task03_9_text",comment:"desc")
         slide9.initSlide(taskTitle: title, description: text)
         
+        let slide10: Task03_10_Slide = Bundle.main.loadNibNamed("Task03_10_Slide", owner: self, options: nil)?.first as! Task03_10_Slide
+        slide10.initSlide(parent: self)
+        
         let slide11: Task03_11_Slide = Bundle.main.loadNibNamed("Task03_11_Slide", owner: self, options: nil)?.first as! Task03_11_Slide
         slide11.initSlide(parent: self)
         
-        return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide11]
+        return [slide10, slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide11]
     }
     
     func createSlidesForChapter4() -> [UIView]{
@@ -397,7 +400,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         taskTitle = NSLocalizedString("task04_2_title",comment:"title")
         desc = NSLocalizedString("task04_5_desc",comment:"desc")
         sub = NSLocalizedString("task04_5_header", comment: "subtitle")
-        header = ""
+        header = NSLocalizedString("task04_5_header_2", comment: "subtitle")
         image = UIImage(named: "task04_5_img") as UIImage?
         slide5.initSlide(taskTitle: taskTitle, subtitle: sub, header: header, description: desc, imageCont: image!)
         

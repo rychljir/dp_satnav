@@ -26,6 +26,8 @@
 		94483B821E92782800E9B642 /* Task03_11_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94483B811E92782800E9B642 /* Task03_11_Slide.swift */; };
 		9456B70A1E94ED6D0061C9F0 /* Task03_11_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9456B70C1E94ED6D0061C9F0 /* Task03_11_Slide.xib */; };
 		946CBD5D1E8E7D77006AFECD /* StringStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CBD5C1E8E7D77006AFECD /* StringStyler.swift */; };
+		9470AA691EAF3CAF00309707 /* Task03_10_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9470AA681EAF3CAF00309707 /* Task03_10_Slide.xib */; };
+		9470AA6B1EAF3CC400309707 /* Task03_10_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */; };
 		94724E601E8ABE770015BCAE /* Task01_5_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94724E5F1E8ABE770015BCAE /* Task01_5_Slide.xib */; };
 		94724E621E8ABE8D0015BCAE /* Task01_5_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94724E611E8ABE8D0015BCAE /* Task01_5_Slide.swift */; };
 		94724E691E8AC0A80015BCAE /* task01_5_img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94724E631E8AC0A80015BCAE /* task01_5_img1.png */; };
@@ -347,6 +349,8 @@
 		9456B70E1E94ED700061C9F0 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Task03_11_Slide.strings; sourceTree = "<group>"; };
 		94632CBE1E853DA500ADB27A /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		946CBD5C1E8E7D77006AFECD /* StringStyler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringStyler.swift; sourceTree = "<group>"; };
+		9470AA681EAF3CAF00309707 /* Task03_10_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task03_10_Slide.xib; sourceTree = "<group>"; };
+		9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task03_10_Slide.swift; sourceTree = "<group>"; };
 		94724E5F1E8ABE770015BCAE /* Task01_5_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task01_5_Slide.xib; sourceTree = "<group>"; };
 		94724E611E8ABE8D0015BCAE /* Task01_5_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task01_5_Slide.swift; sourceTree = "<group>"; };
 		94724E631E8AC0A80015BCAE /* task01_5_img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task01_5_img1.png; path = res/task01_5_img1.png; sourceTree = "<group>"; };
@@ -680,6 +684,8 @@
 				94D8E9771E9148A600BC7B9D /* Task03_8_Slide.swift */,
 				94D8E97B1E9150C600BC7B9D /* Task03_9_Slide.xib */,
 				94D8E97D1E9150DA00BC7B9D /* Task03_9_Slide.swift */,
+				9470AA681EAF3CAF00309707 /* Task03_10_Slide.xib */,
+				9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */,
 				9456B70C1E94ED6D0061C9F0 /* Task03_11_Slide.xib */,
 				94483B811E92782800E9B642 /* Task03_11_Slide.swift */,
 				947F50341E968E1400589C8A /* Task05_7_8_Slide.xib */,
@@ -1367,6 +1373,7 @@
 				944724FA1E86675C00CF284D /* task01_4_img1.png in Resources */,
 				948DDB051E85943300416703 /* task07_3_large.png in Resources */,
 				948DDAA41E85943300416703 /* task02_4_img.png in Resources */,
+				9470AA691EAF3CAF00309707 /* Task03_10_Slide.xib in Resources */,
 				948DDADA1E85943300416703 /* task05_2_b_full.png in Resources */,
 				948DDAD41E85943300416703 /* task04_7_b_bck.png in Resources */,
 				948DDAAA1E85943300416703 /* task03_10_1.png in Resources */,
@@ -1454,6 +1461,7 @@
 				94E810311E77E1F900C17766 /* AppDelegate.swift in Sources */,
 				9485F0E21E8D26A400CC88AC /* SplitImageDescSlide.swift in Sources */,
 				94483B821E92782800E9B642 /* Task03_11_Slide.swift in Sources */,
+				9470AA6B1EAF3CC400309707 /* Task03_10_Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

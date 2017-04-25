@@ -39,7 +39,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="bxM-DO-hOs"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="YES">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -57,7 +57,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="Ink-HH-Uou"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="NO">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -89,7 +89,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="qWo-sg-YFg"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="YES">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,7 +107,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="pkD-wh-hgQ"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="NO">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -139,7 +139,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="4hV-YX-9Og"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="YES">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -157,7 +157,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="x3X-Uz-DSV"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="NO">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -189,7 +189,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="UYu-g3-bcE"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="YES">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -207,7 +207,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="LAP-t0-aIU"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="NO">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -239,7 +239,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="XvX-MX-FeJ"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="YES">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -257,7 +257,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="Dth-wL-DQD"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="NO">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -289,7 +289,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="nyM-8p-n3T"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="YES">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -307,7 +307,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="Vvy-Yb-c2T"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="NO">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -339,7 +339,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="FBu-jB-ag2"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="YES">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -357,7 +357,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="zYI-yC-VjX"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                     <color key="tintColor" red="1" green="0.23165954459999999" blue="0.28289992730000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="NO">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

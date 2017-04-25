@@ -44,7 +44,7 @@ task01_5_titleText2 = "Sonar ";
 task01_5_text2 = "Unlike most of the other methods, which use electromagnetic radiation in some way or other, the sonar works with ultrasound. Sonars are mostly used in fishing and, more generally, to locate objects under water. Their accuracy ranges from metres to centimetres. ";
 task01_5_titleText3 = "Satellites ";
 task01_5_text3 = "The GNSS system is the most advanced positioning method, its accuracy ranging from hundreds of metres to several centimetres. ";
-task01_5_titleText3 = "Surveying ";
+task01_5_titleText4 = "Surveying ";
 task01_5_text4 = "Surveyors are able to provide very precise distance measurements. Using their equipment, mostly laser instruments, they are able to measure buildings to within several decimetres or even centimetres. ";
 task01_5_titleText5 = "Mobile networks ";
 task01_5_text5 = "It is possible to determine the position of a mobile phone from the position of signal transmitters. This method is used to locate car accident sites or to search for missing persons. The accuracy of this method is in the order of hundreds, sometimes tens of metres. ";
@@ -84,7 +84,7 @@ task02_4_title = "Positioning principles";
 task02_4_desc = "So a satellite sends information about its position and the time the signal was sent, along with some additional information, towards the Earth\'s surface. The information is received by a GNSS receiver, which records the time the signal was received, the time it was sent by the satellite, and the position of the satellite at the moment the signal was sent.\nUnlike satellites, receivers do not measure time with sufficient accuracy (very accurate clocks such as those carried by satellites are too expensive and would dramatically increase the cost of the receiver). As a result, the time of reception is not determined accurately.\n\n<i>t</i> <small><sub>t</sub></small> ...the time a signal is sent from the satellite\n<i>t</i> <small><sub>r</sub></small> ...the time a signal is received by the receiver";
 
 task02_5_title = "Positioning principles";
-task02_5_desc = "The receiver then determines the time difference Δ<i>t</i> between the time a signal is received (<i>t</i><small><sub>r</sub></small>) and the time it is sent from the satellite (<i>t</i><small><sub>t</sub></small>). This difference is very small: between 70 and 100 ms.\n\nt<small><sub>t</sup> ...the time a signal is sent from the satellite\nt<small><sub>r</sub></small> ...the time a signal is received by the receiver\nΔt ...the time difference between the time a signal is sent from the satellite and the time it is received by the receiver";
+task02_5_desc = "The receiver then determines the time difference Δ<i>t</i> between the time a signal is received (<i>t</i><small><sub>r</sub></small>) and the time it is sent from the satellite (<i>t</i><small><sub>t</sub></small>). This difference is very small: between 70 and 100 ms.\n\nt<small><sub>t</sub></small>...the time a signal is sent from the satellite\nt<small><sub>r</sub></small>...the time a signal is received by the receiver\nΔt...the time difference between the time a signal is sent from the satellite and the time it is received by the receiver";
 
 task02_6_title = "Positioning principles";
 task02_6_desc = "Signals from satellites are propagated in the form of electromagnetic waves (i.e. they have the speed of light*).\nBy knowing the difference between the time a signal was sent from the satellite and the time it was received, the receiver is able to determine its own distance from each satellite. Since receiver clocks are several times less accurate than satellite clocks, even the difference Δ<i>t</i> cannot be determined with accuracy. Thus we don\'t know the exact distance of the receiver form the satellite; we only know an interval of distance in which the receiver is located. Ideally, a satellite signal is propagated in a uniform linear motion.\n\n*More detailed information is provided in the chapter about GNSS problems.";
@@ -201,41 +201,35 @@ task03_12_q6 = "GPS has the highest number of satellites.";
 task03_12_q7 = "The higher above the Earth\'s surface a satellite orbits,\nthe higher the speed of the satellite. ";
 
 task04_1_title = "Galileo GNSS";
-task04_1_desc = "The idea to create a European GNSS system dates back to the 1990s. The aim was to build a system independent of the then available military systems&#x2013; GPS and GLONASS, The first experimental Galileo satellite – GIOVE A – was launched in 2005. Galileo is a joint project of the European Space Agency and the European Commission. Its operation is currently the responsibility of the European Global Navigation Satellite Systems Agency (GSA). Unlike the other GNSS systems, Galileo is a civilian project.";
+task04_1_desc = "The idea to create a European GNSS system dates back to the 1990s. The aim was to build a system independent of the then available military systems - GPS and GLONASS, The first experimental Galileo satellite – GIOVE A – was launched in 2005. Galileo is a joint project of the European Space Agency and the European Commission. Its operation is currently the responsibility of the European Global Navigation Satellite Systems Agency (GSA). Unlike the other GNSS systems, Galileo is a civilian project.";
 
 task04_2_title = "Four levels of Galileo";
 task04_2_header = "Open Service (OS)";
 task04_2_header_2 = "";
 task04_2_desc = "This is the basic positioning service, available to all Galileo users. The service is free of charge, so that he broadest possible spectrum of users can benefit from it.";
 
-task04_3_header = "Služba &#8222;kritická&#8220; z hlediska bezpečnosti";
-task04_3_header_2 = " &#x2013; Safety of Life Service (SoL)";
-task04_3_header_bottom = "Služba záchrany života";
-task04_3_header_2_bottom = "Safety of Life Service\n(SoL)";
-task04_3_desc = "Velmi důležitou službou Galilea je také jeho zapojení do služeb, kde hrozí ohrožení lidských životů. Takovým odvětvím je například letecká doprava, pro kterou bude využita vylepšená verze Základní služby.";
+task04_3_header = "Commercial Service (CS)";
+task04_3_header_2 = "";
+task04_3_desc = "If a user needs more accurate positioning (e.g. for surveying), they can use Galileo\'s Commercial Service. This paid service provides better positioning accuracy by giving the user access to two more signals from each satellite (encrypted for the common user).";
 
-task04_4_header = "Commercial Service (CS)";
+task04_4_header = "Search and Rescue Service (SAR)";
 task04_4_header_2 = "";
-task04_4_desc = "If a user needs more accurate positioning (e.g. for surveying), they can use Galileo\'s Commercial Service. This paid service provides better positioning accuracy by giving the user access to two more signals from each satellite (encrypted for the common user).";
+task04_4_desc = "The purpose of Galileo\'s SAR service is to help find missing persons, aircraft, ships and cars. This service makes it possible to receive distress signals from the Earth\'s surface and transfer the coordinates to search and rescue centres. The service will have the benefit of two-way communication.";
 
-task04_5_header = "Search and Rescue Service (SAR)";
+task04_5_header = "Public Regulated Service (PRS)";
 task04_5_header_2 = "";
-task04_5_desc = "The purpose of Galileo\'s SAR service is to help find missing persons, aircraft, ships and cars. This service makes it possible to receive distress signals from the Earth\'s surface and transfer the coordinates to search and rescue centres. The service will have the benefit of two-way communication.";
+task04_5_desc = "This service is primarily intended for government institutions responsible for security. For security reasons, the service is encrypted and protected against disturbances. It can be used by security forces and security agencies, e.g. for transporting important persons, money or valuable objects.";
 
-task04_6_header = "Public Regulated Service (PRS)";
-task04_6_header_2 = "";
-task04_6_desc = "This service is primarily intended for government institutions responsible for security. For security reasons, the service is encrypted and protected against disturbances. It can be used by security forces and security agencies, e.g. for transporting important persons, money or valuable objects.";
-
-task04_7_title = "@string/title_test";
-task04_7_desc = "Match each of the Galileo services\nwith an example of its use.";
-task04_7_a2 = "Public Regulated Service";
-task04_7_b2 = "Following and protection\nof prominent politicians";
-task04_7_a3 = "Commercial Service";
-task04_7_b3 = "Paid service providing\nhigher accuracy";
-task04_7_a4 = "Search and Rescue Service";
-task04_7_b4 = "Rescue of lost people";
-task04_7_a5 = "Open Service";
-task04_7_b5 = "Available to all common users";
+task04_6_title = "@string/title_test";
+task04_6_desc = "Match each of the Galileo services\nwith an example of its use.";
+task04_6_a2 = "Public Regulated Service";
+task04_6_b2 = "Following and protection\nof prominent politicians";
+task04_6_a3 = "Commercial Service";
+task04_6_b3 = "Paid service providing\nhigher accuracy";
+task04_6_a4 = "Search and Rescue Service";
+task04_6_b4 = "Rescue of lost people";
+task04_6_a5 = "Open Service";
+task04_6_b5 = "Available to all common users";
 
 
 task05_1_title = "What affects the performance of GNSS systems?";
@@ -297,13 +291,13 @@ task06_1_desc_b = "Today, many drivers cannot imagine driving without using navi
 task06_1_desc_c = "eCall is a system which is installed in some of the new cars. This system sends a signal to the rescue services with information about the position of the vehicle in case of an accident. ";
 
 task06_2_title = "Railway traffic";
-task06_2_desc = "GNSS is an important element of providing safety of railway traffic. Due to the fact that most accidents are caused by the human factor, systems get equipped with automatic control. If two trains enter the same track and there is risk of an accident, the system will generate an automatic stop signal. Another practical element is position tracking which provides information about train delay or enables tracking of carried goods.";
+task06_2_text = "GNSS is an important element of providing safety of railway traffic. Due to the fact that most accidents are caused by the human factor, systems get equipped with automatic control. If two trains enter the same track and there is risk of an accident, the system will generate an automatic stop signal. Another practical element is position tracking which provides information about train delay or enables tracking of carried goods.";
 
 task06_3_title = "Air traffic";
-task06_3_desc = "Providing safety is the main role of GNSS in air traffic. Aircraft rely on GNSS to establish their exact position (geographic coordinates and altitude). In combination with an ATC radar it is possible to provide automatic navigation for landing. Certain events in air traffic were one of the main reasons why GPS signal was released for civil use. After a civil passenger aircraft was shot down in 1983, President Ronald Reagan gave orders to allow access to the system.";
+task06_3_text = "Providing safety is the main role of GNSS in air traffic. Aircraft rely on GNSS to establish their exact position (geographic coordinates and altitude). In combination with an ATC radar it is possible to provide automatic navigation for landing. Certain events in air traffic were one of the main reasons why GPS signal was released for civil use. After a civil passenger aircraft was shot down in 1983, President Ronald Reagan gave orders to allow access to the system.";
 
 task06_4_title = "Maritime traffic";
-task06_4_desc = "Maritime traffic uses its own systems for vessel identification (AIS - Automatic Identification Systems) and for traffic management (Vessel Traffic Management Systems). GNSS is also used for tracking cargo or fishing vessels. GNSS is also used in rescue operations as it allows rapid location of a vessel in the open sea.";
+task06_4_text = "Maritime traffic uses its own systems for vessel identification (AIS - Automatic Identification Systems) and for traffic management (Vessel Traffic Management Systems). GNSS is also used for tracking cargo or fishing vessels. GNSS is also used in rescue operations as it allows rapid location of a vessel in the open sea.";
 
 task06_5_title = "Hiking";
 task06_5_capt_a = "Geocaching ";

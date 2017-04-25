@@ -32,7 +32,7 @@
 /* Class = "UIButton"; normalTitle = "Global satellite systems (GNSS)"; ObjectID = "wD1-ME-79R"; */
 "wD1-ME-79R.normalTitle" = "Globální navigační systémy";
 
-/* Class = "UILabel"; text = "Satelitní navigace >"; ObjectID = "z9s-un-8ky"; */
+/* Class = "UILabel"; text = "Satellite navigation >"; ObjectID = "z9s-un-8ky"; */
 "z9s-un-8ky.text" = "Satelitní navigace >";
 
 
