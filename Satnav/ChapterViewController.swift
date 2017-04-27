@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import DragDropUI
 
-class ChapterViewController: UIViewController, UIScrollViewDelegate  {
+class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDelegate {
 
     var indexOfChapter = 0
     
@@ -405,7 +406,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate  {
         slide5.initSlide(taskTitle: taskTitle, subtitle: sub, header: header, description: desc, imageCont: image!)
         
         let slide6: DragDropImageSlide = Bundle.main.loadNibNamed("Task04_6_Slide", owner: self, options: nil)?.first as! DragDropImageSlide
-        slide6.initSlide()
+        slide6.initSlide(parent: self)
         
         return [slide6, slide1, slide2, slide3, slide4, slide5 ]
     }
@@ -586,6 +587,28 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate  {
         modalVC.modalTransitionStyle = UIModalTransitionStyle.partialCurl
         modalVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
         present(modalVC, animated: true, completion: nil)
+    }
+    
+    
+    // MARK: DDViewDelegate
+    func viewWasDragged(view: UIView, draggedPoint: CGPoint) {
+       // print("Dragged Point : ", draggedPoint)
+        
+    }
+    
+    func viewWasDropped(view droppedView: UIView, droppedPoint: CGPoint) {
+        let droppedView = droppedView as! DDView
+        
+        let parentView = droppedView.superview!
+        
+        let horizontalConstraint = NSLayoutConstraint(item: droppedView, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: parentView, attribute: NSLayoutAttribute.leading, multiplier: 1, constant: droppedView.center.x)
+        let verticalConstraint = NSLayoutConstraint(item: droppedView, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: parentView, attribute: NSLayoutAttribute.top, multiplier: 1, constant: droppedView.center.y)
+        droppedView.translatesAutoresizingMaskIntoConstraints = false
+        droppedView.removeConstraintsWithoutDescendants()
+        parentView.addConstraint(horizontalConstraint)
+        parentView.addConstraint(verticalConstraint)
+        
+        print("Dropped Point : ", droppedPoint)
     }
 }
 

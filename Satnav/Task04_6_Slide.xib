@@ -36,14 +36,11 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iaw-2V-TgL">
-                    <rect key="frame" x="20" y="105" width="984" height="333"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GeL-Fu-CuY">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_sample" translatesAutoresizingMaskIntoConstraints="NO" id="QLV-zG-jd5">
-                            <rect key="frame" x="0.0" y="0.0" width="984" height="333"/>
-                        </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mev-EH-Mlf" userLabel="label1">
-                            <rect key="frame" x="0.0" y="0.0" width="450" height="60"/>
+                            <rect key="frame" x="20" y="130" width="450" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_a_bck" translatesAutoresizingMaskIntoConstraints="NO" id="qZX-tn-VKV">
                                     <rect key="frame" x="0.0" y="0.0" width="450" height="60"/>
@@ -65,7 +62,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1u5-47-Xdf" userLabel="label2">
-                            <rect key="frame" x="0.0" y="80" width="450" height="60"/>
+                            <rect key="frame" x="20" y="210" width="450" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_a_bck" translatesAutoresizingMaskIntoConstraints="NO" id="Coa-nV-hOE">
                                     <rect key="frame" x="0.0" y="0.0" width="450" height="60"/>
@@ -87,7 +84,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IPt-I6-dbt" userLabel="label3">
-                            <rect key="frame" x="0.0" y="160" width="450" height="60"/>
+                            <rect key="frame" x="20" y="290" width="450" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_a_bck" translatesAutoresizingMaskIntoConstraints="NO" id="gab-P9-mnQ">
                                     <rect key="frame" x="0.0" y="0.0" width="450" height="60"/>
@@ -109,7 +106,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEJ-UL-qa5" userLabel="label4">
-                            <rect key="frame" x="0.0" y="240" width="450" height="60"/>
+                            <rect key="frame" x="20" y="370" width="450" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_a_bck" translatesAutoresizingMaskIntoConstraints="NO" id="vXf-El-PFK">
                                     <rect key="frame" x="0.0" y="0.0" width="450" height="60"/>
@@ -130,8 +127,8 @@
                                 <constraint firstItem="0bf-lV-bQF" firstAttribute="centerY" secondItem="vXf-El-PFK" secondAttribute="centerY" id="kAT-qd-IvV"/>
                             </constraints>
                         </view>
-                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gqF-8E-sdK" userLabel="dd1" customClass="DDButton" customModule="DragDropUI">
-                            <rect key="frame" x="549" y="0.0" width="435" height="60"/>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gqF-8E-sdK" userLabel="dd1" customClass="DDView" customModule="DragDropUI">
+                            <rect key="frame" x="569" y="130" width="435" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_b_bck" translatesAutoresizingMaskIntoConstraints="NO" id="58b-jq-2a9">
                                     <rect key="frame" x="0.0" y="0.0" width="435" height="60"/>
@@ -152,8 +149,8 @@
                                 <constraint firstAttribute="height" secondItem="58b-jq-2a9" secondAttribute="height" id="jBX-vf-jna"/>
                             </constraints>
                         </view>
-                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPD-eT-nns" userLabel="dd2" customClass="DDButton" customModule="DragDropUI">
-                            <rect key="frame" x="549" y="80" width="435" height="60"/>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPD-eT-nns" userLabel="dd2" customClass="DDView" customModule="DragDropUI">
+                            <rect key="frame" x="569" y="210" width="435" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_b_bck" translatesAutoresizingMaskIntoConstraints="NO" id="KYH-qf-bb0">
                                     <rect key="frame" x="0.0" y="0.0" width="435" height="60"/>
@@ -174,8 +171,8 @@
                                 <constraint firstItem="KYH-qf-bb0" firstAttribute="leading" secondItem="mPD-eT-nns" secondAttribute="leading" id="ifD-au-gIb"/>
                             </constraints>
                         </view>
-                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyE-Nn-2tv" userLabel="dd3" customClass="DDButton" customModule="DragDropUI">
-                            <rect key="frame" x="549" y="160" width="435" height="60"/>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyE-Nn-2tv" userLabel="dd3" customClass="DDView" customModule="DragDropUI">
+                            <rect key="frame" x="569" y="290" width="435" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_b_bck" translatesAutoresizingMaskIntoConstraints="NO" id="WPI-MV-3Es">
                                     <rect key="frame" x="0.0" y="0.0" width="435" height="60"/>
@@ -196,8 +193,8 @@
                                 <constraint firstItem="WPI-MV-3Es" firstAttribute="leading" secondItem="HyE-Nn-2tv" secondAttribute="leading" id="xzj-AY-jRG"/>
                             </constraints>
                         </view>
-                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTr-PO-ykQ" userLabel="dd4" customClass="DDButton" customModule="DragDropUI">
-                            <rect key="frame" x="549" y="240" width="435" height="60"/>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTr-PO-ykQ" userLabel="dd4" customClass="DDView" customModule="DragDropUI">
+                            <rect key="frame" x="569" y="370" width="435" height="60"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task04_7_b_bck" translatesAutoresizingMaskIntoConstraints="NO" id="Ahb-hy-gDF">
                                     <rect key="frame" x="0.0" y="0.0" width="435" height="60"/>
@@ -220,45 +217,41 @@
                         </view>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="fTr-PO-ykQ" firstAttribute="trailing" secondItem="HyE-Nn-2tv" secondAttribute="trailing" id="0NI-Jg-oTG"/>
-                        <constraint firstItem="mPD-eT-nns" firstAttribute="top" secondItem="gqF-8E-sdK" secondAttribute="bottom" constant="20" id="3MS-D3-9tf"/>
-                        <constraint firstItem="fTr-PO-ykQ" firstAttribute="top" secondItem="FEJ-UL-qa5" secondAttribute="top" id="6kA-V5-BVc"/>
-                        <constraint firstItem="QLV-zG-jd5" firstAttribute="top" secondItem="Iaw-2V-TgL" secondAttribute="top" id="I5A-oi-J4b"/>
-                        <constraint firstItem="Mev-EH-Mlf" firstAttribute="top" secondItem="Iaw-2V-TgL" secondAttribute="top" id="NSq-oG-xeD"/>
-                        <constraint firstItem="HyE-Nn-2tv" firstAttribute="trailing" secondItem="mPD-eT-nns" secondAttribute="trailing" id="Nyd-2H-JRR"/>
-                        <constraint firstAttribute="trailing" secondItem="QLV-zG-jd5" secondAttribute="trailing" id="P7d-fQ-NJI"/>
-                        <constraint firstItem="IPt-I6-dbt" firstAttribute="leading" secondItem="1u5-47-Xdf" secondAttribute="leading" id="VS8-vO-I0u"/>
-                        <constraint firstItem="IPt-I6-dbt" firstAttribute="top" secondItem="1u5-47-Xdf" secondAttribute="bottom" constant="20" id="WXW-hj-xWE"/>
-                        <constraint firstItem="FEJ-UL-qa5" firstAttribute="top" secondItem="IPt-I6-dbt" secondAttribute="bottom" constant="20" id="Xgy-GU-eXu"/>
-                        <constraint firstItem="1u5-47-Xdf" firstAttribute="leading" secondItem="Mev-EH-Mlf" secondAttribute="leading" id="Z5J-sG-1m5"/>
-                        <constraint firstItem="gqF-8E-sdK" firstAttribute="top" secondItem="Iaw-2V-TgL" secondAttribute="top" id="amM-9b-DL9"/>
-                        <constraint firstItem="Mev-EH-Mlf" firstAttribute="leading" secondItem="Iaw-2V-TgL" secondAttribute="leading" id="e7g-cb-l02"/>
-                        <constraint firstItem="HyE-Nn-2tv" firstAttribute="top" secondItem="mPD-eT-nns" secondAttribute="bottom" constant="20" id="es4-CY-2pB"/>
-                        <constraint firstItem="mPD-eT-nns" firstAttribute="trailing" secondItem="gqF-8E-sdK" secondAttribute="trailing" id="fSm-SI-bTe"/>
-                        <constraint firstAttribute="height" secondItem="QLV-zG-jd5" secondAttribute="height" id="oai-Yf-GRe"/>
-                        <constraint firstItem="FEJ-UL-qa5" firstAttribute="leading" secondItem="IPt-I6-dbt" secondAttribute="leading" id="paq-AI-w8a"/>
-                        <constraint firstItem="1u5-47-Xdf" firstAttribute="top" secondItem="Mev-EH-Mlf" secondAttribute="bottom" constant="20" id="svF-ln-c6x"/>
-                        <constraint firstItem="QLV-zG-jd5" firstAttribute="leading" secondItem="Iaw-2V-TgL" secondAttribute="leading" id="yrA-8I-BIi"/>
-                        <constraint firstAttribute="trailing" secondItem="gqF-8E-sdK" secondAttribute="trailing" id="zvW-DM-lJ2"/>
+                        <constraint firstItem="fTr-PO-ykQ" firstAttribute="trailing" secondItem="HyE-Nn-2tv" secondAttribute="trailing" id="1qc-5z-erU"/>
+                        <constraint firstItem="FEJ-UL-qa5" firstAttribute="leading" secondItem="IPt-I6-dbt" secondAttribute="leading" id="33U-lI-MBn"/>
+                        <constraint firstItem="fTr-PO-ykQ" firstAttribute="top" secondItem="HyE-Nn-2tv" secondAttribute="bottom" constant="20" id="90y-nK-PV7"/>
+                        <constraint firstItem="mPD-eT-nns" firstAttribute="trailing" secondItem="gqF-8E-sdK" secondAttribute="trailing" id="9nc-6I-Lci"/>
+                        <constraint firstItem="Mev-EH-Mlf" firstAttribute="top" secondItem="GeL-Fu-CuY" secondAttribute="top" constant="130" id="OJi-Jk-IT4"/>
+                        <constraint firstItem="mPD-eT-nns" firstAttribute="top" secondItem="gqF-8E-sdK" secondAttribute="bottom" constant="20" id="Ohg-jI-lUM"/>
+                        <constraint firstAttribute="trailing" secondItem="gqF-8E-sdK" secondAttribute="trailing" constant="20" id="aDn-ko-2cr"/>
+                        <constraint firstItem="HyE-Nn-2tv" firstAttribute="top" secondItem="mPD-eT-nns" secondAttribute="bottom" constant="20" id="cdV-tl-sTK"/>
+                        <constraint firstItem="gqF-8E-sdK" firstAttribute="top" secondItem="Mev-EH-Mlf" secondAttribute="top" id="dGn-0a-pxk"/>
+                        <constraint firstItem="IPt-I6-dbt" firstAttribute="leading" secondItem="1u5-47-Xdf" secondAttribute="leading" id="dg2-U0-Gae"/>
+                        <constraint firstItem="1u5-47-Xdf" firstAttribute="top" secondItem="Mev-EH-Mlf" secondAttribute="bottom" constant="20" id="h9u-nx-Qvk"/>
+                        <constraint firstItem="Mev-EH-Mlf" firstAttribute="leading" secondItem="GeL-Fu-CuY" secondAttribute="leading" constant="20" id="nxj-mt-oBE"/>
+                        <constraint firstItem="HyE-Nn-2tv" firstAttribute="trailing" secondItem="mPD-eT-nns" secondAttribute="trailing" id="oAN-hq-kJm"/>
+                        <constraint firstItem="FEJ-UL-qa5" firstAttribute="top" secondItem="IPt-I6-dbt" secondAttribute="bottom" constant="20" id="oB8-c7-Fuq"/>
+                        <constraint firstItem="IPt-I6-dbt" firstAttribute="top" secondItem="1u5-47-Xdf" secondAttribute="bottom" constant="20" id="oK1-2r-Wdu"/>
+                        <constraint firstItem="1u5-47-Xdf" firstAttribute="leading" secondItem="Mev-EH-Mlf" secondAttribute="leading" id="uPy-hv-ayn"/>
                     </constraints>
                 </view>
             </subviews>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="spw-L9-AP8" secondAttribute="trailing" constant="20" id="4uL-jb-2aH"/>
-                <constraint firstItem="Iaw-2V-TgL" firstAttribute="top" secondItem="vQD-B7-IT8" secondAttribute="bottom" constant="30" id="5dN-Yh-muv"/>
                 <constraint firstItem="spw-L9-AP8" firstAttribute="leading" secondItem="vQD-B7-IT8" secondAttribute="trailing" constant="20" id="FBb-0b-MT1"/>
-                <constraint firstAttribute="trailing" secondItem="Iaw-2V-TgL" secondAttribute="trailing" constant="20" id="LO0-zw-W9E"/>
+                <constraint firstAttribute="bottom" secondItem="GeL-Fu-CuY" secondAttribute="bottom" id="GHl-RD-PAc"/>
                 <constraint firstItem="spw-L9-AP8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="NyC-ye-1ir"/>
                 <constraint firstItem="vQD-B7-IT8" firstAttribute="centerY" secondItem="spw-L9-AP8" secondAttribute="centerY" id="ceh-6c-WHb"/>
-                <constraint firstItem="Iaw-2V-TgL" firstAttribute="leading" secondItem="7cE-WY-893" secondAttribute="leading" id="fER-AT-Cj7"/>
                 <constraint firstItem="7cE-WY-893" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="gn2-6q-Arh"/>
+                <constraint firstAttribute="trailing" secondItem="GeL-Fu-CuY" secondAttribute="trailing" id="nuH-EG-mEh"/>
                 <constraint firstItem="7cE-WY-893" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="oGS-9W-mzY"/>
+                <constraint firstItem="GeL-Fu-CuY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qaO-B4-EQ7"/>
+                <constraint firstItem="GeL-Fu-CuY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tRZ-Qa-KnR"/>
             </constraints>
         </view>
     </objects>
     <resources>
         <image name="task04_7_a_bck" width="450" height="60"/>
         <image name="task04_7_b_bck" width="435" height="60"/>
-        <image name="task04_7_sample" width="700" height="333"/>
     </resources>
 </document>
