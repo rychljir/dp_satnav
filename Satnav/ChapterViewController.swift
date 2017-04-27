@@ -405,10 +405,11 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         image = UIImage(named: "task04_5_img") as UIImage?
         slide5.initSlide(taskTitle: taskTitle, subtitle: sub, header: header, description: desc, imageCont: image!)
         
-        let slide6: DragDropImageSlide = Bundle.main.loadNibNamed("Task04_6_Slide", owner: self, options: nil)?.first as! DragDropImageSlide
-        slide6.initSlide(parent: self)
+        let slide6: DragDropToLineSlide = Bundle.main.loadNibNamed("Task04_6_Slide", owner: self, options: nil)?.first as! DragDropToLineSlide
+        let order = [2, 0, 3, 1]
+        slide6.initSlide(parent: self, correctOrder: order, colorTheme: chapterColors[3])
         
-        return [slide6, slide1, slide2, slide3, slide4, slide5 ]
+        return [slide1, slide2, slide3, slide4, slide5, slide6]
     }
     
     func createSlidesForChapter5() -> [UIView]{
@@ -592,7 +593,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
     
     // MARK: DDViewDelegate
     func viewWasDragged(view: UIView, draggedPoint: CGPoint) {
-       // print("Dragged Point : ", draggedPoint)
+        print("Dragged Point : ", draggedPoint)
         
     }
     
@@ -607,8 +608,6 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         droppedView.removeConstraintsWithoutDescendants()
         parentView.addConstraint(horizontalConstraint)
         parentView.addConstraint(verticalConstraint)
-        
-        print("Dropped Point : ", droppedPoint)
     }
 }
 
