@@ -1,0 +1,7 @@
+project '/Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav.xcodeproj'
+
+use_frameworks!
+
+target ’Satnav’ do
+    pod ‘DragDropUI’
+end

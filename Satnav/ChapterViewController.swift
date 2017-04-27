@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChapterViewController: UIViewController, UIScrollViewDelegate {
+class ChapterViewController: UIViewController, UIScrollViewDelegate  {
 
     var indexOfChapter = 0
     
@@ -357,7 +357,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         let slide11: Task03_11_Slide = Bundle.main.loadNibNamed("Task03_11_Slide", owner: self, options: nil)?.first as! Task03_11_Slide
         slide11.initSlide(parent: self)
         
-        return [slide10, slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide11]
+        return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide10, slide11]
     }
     
     func createSlidesForChapter4() -> [UIView]{
@@ -404,7 +404,10 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate {
         image = UIImage(named: "task04_5_img") as UIImage?
         slide5.initSlide(taskTitle: taskTitle, subtitle: sub, header: header, description: desc, imageCont: image!)
         
-        return [slide1, slide2, slide3, slide4, slide5  ]
+        let slide6: DragDropImageSlide = Bundle.main.loadNibNamed("Task04_6_Slide", owner: self, options: nil)?.first as! DragDropImageSlide
+        slide6.initSlide()
+        
+        return [slide6, slide1, slide2, slide3, slide4, slide5 ]
     }
     
     func createSlidesForChapter5() -> [UIView]{

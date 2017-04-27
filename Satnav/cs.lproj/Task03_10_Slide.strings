@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Besides EGNOS, there are several more SBAS-type systems in the world. They use geostationary satellites in combination with a system of ground stations and control centres.
+ The best known systems are: WAAS, covering mainly the USA and North America; MSAS, covering Japan; GAGAN, covering India; and SDCM, covering Russia. There are also plans to introduce this type of system for South America and Africa."; ObjectID = "7wA-JZ-ajt"; */
+"7wA-JZ-ajt.text" = "Kromě EGNOSu je ve světě ještě několik dalších korekčních systémů typu SBAS. Využívají geostacionárních družic, společně se systémem pozemních stanic a řídících středisek. Mezi nejznámější sytémy patří WAAS pokrývající hlavně USA a Severní Ameriku, MSAS pokrývající Japonsko, GAGAN pokrývající Indii a SDCM pokrývající Rusko. Výhledově se plánuje rozšířit tento typ systému i na Jižní Ameriku a Afriku.";
+
+/* Class = "UIButton"; normalTitle = "GAGAN
+ India"; ObjectID = "P1D-in-5sE"; */
+"P1D-in-5sE.normalTitle" = "GAGAN\nIndie";
+
+/* Class = "UIButton"; normalTitle = "SDCM
+ Russia"; ObjectID = "VgY-ZX-s6X"; */
+"VgY-ZX-s6X.normalTitle" = "SDCM\nRusko";
+
+/* Class = "UIButton"; normalTitle = "WASS
+ USA"; ObjectID = "Zmu-dY-DpK"; */
+"Zmu-dY-DpK.normalTitle" = "WASS\nUSA";
+
+/* Class = "UIButton"; normalTitle = "EGNOS
+ Europe"; ObjectID = "iHD-T7-IZV"; */
+"iHD-T7-IZV.normalTitle" = "EGNOS\nEvropa";
+
+/* Class = "UILabel"; text = "SBAS in the world"; ObjectID = "u3r-Uy-w1L"; */
+"u3r-Uy-w1L.text" = "Zpřesnění navigačních systémů ve světě";
+
+/* Class = "UIButton"; normalTitle = "MSAS
+ Japan"; ObjectID = "w9R-h9-T6Z"; */
+"w9R-h9-T6Z.normalTitle" = "MSAS\nJaponsko";

@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7886335B964157CCC01DADD1EA7106 /* DDProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9830FB2F87F2F6BCED661C64B07C22 /* DDProtocol.swift */; };
+		4C3CB5ABCA006D9913B23B6E4A556BAD /* DDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635FB406B8836F478C620E8828E9D1D4 /* DDTableViewCell.swift */; };
+		5A7337B3E849B9B942C24B79C8597B68 /* DragDropUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5DFFD487BEA46150980D3D3930B26F /* DragDropUI-dummy.m */; };
+		84406654A472E24D931FEC66AA1DF147 /* DDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F0D6FA1C3FE0F50E237A4AE5AD4E6 /* DDImageView.swift */; };
+		91613AD30EE6674C02E068D18E4E81A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A14810AFA34D90C5FAA2BEBE864175AE /* DDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35638B6811AE60BD480E11110F832C70 /* DDLabel.swift */; };
+		A18B8CD87464CE8C26F38537F7CC0FF4 /* DDGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E01C9EADCB4DC0334DC7A3518218E /* DDGestureRecognizer.swift */; };
+		BF7C18CE93A5019E8A62D8CD84C05177 /* Pods-Satnav-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A24923D1FC84E799C6638FCE8CF36DC3 /* Pods-Satnav-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C38DFE1872E7B02F3BDDDF5099547703 /* Pods-Satnav-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D30D7F3CE176EDCC6FEFD610E7D11E54 /* Pods-Satnav-dummy.m */; };
+		CADF9CEB92B38B5FA03508633F5253BC /* DD+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0614FA00DA2D6F4AF635BDAFFE66283B /* DD+View.swift */; };
+		D6059EB195B4DD363BF282539EBF1F24 /* DDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF511B4B2BF15C48551A1AC2DD48AE2 /* DDTextField.swift */; };
+		DDB1C58D09D69A7DF7FDAC0A8EFF74A5 /* DDCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2120A86770DD028F90ADFC3DCA2E981A /* DDCollectionViewCell.swift */; };
+		E0C560D0169F09C30FD137C6861554FF /* DDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333F9DC75F80551BE9E50CF0B25B92B /* DDButton.swift */; };
+		F24368DD1565A20CD0A2EDDF132C2CC9 /* DDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF839FAA6C172A60EA3E949AC138E773 /* DDView.swift */; };
+		FDDDA6CA5B2CAFB9C40CF1D959C5D317 /* DragDropUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 303D20B1DF1F56417CEC43DD9B0DCEAB /* DragDropUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0FF355D88727B1046B2C58354D900D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BEE37E081B61012039CEB63935C7411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991C445B77F030F02D7F5422E59753F1;
+			remoteInfo = DragDropUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0614FA00DA2D6F4AF635BDAFFE66283B /* DD+View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DD+View.swift"; path = "Source/DD+View.swift"; sourceTree = "<group>"; };
+		1333F9DC75F80551BE9E50CF0B25B92B /* DDButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDButton.swift; path = Source/DDButton.swift; sourceTree = "<group>"; };
+		1BF511B4B2BF15C48551A1AC2DD48AE2 /* DDTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTextField.swift; path = Source/DDTextField.swift; sourceTree = "<group>"; };
+		2120A86770DD028F90ADFC3DCA2E981A /* DDCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDCollectionViewCell.swift; path = Source/DDCollectionViewCell.swift; sourceTree = "<group>"; };
+		29634FB43198A4ACFC8EDA2C381C72FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB3519D2D330972C5DF3F396A2B4669 /* Pods-Satnav-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Satnav-resources.sh"; sourceTree = "<group>"; };
+		2EE3823C15D087E5218C7E8B9161C9A6 /* DragDropUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragDropUI.framework; path = DragDropUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303D20B1DF1F56417CEC43DD9B0DCEAB /* DragDropUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-umbrella.h"; sourceTree = "<group>"; };
+		35638B6811AE60BD480E11110F832C70 /* DDLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDLabel.swift; path = Source/DDLabel.swift; sourceTree = "<group>"; };
+		36491EC1E32F400B940958C58DD7EE72 /* Pods-Satnav.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Satnav.modulemap"; sourceTree = "<group>"; };
+		38B5B5A1FBAA4E056668EF39D83F51BF /* DragDropUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-prefix.pch"; sourceTree = "<group>"; };
+		5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragDropUI.xcconfig; sourceTree = "<group>"; };
+		5E610ACEF53514EA101EA566F2395C54 /* Pods-Satnav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Satnav.debug.xcconfig"; sourceTree = "<group>"; };
+		635FB406B8836F478C620E8828E9D1D4 /* DDTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTableViewCell.swift; path = Source/DDTableViewCell.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8289FC532D4291FF05EDA0CB8409C5F7 /* DragDropUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DragDropUI.modulemap; sourceTree = "<group>"; };
+		82C5262AA85658F388C4539A789D3BFB /* Pods-Satnav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Satnav.release.xcconfig"; sourceTree = "<group>"; };
+		862E01C9EADCB4DC0334DC7A3518218E /* DDGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDGestureRecognizer.swift; path = Source/DDGestureRecognizer.swift; sourceTree = "<group>"; };
+		8C7F0D6FA1C3FE0F50E237A4AE5AD4E6 /* DDImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDImageView.swift; path = Source/DDImageView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9861B7DF6DE810D17096F5124C4A1D6E /* Pods-Satnav-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Satnav-frameworks.sh"; sourceTree = "<group>"; };
+		9C8DAC5224EA23D08A2C91B6653B11F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24923D1FC84E799C6638FCE8CF36DC3 /* Pods-Satnav-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Satnav-umbrella.h"; sourceTree = "<group>"; };
+		AA071B8A68101FA09DC46CBEC9D46AB4 /* Pods-Satnav-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Satnav-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB9830FB2F87F2F6BCED661C64B07C22 /* DDProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDProtocol.swift; path = Source/DDProtocol.swift; sourceTree = "<group>"; };
+		AF5DFFD487BEA46150980D3D3930B26F /* DragDropUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragDropUI-dummy.m"; sourceTree = "<group>"; };
+		CF839FAA6C172A60EA3E949AC138E773 /* DDView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDView.swift; path = Source/DDView.swift; sourceTree = "<group>"; };
+		D04D448E5C8A0520D95747AA98E57124 /* Pods-Satnav-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Satnav-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D30D7F3CE176EDCC6FEFD610E7D11E54 /* Pods-Satnav-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Satnav-dummy.m"; sourceTree = "<group>"; };
+		F404ED3D613ADEA2F989E4DA2EEC48DE /* Pods_Satnav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Satnav.framework; path = "Pods-Satnav.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5C61C0C7549E4541D5C7350960D753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0FF355D88727B1046B2C58354D900D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7478F6E7BBDC552142FCB408731F14D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91613AD30EE6674C02E068D18E4E81A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B018422040C92AAB7CAC114142EF49F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8289FC532D4291FF05EDA0CB8409C5F7 /* DragDropUI.modulemap */,
+				5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */,
+				AF5DFFD487BEA46150980D3D3930B26F /* DragDropUI-dummy.m */,
+				38B5B5A1FBAA4E056668EF39D83F51BF /* DragDropUI-prefix.pch */,
+				303D20B1DF1F56417CEC43DD9B0DCEAB /* DragDropUI-umbrella.h */,
+				29634FB43198A4ACFC8EDA2C381C72FF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DragDropUI";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8ED47FF5E125EA2E8A1759668ED9BDC9 /* Pods */,
+				FAC81688F559B66241069B4B0124D1F5 /* Products */,
+				AC0C730A1C7C4AAE05DEEFECC75F9AD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED47FF5E125EA2E8A1759668ED9BDC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD9FE21CD38C79DC570F078241E9BB /* DragDropUI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6B140A7008CA36F77752078A62AE3E9 /* Pods-Satnav */ = {
+			isa = PBXGroup;
+			children = (
+				9C8DAC5224EA23D08A2C91B6653B11F4 /* Info.plist */,
+				36491EC1E32F400B940958C58DD7EE72 /* Pods-Satnav.modulemap */,
+				D04D448E5C8A0520D95747AA98E57124 /* Pods-Satnav-acknowledgements.markdown */,
+				AA071B8A68101FA09DC46CBEC9D46AB4 /* Pods-Satnav-acknowledgements.plist */,
+				D30D7F3CE176EDCC6FEFD610E7D11E54 /* Pods-Satnav-dummy.m */,
+				9861B7DF6DE810D17096F5124C4A1D6E /* Pods-Satnav-frameworks.sh */,
+				2BB3519D2D330972C5DF3F396A2B4669 /* Pods-Satnav-resources.sh */,
+				A24923D1FC84E799C6638FCE8CF36DC3 /* Pods-Satnav-umbrella.h */,
+				5E610ACEF53514EA101EA566F2395C54 /* Pods-Satnav.debug.xcconfig */,
+				82C5262AA85658F388C4539A789D3BFB /* Pods-Satnav.release.xcconfig */,
+			);
+			name = "Pods-Satnav";
+			path = "Target Support Files/Pods-Satnav";
+			sourceTree = "<group>";
+		};
+		AC0C730A1C7C4AAE05DEEFECC75F9AD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B140A7008CA36F77752078A62AE3E9 /* Pods-Satnav */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDFD9FE21CD38C79DC570F078241E9BB /* DragDropUI */ = {
+			isa = PBXGroup;
+			children = (
+				0614FA00DA2D6F4AF635BDAFFE66283B /* DD+View.swift */,
+				1333F9DC75F80551BE9E50CF0B25B92B /* DDButton.swift */,
+				2120A86770DD028F90ADFC3DCA2E981A /* DDCollectionViewCell.swift */,
+				862E01C9EADCB4DC0334DC7A3518218E /* DDGestureRecognizer.swift */,
+				8C7F0D6FA1C3FE0F50E237A4AE5AD4E6 /* DDImageView.swift */,
+				35638B6811AE60BD480E11110F832C70 /* DDLabel.swift */,
+				AB9830FB2F87F2F6BCED661C64B07C22 /* DDProtocol.swift */,
+				635FB406B8836F478C620E8828E9D1D4 /* DDTableViewCell.swift */,
+				1BF511B4B2BF15C48551A1AC2DD48AE2 /* DDTextField.swift */,
+				CF839FAA6C172A60EA3E949AC138E773 /* DDView.swift */,
+				6B018422040C92AAB7CAC114142EF49F /* Support Files */,
+			);
+			name = DragDropUI;
+			path = DragDropUI;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FAC81688F559B66241069B4B0124D1F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE3823C15D087E5218C7E8B9161C9A6 /* DragDropUI.framework */,
+				F404ED3D613ADEA2F989E4DA2EEC48DE /* Pods_Satnav.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FAC47EE9A9448524619FF6C81E05BB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7C18CE93A5019E8A62D8CD84C05177 /* Pods-Satnav-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8D1C3D4062F23EFA20612EC5968EE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDA6CA5B2CAFB9C40CF1D959C5D317 /* DragDropUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		991C445B77F030F02D7F5422E59753F1 /* DragDropUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBCC87C42610A6DBD03D7BDDBEFF498 /* Build configuration list for PBXNativeTarget "DragDropUI" */;
+			buildPhases = (
+				759E67DE9A51EB98B73238DE588396F9 /* Sources */,
+				7478F6E7BBDC552142FCB408731F14D9 /* Frameworks */,
+				4C8D1C3D4062F23EFA20612EC5968EE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragDropUI;
+			productName = DragDropUI;
+			productReference = 2EE3823C15D087E5218C7E8B9161C9A6 /* DragDropUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0F521EDD3C2C4CA2EFABAD841290F56 /* Pods-Satnav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476C4F05D36608299A4DF2F8AA7CD1C6 /* Build configuration list for PBXNativeTarget "Pods-Satnav" */;
+			buildPhases = (
+				D242D66F85404D8F46A47C2A7E638B5E /* Sources */,
+				5B5C61C0C7549E4541D5C7350960D753 /* Frameworks */,
+				3FAC47EE9A9448524619FF6C81E05BB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA97DAC3E029EEA661B87FC1BD348D23 /* PBXTargetDependency */,
+			);
+			name = "Pods-Satnav";
+			productName = "Pods-Satnav";
+			productReference = F404ED3D613ADEA2F989E4DA2EEC48DE /* Pods_Satnav.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FAC81688F559B66241069B4B0124D1F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991C445B77F030F02D7F5422E59753F1 /* DragDropUI */,
+				D0F521EDD3C2C4CA2EFABAD841290F56 /* Pods-Satnav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759E67DE9A51EB98B73238DE588396F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF9CEB92B38B5FA03508633F5253BC /* DD+View.swift in Sources */,
+				E0C560D0169F09C30FD137C6861554FF /* DDButton.swift in Sources */,
+				DDB1C58D09D69A7DF7FDAC0A8EFF74A5 /* DDCollectionViewCell.swift in Sources */,
+				A18B8CD87464CE8C26F38537F7CC0FF4 /* DDGestureRecognizer.swift in Sources */,
+				84406654A472E24D931FEC66AA1DF147 /* DDImageView.swift in Sources */,
+				A14810AFA34D90C5FAA2BEBE864175AE /* DDLabel.swift in Sources */,
+				3C7886335B964157CCC01DADD1EA7106 /* DDProtocol.swift in Sources */,
+				4C3CB5ABCA006D9913B23B6E4A556BAD /* DDTableViewCell.swift in Sources */,
+				D6059EB195B4DD363BF282539EBF1F24 /* DDTextField.swift in Sources */,
+				F24368DD1565A20CD0A2EDDF132C2CC9 /* DDView.swift in Sources */,
+				5A7337B3E849B9B942C24B79C8597B68 /* DragDropUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242D66F85404D8F46A47C2A7E638B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38DFE1872E7B02F3BDDDF5099547703 /* Pods-Satnav-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA97DAC3E029EEA661B87FC1BD348D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragDropUI;
+			target = 991C445B77F030F02D7F5422E59753F1 /* DragDropUI */;
+			targetProxy = 0BEE37E081B61012039CEB63935C7411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1EA38E5F55F4C2BA94702C9F8ACD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DragDropUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AF4760AEB5E646E26F5D37B4ADF443C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DragDropUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		861CE940D7B941A2EF5B11014A124456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C5262AA85658F388C4539A789D3BFB /* Pods-Satnav.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Satnav/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Satnav/Pods-Satnav.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Satnav;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		943C0B912162662C08E2C274C13787F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E610ACEF53514EA101EA566F2395C54 /* Pods-Satnav.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Satnav/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Satnav/Pods-Satnav.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Satnav;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EBCC87C42610A6DBD03D7BDDBEFF498 /* Build configuration list for PBXNativeTarget "DragDropUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1EA38E5F55F4C2BA94702C9F8ACD6E /* Debug */,
+				7AF4760AEB5E646E26F5D37B4ADF443C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476C4F05D36608299A4DF2F8AA7CD1C6 /* Build configuration list for PBXNativeTarget "Pods-Satnav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943C0B912162662C08E2C274C13787F5 /* Debug */,
+				861CE940D7B941A2EF5B11014A124456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

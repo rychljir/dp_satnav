@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F362DECB9A17738364547E4 /* Pods_Satnav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */; };
+		941080141EB1D52700FA746E /* Task03_10_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941080161EB1D52700FA746E /* Task03_10_Slide.xib */; };
 		944397181E924D2C00D4F854 /* Task03_1_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944397171E924D2C00D4F854 /* Task03_1_Slide.swift */; };
 		944724F41E86648300CF284D /* Task01_4_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944724F31E86648300CF284D /* Task01_4_Slide.xib */; };
 		944724F61E86649A00CF284D /* Task01_4_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944724F51E86649A00CF284D /* Task01_4_Slide.swift */; };
@@ -26,7 +28,6 @@
 		94483B821E92782800E9B642 /* Task03_11_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94483B811E92782800E9B642 /* Task03_11_Slide.swift */; };
 		9456B70A1E94ED6D0061C9F0 /* Task03_11_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9456B70C1E94ED6D0061C9F0 /* Task03_11_Slide.xib */; };
 		946CBD5D1E8E7D77006AFECD /* StringStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CBD5C1E8E7D77006AFECD /* StringStyler.swift */; };
-		9470AA691EAF3CAF00309707 /* Task03_10_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9470AA681EAF3CAF00309707 /* Task03_10_Slide.xib */; };
 		9470AA6B1EAF3CC400309707 /* Task03_10_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */; };
 		94724E601E8ABE770015BCAE /* Task01_5_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94724E5F1E8ABE770015BCAE /* Task01_5_Slide.xib */; };
 		94724E621E8ABE8D0015BCAE /* Task01_5_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94724E611E8ABE8D0015BCAE /* Task01_5_Slide.swift */; };
@@ -293,6 +294,8 @@
 		948DDB061E85943300416703 /* task07_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 948DDA0E1E85943300416703 /* task07_4.png */; };
 		948DDB071E85943300416703 /* task07_4_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 948DDA0F1E85943300416703 /* task07_4_large.png */; };
 		948DDB0A1E8594DA00416703 /* task01_3_bck.png in Resources */ = {isa = PBXBuildFile; fileRef = 948DDB091E8594DA00416703 /* task01_3_bck.png */; };
+		94B75EF71EB1DB6B005EFE8C /* Task04_6_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B75EF61EB1DB6B005EFE8C /* Task04_6_Slide.xib */; };
+		94B75EF91EB1DB80005EFE8C /* DragDropImageSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B75EF81EB1DB80005EFE8C /* DragDropImageSlide.swift */; };
 		94D8E9611E9120EF00BC7B9D /* SatelliteSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D8E9601E9120EF00BC7B9D /* SatelliteSlide.xib */; };
 		94D8E9631E91210000BC7B9D /* SatelliteSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8E9621E91210000BC7B9D /* SatelliteSlide.swift */; };
 		94D8E9651E912B8400BC7B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D8E9641E912B8400BC7B9D /* Assets.xcassets */; };
@@ -328,6 +331,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Satnav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941080151EB1D52700FA746E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Task03_10_Slide.xib; sourceTree = "<group>"; };
 		944397171E924D2C00D4F854 /* Task03_1_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task03_1_Slide.swift; sourceTree = "<group>"; };
 		944724F31E86648300CF284D /* Task01_4_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task01_4_Slide.xib; sourceTree = "<group>"; };
 		944724F51E86649A00CF284D /* Task01_4_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task01_4_Slide.swift; sourceTree = "<group>"; };
@@ -349,7 +354,6 @@
 		9456B70E1E94ED700061C9F0 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Task03_11_Slide.strings; sourceTree = "<group>"; };
 		94632CBE1E853DA500ADB27A /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		946CBD5C1E8E7D77006AFECD /* StringStyler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringStyler.swift; sourceTree = "<group>"; };
-		9470AA681EAF3CAF00309707 /* Task03_10_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task03_10_Slide.xib; sourceTree = "<group>"; };
 		9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task03_10_Slide.swift; sourceTree = "<group>"; };
 		94724E5F1E8ABE770015BCAE /* Task01_5_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task01_5_Slide.xib; sourceTree = "<group>"; };
 		94724E611E8ABE8D0015BCAE /* Task01_5_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task01_5_Slide.swift; sourceTree = "<group>"; };
@@ -617,6 +621,9 @@
 		948DDA0E1E85943300416703 /* task07_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task07_4.png; path = res/task07_4.png; sourceTree = "<group>"; };
 		948DDA0F1E85943300416703 /* task07_4_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task07_4_large.png; path = res/task07_4_large.png; sourceTree = "<group>"; };
 		948DDB091E8594DA00416703 /* task01_3_bck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task01_3_bck.png; path = res/task01_3_bck.png; sourceTree = "<group>"; };
+		94B75EF51EB1D6D8005EFE8C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Task03_10_Slide.strings; sourceTree = "<group>"; };
+		94B75EF61EB1DB6B005EFE8C /* Task04_6_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task04_6_Slide.xib; sourceTree = "<group>"; };
+		94B75EF81EB1DB80005EFE8C /* DragDropImageSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropImageSlide.swift; sourceTree = "<group>"; };
 		94D8E9601E9120EF00BC7B9D /* SatelliteSlide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SatelliteSlide.xib; sourceTree = "<group>"; };
 		94D8E9621E91210000BC7B9D /* SatelliteSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatelliteSlide.swift; sourceTree = "<group>"; };
 		94D8E9641E912B8400BC7B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -640,6 +647,8 @@
 		94FF0C331EADE7C30015789E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		94FF0C371EADF1630015789E /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		94FF0C381EADF26A0015789E /* ApplicationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
+		A354DECE0923ECA761FBBFD6 /* Pods-Satnav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Satnav.debug.xcconfig"; path = "Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav.debug.xcconfig"; sourceTree = "<group>"; };
+		A8EE754DC976CBB9261BDE30 /* Pods-Satnav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Satnav.release.xcconfig"; path = "Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -647,6 +656,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F362DECB9A17738364547E4 /* Pods_Satnav.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +677,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5B876A6C452182EB64355C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A354DECE0923ECA761FBBFD6 /* Pods-Satnav.debug.xcconfig */,
+				A8EE754DC976CBB9261BDE30 /* Pods-Satnav.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		948DD5081E855B6800416703 /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -684,7 +703,7 @@
 				94D8E9771E9148A600BC7B9D /* Task03_8_Slide.swift */,
 				94D8E97B1E9150C600BC7B9D /* Task03_9_Slide.xib */,
 				94D8E97D1E9150DA00BC7B9D /* Task03_9_Slide.swift */,
-				9470AA681EAF3CAF00309707 /* Task03_10_Slide.xib */,
+				941080161EB1D52700FA746E /* Task03_10_Slide.xib */,
 				9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */,
 				9456B70C1E94ED6D0061C9F0 /* Task03_11_Slide.xib */,
 				94483B811E92782800E9B642 /* Task03_11_Slide.swift */,
@@ -692,8 +711,8 @@
 				947F50361E968E2700589C8A /* Task05_7_8_Slide.swift */,
 				948DD5131E85750300416703 /* TitleTextSlide.xib */,
 				948DD5151E85751800416703 /* TitleTextSlide.swift */,
-				9485F0DB1E8D00BD00CC88AC /* ThreeImagesModalSlide.swift */,
 				9485F0DD1E8D00D700CC88AC /* ThreeImagesModalSlide.xib */,
+				9485F0DB1E8D00BD00CC88AC /* ThreeImagesModalSlide.swift */,
 				9485F0DF1E8D269400CC88AC /* SplitImageDescSlide.xib */,
 				9485F0E11E8D26A400CC88AC /* SplitImageDescSlide.swift */,
 				94D8E9601E9120EF00BC7B9D /* SatelliteSlide.xib */,
@@ -702,8 +721,10 @@
 				947F50321E96816100589C8A /* SplitImageDescSubtitleSlide.swift */,
 				947F50381E96991E00589C8A /* TitleTextBottomImageSlide.xib */,
 				947F503A1E96993E00589C8A /* TitleTextBottomImageSlide.swift */,
-				9473CB941E9CC0EC00B17BE2 /* FullscreenModal.swift */,
 				9473CB951E9CC0EC00B17BE2 /* FullscreenModal.xib */,
+				9473CB941E9CC0EC00B17BE2 /* FullscreenModal.swift */,
+				94B75EF61EB1DB6B005EFE8C /* Task04_6_Slide.xib */,
+				94B75EF81EB1DB80005EFE8C /* DragDropImageSlide.swift */,
 				94FF0C331EADE7C30015789E /* RoundedButton.swift */,
 			);
 			name = view;
@@ -716,6 +737,8 @@
 				94E810441E77E1F900C17766 /* SatnavTests */,
 				94E8104F1E77E1F900C17766 /* SatnavUITests */,
 				94E8102E1E77E1F900C17766 /* Products */,
+				2F5B876A6C452182EB64355C /* Pods */,
+				FC3019144D7201143D2495B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1028,6 +1051,14 @@
 			name = res;
 			sourceTree = "<group>";
 		};
+		FC3019144D7201143D2495B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1035,9 +1066,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94E810551E77E1F900C17766 /* Build configuration list for PBXNativeTarget "Satnav" */;
 			buildPhases = (
+				519F6FA63C8ECA507D9FD936 /* [CP] Check Pods Manifest.lock */,
 				94E810291E77E1F900C17766 /* Sources */,
 				94E8102A1E77E1F900C17766 /* Frameworks */,
 				94E8102B1E77E1F900C17766 /* Resources */,
+				42B164488654A5F368AD0432 /* [CP] Embed Pods Frameworks */,
+				C99A9FF27238D9400DFD4558 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1175,6 +1209,7 @@
 				948DDA1E1E85943300416703 /* base_hint_6_pressed.png in Resources */,
 				948DDAB81E85943300416703 /* task03_1_4.png in Resources */,
 				948DDA671E85943300416703 /* ico_no_task_done_1.png in Resources */,
+				94B75EF71EB1DB6B005EFE8C /* Task04_6_Slide.xib in Resources */,
 				948DDAC11E85943300416703 /* task03_2_img.png in Resources */,
 				947F50391E96991E00589C8A /* TitleTextBottomImageSlide.xib in Resources */,
 				94724E6A1E8AC0A80015BCAE /* task01_5_img2.png in Resources */,
@@ -1373,7 +1408,7 @@
 				944724FA1E86675C00CF284D /* task01_4_img1.png in Resources */,
 				948DDB051E85943300416703 /* task07_3_large.png in Resources */,
 				948DDAA41E85943300416703 /* task02_4_img.png in Resources */,
-				9470AA691EAF3CAF00309707 /* Task03_10_Slide.xib in Resources */,
+				941080141EB1D52700FA746E /* Task03_10_Slide.xib in Resources */,
 				948DDADA1E85943300416703 /* task05_2_b_full.png in Resources */,
 				948DDAD41E85943300416703 /* task04_7_b_bck.png in Resources */,
 				948DDAAA1E85943300416703 /* task03_10_1.png in Resources */,
@@ -1434,6 +1469,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42B164488654A5F368AD0432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519F6FA63C8ECA507D9FD936 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C99A9FF27238D9400DFD4558 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94E810291E77E1F900C17766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1457,6 +1540,7 @@
 				944397181E924D2C00D4F854 /* Task03_1_Slide.swift in Sources */,
 				94D8E9781E9148A600BC7B9D /* Task03_8_Slide.swift in Sources */,
 				947F50371E968E2700589C8A /* Task05_7_8_Slide.swift in Sources */,
+				94B75EF91EB1DB80005EFE8C /* DragDropImageSlide.swift in Sources */,
 				946CBD5D1E8E7D77006AFECD /* StringStyler.swift in Sources */,
 				94E810311E77E1F900C17766 /* AppDelegate.swift in Sources */,
 				9485F0E21E8D26A400CC88AC /* SplitImageDescSlide.swift in Sources */,
@@ -1497,6 +1581,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		941080161EB1D52700FA746E /* Task03_10_Slide.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941080151EB1D52700FA746E /* Base */,
+				94B75EF51EB1D6D8005EFE8C /* cs */,
+			);
+			name = Task03_10_Slide.xib;
+			sourceTree = "<group>";
+		};
 		9456B70C1E94ED6D0061C9F0 /* Task03_11_Slide.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1639,6 +1732,7 @@
 		};
 		94E810561E77E1F900C17766 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A354DECE0923ECA761FBBFD6 /* Pods-Satnav.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Satnav/Info.plist;
@@ -1652,6 +1746,7 @@
 		};
 		94E810571E77E1F900C17766 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8EE754DC976CBB9261BDE30 /* Pods-Satnav.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Satnav/Info.plist;

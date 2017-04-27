@@ -39,10 +39,10 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-kz-9t0">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Czo-kz-9t0">
                                 <rect key="frame" x="20" y="290.5" width="984" height="330.5"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gNw-CH-RMK">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gNw-CH-RMK">
                                         <rect key="frame" x="0.0" y="0.0" width="984" height="150.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8HL-og-aRh">
@@ -100,7 +100,7 @@
                                             <constraint firstAttribute="trailing" secondItem="g42-ve-AEo" secondAttribute="trailing" id="yKv-h2-lFZ"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="aFR-co-3LX">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="aFR-co-3LX">
                                         <rect key="frame" x="0.0" y="180.5" width="984" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="For-xr-wnL">
@@ -138,7 +138,6 @@
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Augmented reality" backgroundImage="menu_btn_8.png"/>
-                                                <state key="highlighted" backgroundImage="menu_btn_8_pressed.png"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -345,7 +344,6 @@
         <image name="menu_btn_7.png" width="441" height="294"/>
         <image name="menu_btn_7_pressed.png" width="440" height="295"/>
         <image name="menu_btn_8.png" width="440" height="295"/>
-        <image name="menu_btn_8_pressed.png" width="16" height="16"/>
         <image name="menu_logo1" width="103" height="37"/>
         <image name="menu_logo2" width="124" height="50"/>
     </resources>
