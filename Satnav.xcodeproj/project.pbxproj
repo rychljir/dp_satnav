@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F362DECB9A17738364547E4 /* Pods_Satnav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */; };
+		9401720D1EB279980051FC45 /* Task05_9_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9401720C1EB279980051FC45 /* Task05_9_Slide.xib */; };
 		941080141EB1D52700FA746E /* Task03_10_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941080161EB1D52700FA746E /* Task03_10_Slide.xib */; };
 		944397181E924D2C00D4F854 /* Task03_1_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944397171E924D2C00D4F854 /* Task03_1_Slide.swift */; };
 		944724F41E86648300CF284D /* Task01_4_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944724F31E86648300CF284D /* Task01_4_Slide.xib */; };
@@ -332,6 +333,7 @@
 
 /* Begin PBXFileReference section */
 		4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Satnav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9401720C1EB279980051FC45 /* Task05_9_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task05_9_Slide.xib; sourceTree = "<group>"; };
 		941080151EB1D52700FA746E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Task03_10_Slide.xib; sourceTree = "<group>"; };
 		944397171E924D2C00D4F854 /* Task03_1_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task03_1_Slide.swift; sourceTree = "<group>"; };
 		944724F31E86648300CF284D /* Task01_4_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task01_4_Slide.xib; sourceTree = "<group>"; };
@@ -724,6 +726,7 @@
 				9473CB951E9CC0EC00B17BE2 /* FullscreenModal.xib */,
 				9473CB941E9CC0EC00B17BE2 /* FullscreenModal.swift */,
 				94B75EF61EB1DB6B005EFE8C /* Task04_6_Slide.xib */,
+				9401720C1EB279980051FC45 /* Task05_9_Slide.xib */,
 				94B75EF81EB1DB80005EFE8C /* DragDropToLineSlide.swift */,
 				94FF0C331EADE7C30015789E /* RoundedButton.swift */,
 			);
@@ -1282,6 +1285,7 @@
 				948DDA2F1E85943300416703 /* base_home_7.png in Resources */,
 				948DDA311E85943300416703 /* base_home_8.png in Resources */,
 				948DDA261E85943300416703 /* base_home_2_pressed.png in Resources */,
+				9401720D1EB279980051FC45 /* Task05_9_Slide.xib in Resources */,
 				948DDA4D1E85943300416703 /* chapter_bck_3.png in Resources */,
 				948DDAD91E85943300416703 /* task05_2_b.png in Resources */,
 				948DDA751E85943300416703 /* menu_btn_2.png in Resources */,

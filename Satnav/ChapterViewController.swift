@@ -471,7 +471,12 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         image = UIImage(named: "task05_8_imgbig") as UIImage?
         slide8.initSlide(taskTitle: title, description: text, imageCont: image!)
         
-        return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8]
+        let slide9: DragDropToLineSlide = Bundle.main.loadNibNamed("Task05_9_Slide", owner: self, options: nil)?.first as! DragDropToLineSlide
+        let order = [2, 5, 3, 4, 6, 1, 7, 0]
+        slide9.initSlide(parent: self, correctOrder: order, colorTheme: chapterColors[4])
+        
+        
+        return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9]
     }
     
     func createSlidesForChapter6() -> [UIView]{

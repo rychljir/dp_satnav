@@ -98,9 +98,6 @@ class DragDropToLineSlide: UIView{
             evalBtn.layer.borderWidth = 1.2
         }
         
-        if(ApplicationState.getTaskState(index: 3)){
-            taskDone()
-        }
     }
     
     override func didMoveToSuperview() {
@@ -111,6 +108,9 @@ class DragDropToLineSlide: UIView{
             moveViewToPosition(view: subView, position: drag.center)
             drag.ddDelegate = parent as? DDViewDelegate
         }
+        if(ApplicationState.getTaskState(index: 3)){
+            taskDone()
+        }
     }
     
     func taskDone(){
@@ -118,12 +118,11 @@ class DragDropToLineSlide: UIView{
         for i in 0 ... draggables.count-1{
             draggables[i].isUserInteractionEnabled = false
             eval?.isEnabled = false
-            let posX = draggables[i].center.x
+            let posX = lineAnswers[i].center.x + lineAnswers[i].frame.width - 15
             let posY = yPosAnswers[i]
             let pos = CGPoint(x: posX, y: posY)
             moveViewToPosition(view: draggables[i],position: pos)
         }
-        
          ApplicationState.setTaskState(index: 3, state: true)
     }
 }
