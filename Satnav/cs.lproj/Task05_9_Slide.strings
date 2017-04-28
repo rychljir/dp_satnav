@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Gravitational action of the
+Moon, the Sun and the Earth"; ObjectID = "3Xp-f3-Ym3"; */
+"3Xp-f3-Ym3.text" = "Gravitační působení\nMěsíce, Slunce a Země";
+
+/* Class = "UILabel"; text = "The Earth's surface"; ObjectID = "9JF-03-jAr"; */
+"9JF-03-jAr.text" = "Povrch Země";
+
+/* Class = "UILabel"; text = "Match the effects that may have a negative impact
+on GNSS systems with their sources."; ObjectID = "Hos-YD-E8F"; */
+"Hos-YD-E8F.text" = "Přiřaďte jevy, které mohou činit satelitní\nnavigaci problémy, k jejich zdrojům.";
+
+/* Class = "UILabel"; text = "General theory of relativity"; ObjectID = "Hun-Ag-y25"; */
+"Hun-Ag-y25.text" = "Obecná teorie relativity";
+
+/* Class = "UILabel"; text = "Radiation pressure"; ObjectID = "OHs-ZL-vov"; */
+"OHs-ZL-vov.text" = "Tlak záření";
+
+/* Class = "UILabel"; text = "Satellite clocks losing time"; ObjectID = "QTE-dm-sb3"; */
+"QTE-dm-sb3.text" = "Zpožďování hodin satelitu";
+
+/* Class = "UILabel"; text = "Task"; ObjectID = "Vwx-jQ-Sji"; */
+"Vwx-jQ-Sji.text" = "Úloha";
+
+/* Class = "UILabel"; text = "Signal reflection"; ObjectID = "WQ8-if-noh"; */
+"WQ8-if-noh.text" = "Odraz signálu";
+
+/* Class = "UILabel"; text = "Damage to electronic
+equipment, signal noise"; ObjectID = "aT7-43-khV"; */
+"aT7-43-khV.text" = "Vyřazení elektroniky\nšum signálu";
+
+/* Class = "UIButton"; normalTitle = "Evaluate"; ObjectID = "cB0-S3-z91"; */
+"cB0-S3-z91.normalTitle" = "Vyhodnotit";
+
+/* Class = "UILabel"; text = "Solar storm"; ObjectID = "hKV-ON-0sx"; */
+"hKV-ON-0sx.text" = "Solární bouře";
+
+/* Class = "UILabel"; text = "Special theory of relativity"; ObjectID = "kZu-16-4uu"; */
+"kZu-16-4uu.text" = "Speciální teorie relativity";
+
+/* Class = "UILabel"; text = "Physical damage to a satellite"; ObjectID = "mGy-ew-pts"; */
+"mGy-ew-pts.text" = "Fyzické poškození satelitu";
+
+/* Class = "UILabel"; text = "Deflection of a satellite from
+its pre-calculated position"; ObjectID = "pt8-2h-d66"; */
+"pt8-2h-d66.text" = "Odchýlení satelitu\nz předem vypočítané polohy";
+
+/* Class = "UILabel"; text = "Space objects
+and space junk"; ObjectID = "tSf-Dp-6Li"; */
+"tSf-Dp-6Li.text" = "Vesmírná tělesa\na kosmické smetí";
+
+/* Class = "UILabel"; text = "Satellite clocks gaining time"; ObjectID = "ukQ-2P-ah6"; */
+"ukQ-2P-ah6.text" = "Předbíhaní hodin satelitu";
+
+/* Class = "UILabel"; text = "Deflection of a satellite
+away from the Sun"; ObjectID = "wNK-ly-zoq"; */
+"wNK-ly-zoq.text" = "Odchýlení satelitu\nsměrem od Slunce";
+
+/* Class = "UILabel"; text = "Ionosphere"; ObjectID = "xqa-av-D4r"; */
+"xqa-av-D4r.text" = "Ionosféra";
+
+/* Class = "UILabel"; text = "Signal refraction"; ObjectID = "yJu-hJ-hOd"; */
+"yJu-hJ-hOd.text" = "Lom (refrakce) signálu";

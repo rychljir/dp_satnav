@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Open Service"; ObjectID = "0bf-lV-bQF"; */
+"0bf-lV-bQF.text" = "Základní služba";
+
+/* Class = "UILabel"; text = "Available to all common users"; ObjectID = "66R-3E-uur"; */
+"66R-3E-uur.text" = "Dostupná všem běžným uživatelům";
+
+/* Class = "UILabel"; text = "Task"; ObjectID = "7cE-WY-893"; */
+"7cE-WY-893.text" = "Úloha";
+
+/* Class = "UILabel"; text = "Search and Rescue Service"; ObjectID = "8vo-Pw-ImJ"; */
+"8vo-Pw-ImJ.text" = "Vyhledávací a záchranná služba";
+
+/* Class = "UILabel"; text = "Paid service providing
+higher accuracy"; ObjectID = "BDB-aS-OlZ"; */
+"BDB-aS-OlZ.text" = "Placená služba s vyšší přesností";
+
+/* Class = "UILabel"; text = "Commercial Service"; ObjectID = "MCS-KN-gaq"; */
+"MCS-KN-gaq.text" = "Komerční služba";
+
+/* Class = "UILabel"; text = "Rescue of lost people"; ObjectID = "Tcn-Is-1aB"; */
+"Tcn-Is-1aB.text" = "Záchrana ztracených osob";
+
+/* Class = "UILabel"; text = "Public Regulated Service"; ObjectID = "UiM-bT-Ttg"; */
+"UiM-bT-Ttg.text" = "Veřejně regulovaná služba";
+
+/* Class = "UILabel"; text = "Following and protection
+of prominent politicians"; ObjectID = "Zpl-Ky-bVh"; */
+"Zpl-Ky-bVh.text" = "Sledování a ochrana\nvýznamných politiků";
+
+/* Class = "UIButton"; normalTitle = "Evaluate"; ObjectID = "spw-L9-AP8"; */
+"spw-L9-AP8.normalTitle" = "Vyhodnotit";
+
+/* Class = "UILabel"; text = "Match each of the Galileo services
+with an example of its use."; ObjectID = "vQD-B7-IT8"; */
+"vQD-B7-IT8.text" = "Přiřaďte ke každé ze služeb Galilea\njejí příklad použití.";
