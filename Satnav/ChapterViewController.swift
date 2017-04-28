@@ -14,6 +14,8 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
     var indexOfChapter = 0
     
     let modalVC = FullscreenModal(nibName: "FullscreenModal", bundle: nil)
+    var ddToLineSlide: DragDropToLineSlide?
+    var ddToMiddleSlide: DragDropToMiddleSlide?
     
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var slideScrollView: UIScrollView!
@@ -407,7 +409,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         
         let slide6: DragDropToLineSlide = Bundle.main.loadNibNamed("Task04_6_Slide", owner: self, options: nil)?.first as! DragDropToLineSlide
         let order = [2, 0, 3, 1]
-        slide6.initSlide(parent: self, correctOrder: order, colorTheme: chapterColors[3])
+        slide6.initSlide(parent: self, correctOrder: order, colorTheme: chapterColors[3],indexOfChapter: 3)
         
         return [slide1, slide2, slide3, slide4, slide5, slide6]
     }
@@ -473,7 +475,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         
         let slide9: DragDropToLineSlide = Bundle.main.loadNibNamed("Task05_9_Slide", owner: self, options: nil)?.first as! DragDropToLineSlide
         let order = [2, 5, 3, 4, 6, 1, 7, 0]
-        slide9.initSlide(parent: self, correctOrder: order, colorTheme: chapterColors[4])
+        slide9.initSlide(parent: self, correctOrder: order, colorTheme: chapterColors[4], indexOfChapter: 4)
         
         
         return [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9]
@@ -545,8 +547,12 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         images = [UIImage(named: "task06_6_a_full") as UIImage?,UIImage(named: "task06_6_b_full") as UIImage?,UIImage(named: "task06_6_c_full") as UIImage?]
         previews = [UIImage(named: "task06_6_a") as UIImage?,UIImage(named: "task06_6_b") as UIImage?,UIImage(named: "task06_6_c") as UIImage?]
         slide6.initSlide(title: title, captions: titles, previews: previews as! [UIImage], images: images as! [UIImage], desc: decriptions, parent: self)
+        
+        let slide7: DragDropToMiddleSlide = Bundle.main.loadNibNamed("Task06_7_Slide", owner: self, options: nil)?.first as! DragDropToMiddleSlide
+        let order = [3, 4, 5, 2, 1, 0]
+        slide7.initSlide(parent: self, correctOrder: order, colorTheme: chapterColors[5], indexOfChapter: 5)
     
-        return [slide1, slide2, slide3, slide4, slide5, slide6]
+        return [slide7, slide1, slide2, slide3, slide4, slide5, slide6]
     }
     
     func createSlidesForChapter7() -> [UIView]{
@@ -603,16 +609,8 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
     }
     
     func viewWasDropped(view droppedView: UIView, droppedPoint: CGPoint) {
-        let droppedView = droppedView as! DDView
-        
-        let parentView = droppedView.superview!
-        
-        let horizontalConstraint = NSLayoutConstraint(item: droppedView, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: parentView, attribute: NSLayoutAttribute.leading, multiplier: 1, constant: droppedView.center.x)
-        let verticalConstraint = NSLayoutConstraint(item: droppedView, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: parentView, attribute: NSLayoutAttribute.top, multiplier: 1, constant: droppedView.center.y)
-        droppedView.translatesAutoresizingMaskIntoConstraints = false
-        droppedView.removeConstraintsWithoutDescendants()
-        parentView.addConstraint(horizontalConstraint)
-        parentView.addConstraint(verticalConstraint)
+        ddToLineSlide?.snapView(view: droppedView, toPosition: droppedPoint)
+        ddToMiddleSlide?.snapView(view: droppedView, toPosition: droppedPoint)
     }
 }
 

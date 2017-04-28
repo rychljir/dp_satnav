@@ -1,15 +1,15 @@
 //
-//  DragDropImageSlide.swift
+//  DragDropToMiddleSlide.swift
 //  Satnav
 //
-//  Created by Petr Mares on 27.04.17.
+//  Created by Petr Mares on 28.04.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 import DragDropUI
 
-class DragDropToLineSlide: UIView{
+class DragDropToMiddleSlide: UIView {
     
     var themeColor: UIColor?
     var parent: UIViewController?
@@ -50,7 +50,20 @@ class DragDropToLineSlide: UIView{
     
     func evaluateAnswer(index: Int) -> Bool{
         let correctPlace = correctOrder[index]
-        if(draggables[index].center.y <= yPosAnswers[correctPlace]+20 && draggables[index].center.y >= yPosAnswers[correctPlace]-20){
+        let dy = Float(draggables[index].center.y)
+        let dx = Float(draggables[index].center.x)
+        let amaxy = Float(lineAnswers[correctPlace].frame.maxY)
+        let amaxx = Float(lineAnswers[correctPlace].frame.maxX)
+        let aminy = Float(lineAnswers[correctPlace].frame.minY)
+        let aminx = Float(lineAnswers[correctPlace].frame.minX)
+        print("dx: ", dx)
+        print("dy: ", dy)
+        print("maxx: ", amaxx)
+        print("minx: ", aminx)
+        print("maxy: ", amaxy)
+        print("miny: ", aminy)
+        if(Float(draggables[index].center.y) <= Float(lineAnswers[correctPlace].frame.maxY) && Float(draggables[index].center.y) >= Float(lineAnswers[correctPlace].frame.minY) &&
+            Float(draggables[index].center.x) <= Float(lineAnswers[correctPlace].frame.maxX) && Float(draggables[index].center.x) >= Float(lineAnswers[correctPlace].frame.minX) ){
             return true
         }
         return false
@@ -58,14 +71,14 @@ class DragDropToLineSlide: UIView{
     
     
     func moveViewToPosition(view: UIView, position: CGPoint){
-        let drag = view as! DDView
+        let drag = view
         
         let parentView = drag.superview!
         
         let horizontalConstraint = NSLayoutConstraint(item: drag, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: parentView, attribute: NSLayoutAttribute.leading, multiplier: 1, constant: position.x)
         let verticalConstraint = NSLayoutConstraint(item: drag, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: parentView, attribute: NSLayoutAttribute.top, multiplier: 1, constant: position.y)
         drag.translatesAutoresizingMaskIntoConstraints = false
-
+        
         drag.setNeedsLayout()
         parentView.setNeedsLayout()
         drag.removeConstraintsWithoutDescendants()
@@ -74,35 +87,30 @@ class DragDropToLineSlide: UIView{
     }
     
     func snapView(view dropped: UIView, toPosition: CGPoint){
-        var idealX = CGFloat(0)
         let currentPosX = dropped.center.x
         let currentPosY = dropped.center.y
-        var deltaY = Float(99999999)
-        var deltaX = Float(99999999)
         var foundIndex = -1
         for i in 0 ... lineAnswers.count-1{
-            let answer = lineAnswers[i]
-            if(Float(abs(currentPosY-answer.center.y))<deltaY){
-                idealX = answer.frame.maxX + (dropped.frame.width/2) - 15
-                deltaY = abs(Float(currentPosY)-Float(answer.center.y))
-                deltaX = Float(abs(Float(currentPosX)-Float(idealX)))
-                foundIndex = i
+            if(currentPosY <= lineAnswers[i].frame.maxY && currentPosY >= lineAnswers[i].frame.minY &&
+                currentPosX <= lineAnswers[i].frame.maxX && currentPosX >= lineAnswers[i].frame.minX){
+                    foundIndex = i
+                    break
             }
         }
         
-        if(deltaY<30 && deltaX<Float(dropped.frame.width*0.75)){
-            let posX = idealX
+        if(foundIndex>=0){
+            let posX = lineAnswers[foundIndex].center.x
             let posY = lineAnswers[foundIndex].center.y
             let pos = CGPoint(x: posX, y:posY)
             moveViewToPosition(view: dropped, position: pos)
         }else{
-            let posX = dropped.center.x
-            let posY = dropped.center.y
+            let posX = currentPosX
+            let posY = currentPosY
             let pos = CGPoint(x: posX, y:posY)
             moveViewToPosition(view: dropped, position: pos)
         }
     }
-
+    
     func initSlide(parent: UIViewController, correctOrder: [Int], colorTheme: UIColor, indexOfChapter: Int){
         self.parent = parent
         let subs = self.allSubViews
@@ -137,6 +145,10 @@ class DragDropToLineSlide: UIView{
     
     override func didMoveToSuperview() {
         //disable autolayout
+        for subView in lineAnswers {
+            moveViewToPosition(view: subView, position: subView.center)
+        }
+        
         for subView in draggables {
             let drag = subView as! DDView
             
@@ -144,7 +156,9 @@ class DragDropToLineSlide: UIView{
             drag.ddDelegate = parent as? DDViewDelegate
         }
         
-        (parent as! ChapterViewController).ddToLineSlide = self
+        
+        
+        (parent as! ChapterViewController).ddToMiddleSlide = self
         
         if(ApplicationState.getTaskState(index: indexOfChapter!)){
             taskDone()
@@ -157,32 +171,14 @@ class DragDropToLineSlide: UIView{
         for i in 0 ... draggables.count-1{
             draggables[i].isUserInteractionEnabled = false
             eval?.isEnabled = false
-            let posX = lineAnswers[i].frame.maxX + (draggables[i].frame.width/2) - 15
-            let posY = yPosAnswers[correctOrder[i]]
+            let posX = lineAnswers[correctOrder[i]].center.x
+            let posY = lineAnswers[correctOrder[i]].center.y
+            print("posX: ", posX)
+            print("posY: ", posY)
             let pos = CGPoint(x: posX, y: posY)
             moveViewToPosition(view: draggables[i],position: pos)
             draggables[i].superview!.bringSubview(toFront: draggables[i])
         }
-         ApplicationState.setTaskState(index: indexOfChapter!, state: true)
+        ApplicationState.setTaskState(index: indexOfChapter!, state: true)
     }
 }
-
-extension UIView {
-    var allSubViews : [UIView] {
-        var array = [self.subviews].flatMap {$0}
-        array.forEach { array.append(contentsOf: $0.allSubViews) }
-        return array
-    }
-    
-    func removeConstraintsWithoutDescendants() {
-        
-        let constraints = self.superview?.constraints.filter{
-            $0.firstItem as? UIView == self || $0.secondItem as? UIView == self
-            } ?? []
-        
-        self.superview?.removeConstraints(constraints)
-        //self.removeConstraints(self.constraints)
-    
-    }
-}
-
