@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Tracking of natural
+processes"; ObjectID = "83p-a1-MKx"; */
+"83p-a1-MKx.text" = "Sledování přírodních\nprocesů";
+
+/* Class = "UILabel"; text = "Fauna migration
+tracking"; ObjectID = "8qt-yx-Mud"; */
+"8qt-yx-Mud.text" = "Sledování migrace\nzvířat";
+
+/* Class = "UILabel"; text = "Task"; ObjectID = "JC8-We-q7h"; */
+"JC8-We-q7h.text" = "Úloha";
+
+/* Class = "UILabel"; text = "Calling for help"; ObjectID = "Q9b-UW-8Jv"; */
+"Q9b-UW-8Jv.text" = "Sledování přírodních\nprocesů";
+
+/* Class = "UIButton"; normalTitle = "Evaluate"; ObjectID = "Xyn-XI-tWV"; */
+"Xyn-XI-tWV.normalTitle" = "Vyhodnotit";
+
+/* Class = "UILabel"; text = "eCall"; ObjectID = "m4b-Bi-qhe"; */
+"m4b-Bi-qhe.text" = "eCall";
+
+/* Class = "UILabel"; text = "Toll collection"; ObjectID = "na2-wU-Y0w"; */
+"na2-wU-Y0w.text" = "Výběr mýtného";
+
+/* Class = "UILabel"; text = "Flora mapping"; ObjectID = "rgh-2w-hRu"; */
+"rgh-2w-hRu.text" = "Mapování rostlin";
+
+/* Class = "UILabel"; text = "GNSS has a very wide range of applications.
+Match the pictures with the correct description."; ObjectID = "wuX-Go-dKr"; */
+"wuX-Go-dKr.text" = "Použití satelitní navigace v praxi je velmi široké.\nPřiřaďte k obrázkům správné popisky.";

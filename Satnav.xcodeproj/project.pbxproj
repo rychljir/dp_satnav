@@ -311,13 +311,13 @@
 		94E810461E77E1F900C17766 /* SatnavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E810451E77E1F900C17766 /* SatnavTests.swift */; };
 		94E810511E77E1F900C17766 /* SatnavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E810501E77E1F900C17766 /* SatnavUITests.swift */; };
 		94F9F2CF1EB3A078005A1B5F /* DragDropToMiddleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9F2CE1EB3A078005A1B5F /* DragDropToMiddleSlide.swift */; };
-		94F9F2D11EB3A090005A1B5F /* Task06_7_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2D01EB3A090005A1B5F /* Task06_7_Slide.xib */; };
 		94F9F2D81EB3A602005A1B5F /* task06_7_img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2D21EB3A602005A1B5F /* task06_7_img1.png */; };
 		94F9F2D91EB3A602005A1B5F /* task06_7_img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2D31EB3A602005A1B5F /* task06_7_img2.png */; };
 		94F9F2DA1EB3A602005A1B5F /* task06_7_img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2D41EB3A602005A1B5F /* task06_7_img3.png */; };
 		94F9F2DB1EB3A602005A1B5F /* task06_7_img4.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2D51EB3A602005A1B5F /* task06_7_img4.png */; };
 		94F9F2DC1EB3A602005A1B5F /* task06_7_img5.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2D61EB3A602005A1B5F /* task06_7_img5.png */; };
 		94F9F2DD1EB3A602005A1B5F /* task06_7_img6.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2D71EB3A602005A1B5F /* task06_7_img6.png */; };
+		94F9F2DE1EB3BE11005A1B5F /* Task06_7_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2E01EB3BE11005A1B5F /* Task06_7_Slide.xib */; };
 		94FF0C341EADE7C30015789E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF0C331EADE7C30015789E /* RoundedButton.swift */; };
 		94FF0C391EADF26A0015789E /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF0C381EADF26A0015789E /* ApplicationState.swift */; };
 /* End PBXBuildFile section */
@@ -657,13 +657,14 @@
 		94E810501E77E1F900C17766 /* SatnavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatnavUITests.swift; sourceTree = "<group>"; };
 		94E810521E77E1F900C17766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F9F2CE1EB3A078005A1B5F /* DragDropToMiddleSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropToMiddleSlide.swift; sourceTree = "<group>"; };
-		94F9F2D01EB3A090005A1B5F /* Task06_7_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task06_7_Slide.xib; sourceTree = "<group>"; };
 		94F9F2D21EB3A602005A1B5F /* task06_7_img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task06_7_img1.png; path = res/task06_7_img1.png; sourceTree = "<group>"; };
 		94F9F2D31EB3A602005A1B5F /* task06_7_img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task06_7_img2.png; path = res/task06_7_img2.png; sourceTree = "<group>"; };
 		94F9F2D41EB3A602005A1B5F /* task06_7_img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task06_7_img3.png; path = res/task06_7_img3.png; sourceTree = "<group>"; };
 		94F9F2D51EB3A602005A1B5F /* task06_7_img4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task06_7_img4.png; path = res/task06_7_img4.png; sourceTree = "<group>"; };
 		94F9F2D61EB3A602005A1B5F /* task06_7_img5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task06_7_img5.png; path = res/task06_7_img5.png; sourceTree = "<group>"; };
 		94F9F2D71EB3A602005A1B5F /* task06_7_img6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = task06_7_img6.png; path = res/task06_7_img6.png; sourceTree = "<group>"; };
+		94F9F2DF1EB3BE11005A1B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Task06_7_Slide.xib; sourceTree = "<group>"; };
+		94F9F2E21EB3BE16005A1B5F /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Task06_7_Slide.strings; sourceTree = "<group>"; };
 		94FF0C331EADE7C30015789E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		94FF0C371EADF1630015789E /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		94FF0C381EADF26A0015789E /* ApplicationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
@@ -731,7 +732,7 @@
 				947F50341E968E1400589C8A /* Task05_7_8_Slide.xib */,
 				947F50361E968E2700589C8A /* Task05_7_8_Slide.swift */,
 				94BBE1ED1EB32AC000DA52F4 /* Task05_9_Slide.xib */,
-				94F9F2D01EB3A090005A1B5F /* Task06_7_Slide.xib */,
+				94F9F2E01EB3BE11005A1B5F /* Task06_7_Slide.xib */,
 				948DD5131E85750300416703 /* TitleTextSlide.xib */,
 				948DD5151E85751800416703 /* TitleTextSlide.swift */,
 				9485F0DD1E8D00D700CC88AC /* ThreeImagesModalSlide.xib */,
@@ -1366,7 +1367,7 @@
 				948DDA421E85943300416703 /* base_sat_4_pressed.png in Resources */,
 				948DDA821E85943300416703 /* menu_btn_8_disabled.png in Resources */,
 				948DDA7F1E85943300416703 /* menu_btn_7.png in Resources */,
-				94F9F2D11EB3A090005A1B5F /* Task06_7_Slide.xib in Resources */,
+				94F9F2DE1EB3BE11005A1B5F /* Task06_7_Slide.xib in Resources */,
 				948DDA141E85943300416703 /* base_hint_1_pressed.png in Resources */,
 				948DDAB21E85943300416703 /* task03_10_btn4.png in Resources */,
 				948DDA2A1E85943300416703 /* base_home_4_pressed.png in Resources */,
@@ -1689,6 +1690,15 @@
 				94632CBE1E853DA500ADB27A /* cs */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94F9F2E01EB3BE11005A1B5F /* Task06_7_Slide.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F9F2DF1EB3BE11005A1B5F /* Base */,
+				94F9F2E21EB3BE16005A1B5F /* cs */,
+			);
+			name = Task06_7_Slide.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
