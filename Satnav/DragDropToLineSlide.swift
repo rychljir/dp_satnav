@@ -2,13 +2,18 @@
 //  DragDropImageSlide.swift
 //  Satnav
 //
-//  Created by Petr Mares on 27.04.17.
+//  Created by Jiri Rychlovsky on 27.04.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 import DragDropUI
 
+/*
+ 
+ DragDrop task with line snapping
+ 
+ */
 class DragDropToLineSlide: UIView{
     
     var themeColor: UIColor?

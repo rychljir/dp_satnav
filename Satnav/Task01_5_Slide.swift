@@ -2,7 +2,7 @@
 //  Task01_5_Slide.swift
 //  Satnav
 //
-//  Created by Petr Mares on 28.03.17.
+//  Created by Jiri Rychlovsky on 28.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 

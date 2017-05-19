@@ -2,13 +2,18 @@
 //  ViewController.swift
 //  Satnav
 //
-//  Created by Petr Mares on 14.03.17.
+//  Created by Jiri Rychlovsky on 14.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 import ios_core
 
+/*
+ 
+ ViewController which shows main menu of app and starts chapters
+ 
+ */
 class ViewController: UIViewController {
     @IBAction func btnChapter1(_ sender: UIButton) {
         startChapter(0)

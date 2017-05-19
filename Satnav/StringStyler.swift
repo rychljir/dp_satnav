@@ -2,7 +2,7 @@
 //  StringStyler.swift
 //  Satnav
 //
-//  Created by Petr Mares on 31.03.17.
+//  Created by Jiri Rychlovsky on 31.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 

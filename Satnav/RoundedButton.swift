@@ -2,12 +2,17 @@
 //  RoundedButton.swift
 //  Satnav
 //
-//  Created by Petr Mares on 24.04.17.
+//  Created by Jiri Rychlovsky on 24.04.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 import Foundation
 import UIKit
 
+/*
+ 
+ Object which customizes UIButton
+ 
+ */
 class RoundedButton: UIButton {
 
     required init(coder aDecoder: (NSCoder!)) {

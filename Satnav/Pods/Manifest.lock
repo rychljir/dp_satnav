@@ -1,12 +1,15 @@
 PODS:
   - DragDropUI (1.0.1)
+  - PureLayout (3.0.2)
 
 DEPENDENCIES:
   - DragDropUI
+  - PureLayout
 
 SPEC CHECKSUMS:
   DragDropUI: a830fd319f99e75e393af532222da0a18e0d49aa
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
 
-PODFILE CHECKSUM: efc068ebd0019ebb4e536e0b2bb80a6d54719dae
+PODFILE CHECKSUM: 49333442278ad0fd0d0dfc54a117eb9c8a6fb6c7
 
 COCOAPODS: 1.2.1

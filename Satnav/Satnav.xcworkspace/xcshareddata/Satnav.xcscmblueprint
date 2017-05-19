@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7D0892656187699FBC8906B943E549D84DA40BD8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "592ED6ECFCD4D1C13609F0EC9CC0AF682A13D70D" : 9223372036854775807,
+    "7D0892656187699FBC8906B943E549D84DA40BD8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0744CF66-E71F-4DA2-A3C2-D5B73D850D52",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "592ED6ECFCD4D1C13609F0EC9CC0AF682A13D70D" : "..\/ios_core",
+    "7D0892656187699FBC8906B943E549D84DA40BD8" : "Satnav\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Satnav",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Satnav\/Satnav.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rychljir\/ios_core.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "592ED6ECFCD4D1C13609F0EC9CC0AF682A13D70D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rychljir\/dp_satnav.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7D0892656187699FBC8906B943E549D84DA40BD8"
+    }
+  ]
+}

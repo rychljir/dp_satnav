@@ -2,7 +2,7 @@
 //  ChapterViewController.swift
 //  Satnav
 //
-//  Created by Petr Mares on 30.03.17.
+//  Created by Jiri Rychlovsky on 30.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
@@ -10,6 +10,11 @@ import UIKit
 import DragDropUI
 import ios_core
 
+/*
+ 
+ ViewController which displays content of a chapter
+ 
+ */
 class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDelegate, ChapterProtocol {
     
     var indexOfChapter = 0
@@ -36,13 +41,16 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         slideScrollView.delegate = self
         var slides:[UIView]
         
+        //init setups for all chapters
         initColors()
         initHomeButton()
         initBackgrounds()
         initChapterNames()
         
+        //setup chapter by its index
         setupForChapter(index: indexOfChapter)
         
+        //creates slides based on chapter index
         switch indexOfChapter {
         case 0:
             slides = createSlidesForChapter1()
@@ -585,6 +593,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
     }
     
 
+    //adapts theme by chapter index
     func setupForChapter(index: Int){
         backgroundImage.image = chapterBackImage[index]
         homeButton.setImage(chapterHomeButtonImage[index], for: .normal)
@@ -594,7 +603,7 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
         bottomLine.backgroundColor = chapterColors[index]
     }
     
-    
+    //shows fullscreen modal
     func showModal(image: UIImage, text: String){
         modalVC.setContent(image: image, text: text)
         modalVC.modalTransitionStyle = UIModalTransitionStyle.partialCurl
@@ -603,7 +612,6 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
     }
     
     
-    // MARK: DDViewDelegate
     func viewWasDragged(view: UIView, draggedPoint: CGPoint) {
         print("Dragged Point : ", draggedPoint)
         
@@ -615,6 +623,8 @@ class ChapterViewController: UIViewController, UIScrollViewDelegate, DDViewDeleg
     }
 }
 
+
+//Extension which simulates behaviour of Toast in Android OS
 extension UIViewController {
     func showToast(message : String) {
         let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 200, y: self.view.frame.size.height-150, width: 400, height: 70))

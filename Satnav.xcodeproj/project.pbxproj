@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F362DECB9A17738364547E4 /* Pods_Satnav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */; };
 		941080141EB1D52700FA746E /* Task03_10_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941080161EB1D52700FA746E /* Task03_10_Slide.xib */; };
+		943A14EA1ECEE6D200C314D4 /* ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943A14E71ECEE6C200C314D4 /* ios_core.framework */; };
+		943A14EB1ECEE6D200C314D4 /* ios_core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 943A14E71ECEE6C200C314D4 /* ios_core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		943A14F91ECEE7E200C314D4 /* Pods_ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974761CF08ABB3F942D32B4B /* Pods_ios_core.framework */; };
+		943A14FA1ECEE7E200C314D4 /* Pods_ios_core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 974761CF08ABB3F942D32B4B /* Pods_ios_core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		944397181E924D2C00D4F854 /* Task03_1_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944397171E924D2C00D4F854 /* Task03_1_Slide.swift */; };
 		944724F41E86648300CF284D /* Task01_4_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944724F31E86648300CF284D /* Task01_4_Slide.xib */; };
 		944724F61E86649A00CF284D /* Task01_4_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944724F51E86649A00CF284D /* Task01_4_Slide.swift */; };
@@ -27,7 +30,6 @@
 		94483B7A1E9265BA00E9B642 /* Task03_1_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94483B791E9265BA00E9B642 /* Task03_1_Slide.xib */; };
 		94483B821E92782800E9B642 /* Task03_11_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94483B811E92782800E9B642 /* Task03_11_Slide.swift */; };
 		9456B70A1E94ED6D0061C9F0 /* Task03_11_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9456B70C1E94ED6D0061C9F0 /* Task03_11_Slide.xib */; };
-		946CBD5D1E8E7D77006AFECD /* StringStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CBD5C1E8E7D77006AFECD /* StringStyler.swift */; };
 		9470AA6B1EAF3CC400309707 /* Task03_10_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */; };
 		94724E601E8ABE770015BCAE /* Task01_5_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94724E5F1E8ABE770015BCAE /* Task01_5_Slide.xib */; };
 		94724E621E8ABE8D0015BCAE /* Task01_5_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94724E611E8ABE8D0015BCAE /* Task01_5_Slide.swift */; };
@@ -61,8 +63,6 @@
 		947497101EB87DBB00BD8B9C /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 947496FA1EB87DBB00BD8B9C /* Icon-App-83.5x83.5@2x.png */; };
 		947497111EB87DBB00BD8B9C /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 947496FB1EB87DBB00BD8B9C /* Icon-Small-50x50@1x.png */; };
 		947497121EB87DBB00BD8B9C /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 947496FC1EB87DBB00BD8B9C /* Icon-Small-50x50@2x.png */; };
-		9475AC551EBB721800E838D8 /* ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475AC521EBB71C600E838D8 /* ios_core.framework */; };
-		9475AC561EBB721800E838D8 /* ios_core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9475AC521EBB71C600E838D8 /* ios_core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		947F50351E968E1400589C8A /* Task05_7_8_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947F50341E968E1400589C8A /* Task05_7_8_Slide.xib */; };
 		947F50371E968E2700589C8A /* Task05_7_8_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F50361E968E2700589C8A /* Task05_7_8_Slide.swift */; };
 		9485F0D31E8CEE2600CC88AC /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9485F0D11E8CEE2600CC88AC /* ChapterViewController.swift */; };
@@ -332,26 +332,27 @@
 		94F9F2DE1EB3BE11005A1B5F /* Task06_7_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F9F2E01EB3BE11005A1B5F /* Task06_7_Slide.xib */; };
 		94FF0C341EADE7C30015789E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF0C331EADE7C30015789E /* RoundedButton.swift */; };
 		94FF0C391EADF26A0015789E /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF0C381EADF26A0015789E /* ApplicationState.swift */; };
+		F1D56AB024243B789E79BF4F /* Pods_Satnav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9475AC511EBB71C600E838D8 /* PBXContainerItemProxy */ = {
+		943A14E61ECEE6C200C314D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9475AC4C1EBB71C600E838D8 /* ios_core.xcodeproj */;
+			containerPortal = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9475AC271EBB704700E838D8;
 			remoteInfo = ios_core;
 		};
-		9475AC531EBB71C600E838D8 /* PBXContainerItemProxy */ = {
+		943A14E81ECEE6C200C314D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9475AC4C1EBB71C600E838D8 /* ios_core.xcodeproj */;
+			containerPortal = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9475AC301EBB704700E838D8;
 			remoteInfo = ios_coreTests;
 		};
-		9475AC571EBB721800E838D8 /* PBXContainerItemProxy */ = {
+		943A14EC1ECEE6D200C314D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9475AC4C1EBB71C600E838D8 /* ios_core.xcodeproj */;
+			containerPortal = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 9475AC261EBB704700E838D8;
 			remoteInfo = ios_core;
@@ -373,13 +374,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9475AC591EBB721800E838D8 /* Embed Frameworks */ = {
+		943A14EE1ECEE6D200C314D4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9475AC561EBB721800E838D8 /* ios_core.framework in Embed Frameworks */,
+				943A14EB1ECEE6D200C314D4 /* ios_core.framework in Embed Frameworks */,
+				943A14FA1ECEE7E200C314D4 /* Pods_ios_core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +391,7 @@
 /* Begin PBXFileReference section */
 		4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Satnav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941080151EB1D52700FA746E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Task03_10_Slide.xib; sourceTree = "<group>"; };
+		943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ios_core.xcodeproj; path = ../../ios_core/ios_core.xcodeproj; sourceTree = "<group>"; };
 		944397171E924D2C00D4F854 /* Task03_1_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task03_1_Slide.swift; sourceTree = "<group>"; };
 		944724F31E86648300CF284D /* Task01_4_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task01_4_Slide.xib; sourceTree = "<group>"; };
 		944724F51E86649A00CF284D /* Task01_4_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task01_4_Slide.swift; sourceTree = "<group>"; };
@@ -409,7 +412,6 @@
 		9456B70B1E94ED6D0061C9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Task03_11_Slide.xib; sourceTree = "<group>"; };
 		9456B70E1E94ED700061C9F0 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Task03_11_Slide.strings; sourceTree = "<group>"; };
 		94632CBE1E853DA500ADB27A /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		946CBD5C1E8E7D77006AFECD /* StringStyler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringStyler.swift; sourceTree = "<group>"; };
 		9470AA6A1EAF3CC400309707 /* Task03_10_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task03_10_Slide.swift; sourceTree = "<group>"; };
 		94724E5F1E8ABE770015BCAE /* Task01_5_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task01_5_Slide.xib; sourceTree = "<group>"; };
 		94724E611E8ABE8D0015BCAE /* Task01_5_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task01_5_Slide.swift; sourceTree = "<group>"; };
@@ -444,7 +446,6 @@
 		947496FB1EB87DBB00BD8B9C /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50x50@1x.png"; path = "res/Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
 		947496FC1EB87DBB00BD8B9C /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50x50@2x.png"; path = "res/Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
 		9475ABD21EBB6D4800E838D8 /* Acknowledgments.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Acknowledgments.pdf; sourceTree = "<group>"; };
-		9475AC4C1EBB71C600E838D8 /* ios_core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ios_core.xcodeproj; path = ../../ios_core/ios_core.xcodeproj; sourceTree = "<group>"; };
 		947F50341E968E1400589C8A /* Task05_7_8_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task05_7_8_Slide.xib; sourceTree = "<group>"; };
 		947F50361E968E2700589C8A /* Task05_7_8_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task05_7_8_Slide.swift; sourceTree = "<group>"; };
 		9485F0D11E8CEE2600CC88AC /* ChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
@@ -727,6 +728,7 @@
 		94FF0C331EADE7C30015789E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		94FF0C371EADF1630015789E /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		94FF0C381EADF26A0015789E /* ApplicationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
+		974761CF08ABB3F942D32B4B /* Pods_ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A354DECE0923ECA761FBBFD6 /* Pods-Satnav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Satnav.debug.xcconfig"; path = "Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav.debug.xcconfig"; sourceTree = "<group>"; };
 		A8EE754DC976CBB9261BDE30 /* Pods-Satnav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Satnav.release.xcconfig"; path = "Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -736,8 +738,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F362DECB9A17738364547E4 /* Pods_Satnav.framework in Frameworks */,
-				9475AC551EBB721800E838D8 /* ios_core.framework in Frameworks */,
+				F1D56AB024243B789E79BF4F /* Pods_Satnav.framework in Frameworks */,
+				943A14F91ECEE7E200C314D4 /* Pods_ios_core.framework in Frameworks */,
+				943A14EA1ECEE6D200C314D4 /* ios_core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,6 +770,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		943A14E21ECEE6C200C314D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943A14E71ECEE6C200C314D4 /* ios_core.framework */,
+				943A14E91ECEE6C200C314D4 /* ios_coreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9475ABD11EBB6D4800E838D8 /* Developer */ = {
 			isa = PBXGroup;
 			children = (
@@ -774,15 +786,6 @@
 			);
 			name = Developer;
 			path = ../../../../../../Library/Developer/CommandLineTools/Library/Developer;
-			sourceTree = "<group>";
-		};
-		9475AC4D1EBB71C600E838D8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9475AC521EBB71C600E838D8 /* ios_core.framework */,
-				9475AC541EBB71C600E838D8 /* ios_coreTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		948DD5081E855B6800416703 /* view */ = {
@@ -823,7 +826,7 @@
 		94E810241E77E1F900C17766 = {
 			isa = PBXGroup;
 			children = (
-				9475AC4C1EBB71C600E838D8 /* ios_core.xcodeproj */,
+				943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */,
 				94E8102F1E77E1F900C17766 /* Satnav */,
 				94E810441E77E1F900C17766 /* SatnavTests */,
 				94E8104F1E77E1F900C17766 /* SatnavUITests */,
@@ -850,7 +853,6 @@
 				94E813641E77E9A000C17766 /* res */,
 				94E810301E77E1F900C17766 /* AppDelegate.swift */,
 				94E810321E77E1F900C17766 /* ViewController.swift */,
-				946CBD5C1E8E7D77006AFECD /* StringStyler.swift */,
 				94E810341E77E1F900C17766 /* Main.storyboard */,
 				94E810391E77E1F900C17766 /* LaunchScreen.storyboard */,
 				94D8E9641E912B8400BC7B9D /* Assets.xcassets */,
@@ -1192,12 +1194,12 @@
 				94E8102B1E77E1F900C17766 /* Resources */,
 				42B164488654A5F368AD0432 /* [CP] Embed Pods Frameworks */,
 				C99A9FF27238D9400DFD4558 /* [CP] Copy Pods Resources */,
-				9475AC591EBB721800E838D8 /* Embed Frameworks */,
+				943A14EE1ECEE6D200C314D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9475AC581EBB721800E838D8 /* PBXTargetDependency */,
+				943A14ED1ECEE6D200C314D4 /* PBXTargetDependency */,
 			);
 			name = Satnav;
 			productName = Satnav;
@@ -1283,8 +1285,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9475AC4D1EBB71C600E838D8 /* Products */;
-					ProjectRef = 9475AC4C1EBB71C600E838D8 /* ios_core.xcodeproj */;
+					ProductGroup = 943A14E21ECEE6C200C314D4 /* Products */;
+					ProjectRef = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1297,18 +1299,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9475AC521EBB71C600E838D8 /* ios_core.framework */ = {
+		943A14E71ECEE6C200C314D4 /* ios_core.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ios_core.framework;
-			remoteRef = 9475AC511EBB71C600E838D8 /* PBXContainerItemProxy */;
+			remoteRef = 943A14E61ECEE6C200C314D4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9475AC541EBB71C600E838D8 /* ios_coreTests.xctest */ = {
+		943A14E91ECEE6C200C314D4 /* ios_coreTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ios_coreTests.xctest;
-			remoteRef = 9475AC531EBB71C600E838D8 /* PBXContainerItemProxy */;
+			remoteRef = 943A14E81ECEE6C200C314D4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1706,7 +1708,6 @@
 				947F50371E968E2700589C8A /* Task05_7_8_Slide.swift in Sources */,
 				94B75EF91EB1DB80005EFE8C /* DragDropToLineSlide.swift in Sources */,
 				94F9F2CF1EB3A078005A1B5F /* DragDropToMiddleSlide.swift in Sources */,
-				946CBD5D1E8E7D77006AFECD /* StringStyler.swift in Sources */,
 				94E810311E77E1F900C17766 /* AppDelegate.swift in Sources */,
 				94483B821E92782800E9B642 /* Task03_11_Slide.swift in Sources */,
 				9470AA6B1EAF3CC400309707 /* Task03_10_Slide.swift in Sources */,
@@ -1732,10 +1733,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9475AC581EBB721800E838D8 /* PBXTargetDependency */ = {
+		943A14ED1ECEE6D200C314D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ios_core;
-			targetProxy = 9475AC571EBB721800E838D8 /* PBXContainerItemProxy */;
+			targetProxy = 943A14EC1ECEE6D200C314D4 /* PBXContainerItemProxy */;
 		};
 		94E810431E77E1F900C17766 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1837,6 +1838,7 @@
 		94E810531E77E1F900C17766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1886,6 +1888,7 @@
 		94E810541E77E1F900C17766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1930,9 +1933,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A354DECE0923ECA761FBBFD6 /* Pods-Satnav.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG6NAF3KK3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = Satnav/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.scientica.satellitenavigation;
@@ -1946,9 +1953,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8EE754DC976CBB9261BDE30 /* Pods-Satnav.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG6NAF3KK3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = Satnav/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.scientica.satellitenavigation;

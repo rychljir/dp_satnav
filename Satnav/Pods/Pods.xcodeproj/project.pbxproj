@@ -7,26 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C7886335B964157CCC01DADD1EA7106 /* DDProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9830FB2F87F2F6BCED661C64B07C22 /* DDProtocol.swift */; };
-		4C3CB5ABCA006D9913B23B6E4A556BAD /* DDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635FB406B8836F478C620E8828E9D1D4 /* DDTableViewCell.swift */; };
-		5A7337B3E849B9B942C24B79C8597B68 /* DragDropUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5DFFD487BEA46150980D3D3930B26F /* DragDropUI-dummy.m */; };
-		84406654A472E24D931FEC66AA1DF147 /* DDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F0D6FA1C3FE0F50E237A4AE5AD4E6 /* DDImageView.swift */; };
+		0276E120E8E70D8DDCAFF36DB1A9523E /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0654C2B70B959F38476D1B685CC94 /* PureLayout-dummy.m */; };
+		30C632FEE5F9E72D17B1A79A9F1BEBC5 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB85904683931240BD2AFCFC6F3E903 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F3EED9EB6A52DB6B641E2BC746934C /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8D0CB32B860820012D9F0CACBFF9FF /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC15054C1C06B4C4105526371381C1E /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 256DF2BFAA70F89411976726A98816DB /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C7886335B964157CCC01DADD1EA7106 /* DDProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2318CB9F76D25D4C5F3015BA97432 /* DDProtocol.swift */; };
+		42F022AC4AA196214504D3B8B8FA241B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4C3CB5ABCA006D9913B23B6E4A556BAD /* DDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E50B10F5AA1BEB9A4246AEE930A0B /* DDTableViewCell.swift */; };
+		4DADAE69839729EA92D945C89D0F1B2A /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 07238329BFB3FA06E6A567CBEADFA68C /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545B124883CB35D40D67D1CD073C5422 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E287C51D7E9085910049B5C5A2250A06 /* ALView+PureLayout.m */; };
+		5A7337B3E849B9B942C24B79C8597B68 /* DragDropUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7AEF77A675DED9B68113758282B363 /* DragDropUI-dummy.m */; };
+		84406654A472E24D931FEC66AA1DF147 /* DDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC6DE9D0CF54EE0B70BBCE0516F10 /* DDImageView.swift */; };
 		91613AD30EE6674C02E068D18E4E81A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A14810AFA34D90C5FAA2BEBE864175AE /* DDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35638B6811AE60BD480E11110F832C70 /* DDLabel.swift */; };
-		A18B8CD87464CE8C26F38537F7CC0FF4 /* DDGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862E01C9EADCB4DC0334DC7A3518218E /* DDGestureRecognizer.swift */; };
-		BF7C18CE93A5019E8A62D8CD84C05177 /* Pods-Satnav-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A24923D1FC84E799C6638FCE8CF36DC3 /* Pods-Satnav-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C38DFE1872E7B02F3BDDDF5099547703 /* Pods-Satnav-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D30D7F3CE176EDCC6FEFD610E7D11E54 /* Pods-Satnav-dummy.m */; };
-		CADF9CEB92B38B5FA03508633F5253BC /* DD+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0614FA00DA2D6F4AF635BDAFFE66283B /* DD+View.swift */; };
-		D6059EB195B4DD363BF282539EBF1F24 /* DDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF511B4B2BF15C48551A1AC2DD48AE2 /* DDTextField.swift */; };
-		DDB1C58D09D69A7DF7FDAC0A8EFF74A5 /* DDCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2120A86770DD028F90ADFC3DCA2E981A /* DDCollectionViewCell.swift */; };
-		E0C560D0169F09C30FD137C6861554FF /* DDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333F9DC75F80551BE9E50CF0B25B92B /* DDButton.swift */; };
-		F24368DD1565A20CD0A2EDDF132C2CC9 /* DDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF839FAA6C172A60EA3E949AC138E773 /* DDView.swift */; };
-		FDDDA6CA5B2CAFB9C40CF1D959C5D317 /* DragDropUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 303D20B1DF1F56417CEC43DD9B0DCEAB /* DragDropUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE0FF355D88727B1046B2C58354D900D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9BA06D7659046C06F2E093B7C72B0937 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E2C90CD37EB8CC7B94DC24DE487B7D /* NSArray+PureLayout.m */; };
+		A14810AFA34D90C5FAA2BEBE864175AE /* DDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BAE3084DAEFD1CFBE1A34A7EE80C52 /* DDLabel.swift */; };
+		A18B8CD87464CE8C26F38537F7CC0FF4 /* DDGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8BD0835F0635C8796096011A14E59 /* DDGestureRecognizer.swift */; };
+		AC389DF702FCE42591A29BA8241B9450 /* Pods-Satnav-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D30D7F3CE176EDCC6FEFD610E7D11E54 /* Pods-Satnav-dummy.m */; };
+		B1207208884A81129148F3726946E137 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5F0AC73E288C9BBD43F4F4B0B49D78 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CADF9CEB92B38B5FA03508633F5253BC /* DD+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432B67EA0DB637B331AF0C772FBE5D0 /* DD+View.swift */; };
+		D6059EB195B4DD363BF282539EBF1F24 /* DDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA739CCFCC44675622424F782F18017 /* DDTextField.swift */; };
+		DB5927F0768A1A81627C850B1A64D3A5 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DFB42C3711EB6B8A9E1BCE6D4A191F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB1C58D09D69A7DF7FDAC0A8EFF74A5 /* DDCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164C3B11E2CABA381C4A4439FC0B2AD /* DDCollectionViewCell.swift */; };
+		E0C560D0169F09C30FD137C6861554FF /* DDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5BDF1D79B66445AED2899DEA81649 /* DDButton.swift */; };
+		E80CDB3D5ED9497F062F03C4D717D861 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C776C790EBCBD12BD7E73A8C58CA5F0B /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF492937F714EDB4FB737AF2172C5473 /* Pods-Satnav-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A24923D1FC84E799C6638FCE8CF36DC3 /* Pods-Satnav-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24368DD1565A20CD0A2EDDF132C2CC9 /* DDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6662627C24A1B54DB56168B99434280 /* DDView.swift */; };
+		F55646F0E54FC01D4778422E8A543B24 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F40F7C12A24EED04305C817DA6A66EE3 /* NSLayoutConstraint+PureLayout.m */; };
+		F989F4B2A50E8C940843FC2D7D78BAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FDDDA6CA5B2CAFB9C40CF1D959C5D317 /* DragDropUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D85C045E4F9E46B9D67FC0207CA71E /* DragDropUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BEE37E081B61012039CEB63935C7411 /* PBXContainerItemProxy */ = {
+		772E944AD3AE0699F452180FBFD7759B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2951AD15176366FBCC50B30660CBF475;
+			remoteInfo = PureLayout;
+		};
+		BF65AB49057E6F1788D89F55FF54A1D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -36,47 +55,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0614FA00DA2D6F4AF635BDAFFE66283B /* DD+View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DD+View.swift"; path = "Source/DD+View.swift"; sourceTree = "<group>"; };
-		1333F9DC75F80551BE9E50CF0B25B92B /* DDButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDButton.swift; path = Source/DDButton.swift; sourceTree = "<group>"; };
-		1BF511B4B2BF15C48551A1AC2DD48AE2 /* DDTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTextField.swift; path = Source/DDTextField.swift; sourceTree = "<group>"; };
-		2120A86770DD028F90ADFC3DCA2E981A /* DDCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDCollectionViewCell.swift; path = Source/DDCollectionViewCell.swift; sourceTree = "<group>"; };
-		29634FB43198A4ACFC8EDA2C381C72FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CCF04E249EBD8FEA7CB8BBFDEAD8AF /* DragDropUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragDropUI.xcconfig; sourceTree = "<group>"; };
+		0432B67EA0DB637B331AF0C772FBE5D0 /* DD+View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DD+View.swift"; path = "Source/DD+View.swift"; sourceTree = "<group>"; };
+		06DFB42C3711EB6B8A9E1BCE6D4A191F /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		07238329BFB3FA06E6A567CBEADFA68C /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		1164C3B11E2CABA381C4A4439FC0B2AD /* DDCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDCollectionViewCell.swift; path = Source/DDCollectionViewCell.swift; sourceTree = "<group>"; };
+		22F5BDF1D79B66445AED2899DEA81649 /* DDButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDButton.swift; path = Source/DDButton.swift; sourceTree = "<group>"; };
+		24F8BD0835F0635C8796096011A14E59 /* DDGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDGestureRecognizer.swift; path = Source/DDGestureRecognizer.swift; sourceTree = "<group>"; };
+		256DF2BFAA70F89411976726A98816DB /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
 		2BB3519D2D330972C5DF3F396A2B4669 /* Pods-Satnav-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Satnav-resources.sh"; sourceTree = "<group>"; };
-		2EE3823C15D087E5218C7E8B9161C9A6 /* DragDropUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragDropUI.framework; path = DragDropUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		303D20B1DF1F56417CEC43DD9B0DCEAB /* DragDropUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-umbrella.h"; sourceTree = "<group>"; };
-		35638B6811AE60BD480E11110F832C70 /* DDLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDLabel.swift; path = Source/DDLabel.swift; sourceTree = "<group>"; };
+		2BE0654C2B70B959F38476D1B685CC94 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
 		36491EC1E32F400B940958C58DD7EE72 /* Pods-Satnav.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Satnav.modulemap"; sourceTree = "<group>"; };
-		38B5B5A1FBAA4E056668EF39D83F51BF /* DragDropUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-prefix.pch"; sourceTree = "<group>"; };
-		5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragDropUI.xcconfig; sourceTree = "<group>"; };
+		3D3B05CBAF04F5BAE9A243C6FB247538 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		41BAE3084DAEFD1CFBE1A34A7EE80C52 /* DDLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDLabel.swift; path = Source/DDLabel.swift; sourceTree = "<group>"; };
+		458D87077925C3F76854235806805180 /* Pods_Satnav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Satnav.framework; path = "Pods-Satnav.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E2C90CD37EB8CC7B94DC24DE487B7D /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
 		5E610ACEF53514EA101EA566F2395C54 /* Pods-Satnav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Satnav.debug.xcconfig"; sourceTree = "<group>"; };
-		635FB406B8836F478C620E8828E9D1D4 /* DDTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTableViewCell.swift; path = Source/DDTableViewCell.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8289FC532D4291FF05EDA0CB8409C5F7 /* DragDropUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DragDropUI.modulemap; sourceTree = "<group>"; };
+		71A2318CB9F76D25D4C5F3015BA97432 /* DDProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDProtocol.swift; path = Source/DDProtocol.swift; sourceTree = "<group>"; };
+		72D85C045E4F9E46B9D67FC0207CA71E /* DragDropUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-umbrella.h"; sourceTree = "<group>"; };
+		7B9B1BA00CC4F9871BA64F75215A9D51 /* DragDropUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DragDropUI.modulemap; sourceTree = "<group>"; };
 		82C5262AA85658F388C4539A789D3BFB /* Pods-Satnav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Satnav.release.xcconfig"; sourceTree = "<group>"; };
-		862E01C9EADCB4DC0334DC7A3518218E /* DDGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDGestureRecognizer.swift; path = Source/DDGestureRecognizer.swift; sourceTree = "<group>"; };
-		8C7F0D6FA1C3FE0F50E237A4AE5AD4E6 /* DDImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDImageView.swift; path = Source/DDImageView.swift; sourceTree = "<group>"; };
+		848CC6DE9D0CF54EE0B70BBCE0516F10 /* DDImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDImageView.swift; path = Source/DDImageView.swift; sourceTree = "<group>"; };
+		8C4257CC3AABB668DBE50A413DA043F3 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5800288C087C969CB5977DEAED0A6F /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		91D61219C263256506E75587D58B0E41 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PureLayout.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9861B7DF6DE810D17096F5124C4A1D6E /* Pods-Satnav-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Satnav-frameworks.sh"; sourceTree = "<group>"; };
 		9C8DAC5224EA23D08A2C91B6653B11F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5F0AC73E288C9BBD43F4F4B0B49D78 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		A0AD664905B29679586F0801E1F5A96F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24923D1FC84E799C6638FCE8CF36DC3 /* Pods-Satnav-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Satnav-umbrella.h"; sourceTree = "<group>"; };
+		A531486DB3874212C999536A634284D3 /* DragDropUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropUI-prefix.pch"; sourceTree = "<group>"; };
 		AA071B8A68101FA09DC46CBEC9D46AB4 /* Pods-Satnav-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Satnav-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB9830FB2F87F2F6BCED661C64B07C22 /* DDProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDProtocol.swift; path = Source/DDProtocol.swift; sourceTree = "<group>"; };
-		AF5DFFD487BEA46150980D3D3930B26F /* DragDropUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragDropUI-dummy.m"; sourceTree = "<group>"; };
-		CF839FAA6C172A60EA3E949AC138E773 /* DDView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDView.swift; path = Source/DDView.swift; sourceTree = "<group>"; };
+		BA3E50B10F5AA1BEB9A4246AEE930A0B /* DDTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTableViewCell.swift; path = Source/DDTableViewCell.swift; sourceTree = "<group>"; };
+		C776C790EBCBD12BD7E73A8C58CA5F0B /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		D04D448E5C8A0520D95747AA98E57124 /* Pods-Satnav-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Satnav-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D30D7F3CE176EDCC6FEFD610E7D11E54 /* Pods-Satnav-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Satnav-dummy.m"; sourceTree = "<group>"; };
-		F404ED3D613ADEA2F989E4DA2EEC48DE /* Pods_Satnav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Satnav.framework; path = "Pods-Satnav.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6662627C24A1B54DB56168B99434280 /* DDView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDView.swift; path = Source/DDView.swift; sourceTree = "<group>"; };
+		DF8D0CB32B860820012D9F0CACBFF9FF /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		E287C51D7E9085910049B5C5A2250A06 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		E700EF260883C478396040D2D61E7CD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75C767F558652ACB34CC3F9891E7B45 /* DragDropUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragDropUI.framework; path = DragDropUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA739CCFCC44675622424F782F18017 /* DDTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDTextField.swift; path = Source/DDTextField.swift; sourceTree = "<group>"; };
+		F40F7C12A24EED04305C817DA6A66EE3 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		FE7AEF77A675DED9B68113758282B363 /* DragDropUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragDropUI-dummy.m"; sourceTree = "<group>"; };
+		FEB85904683931240BD2AFCFC6F3E903 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B5C61C0C7549E4541D5C7350960D753 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE0FF355D88727B1046B2C58354D900D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7478F6E7BBDC552142FCB408731F14D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,21 +112,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5C4ED536C561F481D9FB0E40478BFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F989F4B2A50E8C940843FC2D7D78BAEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D903CE55CC3D71B7D431793D426B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F022AC4AA196214504D3B8B8FA241B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B018422040C92AAB7CAC114142EF49F /* Support Files */ = {
+		39AC05CA81B05FBF7B7FFA12BCD34B45 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8289FC532D4291FF05EDA0CB8409C5F7 /* DragDropUI.modulemap */,
-				5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */,
-				AF5DFFD487BEA46150980D3D3930B26F /* DragDropUI-dummy.m */,
-				38B5B5A1FBAA4E056668EF39D83F51BF /* DragDropUI-prefix.pch */,
-				303D20B1DF1F56417CEC43DD9B0DCEAB /* DragDropUI-umbrella.h */,
-				29634FB43198A4ACFC8EDA2C381C72FF /* Info.plist */,
+				E700EF260883C478396040D2D61E7CD9 /* Info.plist */,
+				91D61219C263256506E75587D58B0E41 /* PureLayout.modulemap */,
+				8C5800288C087C969CB5977DEAED0A6F /* PureLayout.xcconfig */,
+				2BE0654C2B70B959F38476D1B685CC94 /* PureLayout-dummy.m */,
+				3D3B05CBAF04F5BAE9A243C6FB247538 /* PureLayout-prefix.pch */,
+				C776C790EBCBD12BD7E73A8C58CA5F0B /* PureLayout-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DragDropUI";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		493DD72EC4DE4B4511BDF09DD1AB176B /* DragDropUI */ = {
+			isa = PBXGroup;
+			children = (
+				0432B67EA0DB637B331AF0C772FBE5D0 /* DD+View.swift */,
+				22F5BDF1D79B66445AED2899DEA81649 /* DDButton.swift */,
+				1164C3B11E2CABA381C4A4439FC0B2AD /* DDCollectionViewCell.swift */,
+				24F8BD0835F0635C8796096011A14E59 /* DDGestureRecognizer.swift */,
+				848CC6DE9D0CF54EE0B70BBCE0516F10 /* DDImageView.swift */,
+				41BAE3084DAEFD1CFBE1A34A7EE80C52 /* DDLabel.swift */,
+				71A2318CB9F76D25D4C5F3015BA97432 /* DDProtocol.swift */,
+				BA3E50B10F5AA1BEB9A4246AEE930A0B /* DDTableViewCell.swift */,
+				EBA739CCFCC44675622424F782F18017 /* DDTextField.swift */,
+				D6662627C24A1B54DB56168B99434280 /* DDView.swift */,
+				A1740DFB4DA6D151CECBEA194B64AC16 /* Support Files */,
+			);
+			name = DragDropUI;
+			path = DragDropUI;
+			sourceTree = "<group>";
+		};
+		6AAE497446B0AE8E93753C4983E3764C /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D0CB32B860820012D9F0CACBFF9FF /* ALView+PureLayout.h */,
+				E287C51D7E9085910049B5C5A2250A06 /* ALView+PureLayout.m */,
+				256DF2BFAA70F89411976726A98816DB /* NSArray+PureLayout.h */,
+				53E2C90CD37EB8CC7B94DC24DE487B7D /* NSArray+PureLayout.m */,
+				FEB85904683931240BD2AFCFC6F3E903 /* NSLayoutConstraint+PureLayout.h */,
+				F40F7C12A24EED04305C817DA6A66EE3 /* NSLayoutConstraint+PureLayout.m */,
+				07238329BFB3FA06E6A567CBEADFA68C /* PureLayout.h */,
+				06DFB42C3711EB6B8A9E1BCE6D4A191F /* PureLayout+Internal.h */,
+				9E5F0AC73E288C9BBD43F4F4B0B49D78 /* PureLayoutDefines.h */,
+				39AC05CA81B05FBF7B7FFA12BCD34B45 /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		79B7A00CD061F763FD3AD6F2F6660928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75C767F558652ACB34CC3F9891E7B45 /* DragDropUI.framework */,
+				458D87077925C3F76854235806805180 /* Pods_Satnav.framework */,
+				8C4257CC3AABB668DBE50A413DA043F3 /* PureLayout.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -107,18 +197,24 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8ED47FF5E125EA2E8A1759668ED9BDC9 /* Pods */,
-				FAC81688F559B66241069B4B0124D1F5 /* Products */,
+				C526466131C855A7796A8EE5C24E9427 /* Pods */,
+				79B7A00CD061F763FD3AD6F2F6660928 /* Products */,
 				AC0C730A1C7C4AAE05DEEFECC75F9AD3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8ED47FF5E125EA2E8A1759668ED9BDC9 /* Pods */ = {
+		A1740DFB4DA6D151CECBEA194B64AC16 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BDFD9FE21CD38C79DC570F078241E9BB /* DragDropUI */,
+				7B9B1BA00CC4F9871BA64F75215A9D51 /* DragDropUI.modulemap */,
+				02CCF04E249EBD8FEA7CB8BBFDEAD8AF /* DragDropUI.xcconfig */,
+				FE7AEF77A675DED9B68113758282B363 /* DragDropUI-dummy.m */,
+				A531486DB3874212C999536A634284D3 /* DragDropUI-prefix.pch */,
+				72D85C045E4F9E46B9D67FC0207CA71E /* DragDropUI-umbrella.h */,
+				A0AD664905B29679586F0801E1F5A96F /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/DragDropUI";
 			sourceTree = "<group>";
 		};
 		A6B140A7008CA36F77752078A62AE3E9 /* Pods-Satnav */ = {
@@ -155,23 +251,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BDFD9FE21CD38C79DC570F078241E9BB /* DragDropUI */ = {
+		C526466131C855A7796A8EE5C24E9427 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0614FA00DA2D6F4AF635BDAFFE66283B /* DD+View.swift */,
-				1333F9DC75F80551BE9E50CF0B25B92B /* DDButton.swift */,
-				2120A86770DD028F90ADFC3DCA2E981A /* DDCollectionViewCell.swift */,
-				862E01C9EADCB4DC0334DC7A3518218E /* DDGestureRecognizer.swift */,
-				8C7F0D6FA1C3FE0F50E237A4AE5AD4E6 /* DDImageView.swift */,
-				35638B6811AE60BD480E11110F832C70 /* DDLabel.swift */,
-				AB9830FB2F87F2F6BCED661C64B07C22 /* DDProtocol.swift */,
-				635FB406B8836F478C620E8828E9D1D4 /* DDTableViewCell.swift */,
-				1BF511B4B2BF15C48551A1AC2DD48AE2 /* DDTextField.swift */,
-				CF839FAA6C172A60EA3E949AC138E773 /* DDView.swift */,
-				6B018422040C92AAB7CAC114142EF49F /* Support Files */,
+				493DD72EC4DE4B4511BDF09DD1AB176B /* DragDropUI */,
+				6AAE497446B0AE8E93753C4983E3764C /* PureLayout */,
 			);
-			name = DragDropUI;
-			path = DragDropUI;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -182,26 +268,9 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FAC81688F559B66241069B4B0124D1F5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2EE3823C15D087E5218C7E8B9161C9A6 /* DragDropUI.framework */,
-				F404ED3D613ADEA2F989E4DA2EEC48DE /* Pods_Satnav.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3FAC47EE9A9448524619FF6C81E05BB6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF7C18CE93A5019E8A62D8CD84C05177 /* Pods-Satnav-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4C8D1C3D4062F23EFA20612EC5968EE5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,9 +279,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80E30F5238B72D39FAF51B4FF05C1DEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF492937F714EDB4FB737AF2172C5473 /* Pods-Satnav-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DF2ACA2E324D9D9E4480225CDDDFFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F3EED9EB6A52DB6B641E2BC746934C /* ALView+PureLayout.h in Headers */,
+				3AC15054C1C06B4C4105526371381C1E /* NSArray+PureLayout.h in Headers */,
+				30C632FEE5F9E72D17B1A79A9F1BEBC5 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				DB5927F0768A1A81627C850B1A64D3A5 /* PureLayout+Internal.h in Headers */,
+				E80CDB3D5ED9497F062F03C4D717D861 /* PureLayout-umbrella.h in Headers */,
+				4DADAE69839729EA92D945C89D0F1B2A /* PureLayout.h in Headers */,
+				B1207208884A81129148F3726946E137 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0B281DA7C0C0E14EF6708D824AE4D76F /* Pods-Satnav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D0DCB4216F3B31B264C62B5A5E31E8 /* Build configuration list for PBXNativeTarget "Pods-Satnav" */;
+			buildPhases = (
+				98728B79BE45E0A434BF63EAAFC811C5 /* Sources */,
+				E5D903CE55CC3D71B7D431793D426B12 /* Frameworks */,
+				80E30F5238B72D39FAF51B4FF05C1DEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CF2C117919ED96B1984A16CA0D2683 /* PBXTargetDependency */,
+				F50D1BC8ECACADF00B926C339F1A796D /* PBXTargetDependency */,
+			);
+			name = "Pods-Satnav";
+			productName = "Pods-Satnav";
+			productReference = 458D87077925C3F76854235806805180 /* Pods_Satnav.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2951AD15176366FBCC50B30660CBF475 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1494472EB58C3462E89890A3611A72 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				102272C0D21C33FAC01A8387B7FF6927 /* Sources */,
+				B5C4ED536C561F481D9FB0E40478BFFE /* Frameworks */,
+				A1DF2ACA2E324D9D9E4480225CDDDFFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 8C4257CC3AABB668DBE50A413DA043F3 /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		991C445B77F030F02D7F5422E59753F1 /* DragDropUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EBCC87C42610A6DBD03D7BDDBEFF498 /* Build configuration list for PBXNativeTarget "DragDropUI" */;
@@ -227,25 +354,7 @@
 			);
 			name = DragDropUI;
 			productName = DragDropUI;
-			productReference = 2EE3823C15D087E5218C7E8B9161C9A6 /* DragDropUI.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D0F521EDD3C2C4CA2EFABAD841290F56 /* Pods-Satnav */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 476C4F05D36608299A4DF2F8AA7CD1C6 /* Build configuration list for PBXNativeTarget "Pods-Satnav" */;
-			buildPhases = (
-				D242D66F85404D8F46A47C2A7E638B5E /* Sources */,
-				5B5C61C0C7549E4541D5C7350960D753 /* Frameworks */,
-				3FAC47EE9A9448524619FF6C81E05BB6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA97DAC3E029EEA661B87FC1BD348D23 /* PBXTargetDependency */,
-			);
-			name = "Pods-Satnav";
-			productName = "Pods-Satnav";
-			productReference = F404ED3D613ADEA2F989E4DA2EEC48DE /* Pods_Satnav.framework */;
+			productReference = E75C767F558652ACB34CC3F9891E7B45 /* DragDropUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -265,17 +374,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FAC81688F559B66241069B4B0124D1F5 /* Products */;
+			productRefGroup = 79B7A00CD061F763FD3AD6F2F6660928 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				991C445B77F030F02D7F5422E59753F1 /* DragDropUI */,
-				D0F521EDD3C2C4CA2EFABAD841290F56 /* Pods-Satnav */,
+				0B281DA7C0C0E14EF6708D824AE4D76F /* Pods-Satnav */,
+				2951AD15176366FBCC50B30660CBF475 /* PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		102272C0D21C33FAC01A8387B7FF6927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B124883CB35D40D67D1CD073C5422 /* ALView+PureLayout.m in Sources */,
+				9BA06D7659046C06F2E093B7C72B0937 /* NSArray+PureLayout.m in Sources */,
+				F55646F0E54FC01D4778422E8A543B24 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				0276E120E8E70D8DDCAFF36DB1A9523E /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		759E67DE9A51EB98B73238DE588396F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,22 +415,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D242D66F85404D8F46A47C2A7E638B5E /* Sources */ = {
+		98728B79BE45E0A434BF63EAAFC811C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38DFE1872E7B02F3BDDDF5099547703 /* Pods-Satnav-dummy.m in Sources */,
+				AC389DF702FCE42591A29BA8241B9450 /* Pods-Satnav-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CA97DAC3E029EEA661B87FC1BD348D23 /* PBXTargetDependency */ = {
+		98CF2C117919ED96B1984A16CA0D2683 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DragDropUI;
 			target = 991C445B77F030F02D7F5422E59753F1 /* DragDropUI */;
-			targetProxy = 0BEE37E081B61012039CEB63935C7411 /* PBXContainerItemProxy */;
+			targetProxy = BF65AB49057E6F1788D89F55FF54A1D7 /* PBXContainerItemProxy */;
+		};
+		F50D1BC8ECACADF00B926C339F1A796D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 2951AD15176366FBCC50B30660CBF475 /* PureLayout */;
+			targetProxy = 772E944AD3AE0699F452180FBFD7759B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -358,76 +485,7 @@
 			};
 			name = Release;
 		};
-		5C1EA38E5F55F4C2BA94702C9F8ACD6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DragDropUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7AF4760AEB5E646E26F5D37B4ADF443C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ACDD99E7957A7815C7DC4D9F704E8AE /* DragDropUI.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DragDropUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		861CE940D7B941A2EF5B11014A124456 /* Release */ = {
+		4008BF09A404609A70368D7E1BB1DC87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82C5262AA85658F388C4539A789D3BFB /* Pods-Satnav.release.xcconfig */;
 			buildSettings = {
@@ -465,7 +523,142 @@
 			};
 			name = Release;
 		};
-		943C0B912162662C08E2C274C13787F5 /* Debug */ = {
+		5C1EA38E5F55F4C2BA94702C9F8ACD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CCF04E249EBD8FEA7CB8BBFDEAD8AF /* DragDropUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DragDropUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AF4760AEB5E646E26F5D37B4ADF443C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CCF04E249EBD8FEA7CB8BBFDEAD8AF /* DragDropUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropUI/DragDropUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropUI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragDropUI/DragDropUI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DragDropUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B9BB428EE583FF4FFD79CFC4B56E948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5800288C087C969CB5977DEAED0A6F /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C40BBA2C85F2A8A5305E4F4C9DF34F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5800288C087C969CB5977DEAED0A6F /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B58477A316E6C381E076B48C6A179957 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E610ACEF53514EA101EA566F2395C54 /* Pods-Satnav.debug.xcconfig */;
 			buildSettings = {
@@ -573,11 +766,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		476C4F05D36608299A4DF2F8AA7CD1C6 /* Build configuration list for PBXNativeTarget "Pods-Satnav" */ = {
+		5F1494472EB58C3462E89890A3611A72 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				943C0B912162662C08E2C274C13787F5 /* Debug */,
-				861CE940D7B941A2EF5B11014A124456 /* Release */,
+				9C40BBA2C85F2A8A5305E4F4C9DF34F1 /* Debug */,
+				9B9BB428EE583FF4FFD79CFC4B56E948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D0DCB4216F3B31B264C62B5A5E31E8 /* Build configuration list for PBXNativeTarget "Pods-Satnav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58477A316E6C381E076B48C6A179957 /* Debug */,
+				4008BF09A404609A70368D7E1BB1DC87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
