@@ -1,11 +1,16 @@
 project '/Users/scientica/Documents/rychljir/Satnav/Satnav/Satnav.xcodeproj'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/rychljir/ios_core'
+
 use_frameworks!
 
 platform :ios, '9.3'
 
 target ’Satnav’ do
-    pod 'DragDropUI'
+    pod 'AEXML'
     pod 'PureLayout'
+    pod 'DLRadioButton'
+    pod 'ios_core', :path => '~/Documents/rychljir/ios_core'
 end
 

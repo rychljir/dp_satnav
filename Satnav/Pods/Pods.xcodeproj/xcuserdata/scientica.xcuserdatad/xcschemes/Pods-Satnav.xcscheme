@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B281DA7C0C0E14EF6708D824AE4D76F"
+               BlueprintIdentifier = "893D68496767E0B5A886EF24F2961258"
                BuildableName = "Pods_Satnav.framework"
                BlueprintName = "Pods-Satnav"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0B281DA7C0C0E14EF6708D824AE4D76F"
+            BlueprintIdentifier = "893D68496767E0B5A886EF24F2961258"
             BuildableName = "Pods_Satnav.framework"
             BlueprintName = "Pods-Satnav"
             ReferencedContainer = "container:Pods.xcodeproj">

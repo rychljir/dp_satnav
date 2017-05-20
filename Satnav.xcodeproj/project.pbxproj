@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		941080141EB1D52700FA746E /* Task03_10_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941080161EB1D52700FA746E /* Task03_10_Slide.xib */; };
-		943A14EA1ECEE6D200C314D4 /* ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943A14E71ECEE6C200C314D4 /* ios_core.framework */; };
-		943A14EB1ECEE6D200C314D4 /* ios_core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 943A14E71ECEE6C200C314D4 /* ios_core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		943A14F91ECEE7E200C314D4 /* Pods_ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974761CF08ABB3F942D32B4B /* Pods_ios_core.framework */; };
-		943A14FA1ECEE7E200C314D4 /* Pods_ios_core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 974761CF08ABB3F942D32B4B /* Pods_ios_core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		944397181E924D2C00D4F854 /* Task03_1_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944397171E924D2C00D4F854 /* Task03_1_Slide.swift */; };
 		944724F41E86648300CF284D /* Task01_4_Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944724F31E86648300CF284D /* Task01_4_Slide.xib */; };
 		944724F61E86649A00CF284D /* Task01_4_Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944724F51E86649A00CF284D /* Task01_4_Slide.swift */; };
@@ -336,27 +332,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		943A14E61ECEE6C200C314D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9475AC271EBB704700E838D8;
-			remoteInfo = ios_core;
-		};
-		943A14E81ECEE6C200C314D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9475AC301EBB704700E838D8;
-			remoteInfo = ios_coreTests;
-		};
-		943A14EC1ECEE6D200C314D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9475AC261EBB704700E838D8;
-			remoteInfo = ios_core;
-		};
 		94E810421E77E1F900C17766 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94E810251E77E1F900C17766 /* Project object */;
@@ -374,14 +349,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		943A14EE1ECEE6D200C314D4 /* Embed Frameworks */ = {
+		947CDA1F1ECF163000C9CBCD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				943A14EB1ECEE6D200C314D4 /* ios_core.framework in Embed Frameworks */,
-				943A14FA1ECEE7E200C314D4 /* Pods_ios_core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +364,6 @@
 /* Begin PBXFileReference section */
 		4B1AED625A22EFC5AD57CF69 /* Pods_Satnav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Satnav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941080151EB1D52700FA746E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Task03_10_Slide.xib; sourceTree = "<group>"; };
-		943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ios_core.xcodeproj; path = ../../ios_core/ios_core.xcodeproj; sourceTree = "<group>"; };
 		944397171E924D2C00D4F854 /* Task03_1_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task03_1_Slide.swift; sourceTree = "<group>"; };
 		944724F31E86648300CF284D /* Task01_4_Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Task01_4_Slide.xib; sourceTree = "<group>"; };
 		944724F51E86649A00CF284D /* Task01_4_Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task01_4_Slide.swift; sourceTree = "<group>"; };
@@ -728,7 +700,6 @@
 		94FF0C331EADE7C30015789E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		94FF0C371EADF1630015789E /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		94FF0C381EADF26A0015789E /* ApplicationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
-		974761CF08ABB3F942D32B4B /* Pods_ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A354DECE0923ECA761FBBFD6 /* Pods-Satnav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Satnav.debug.xcconfig"; path = "Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav.debug.xcconfig"; sourceTree = "<group>"; };
 		A8EE754DC976CBB9261BDE30 /* Pods-Satnav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Satnav.release.xcconfig"; path = "Satnav/Pods/Target Support Files/Pods-Satnav/Pods-Satnav.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -739,8 +710,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D56AB024243B789E79BF4F /* Pods_Satnav.framework in Frameworks */,
-				943A14F91ECEE7E200C314D4 /* Pods_ios_core.framework in Frameworks */,
-				943A14EA1ECEE6D200C314D4 /* ios_core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,15 +737,6 @@
 				A8EE754DC976CBB9261BDE30 /* Pods-Satnav.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		943A14E21ECEE6C200C314D4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				943A14E71ECEE6C200C314D4 /* ios_core.framework */,
-				943A14E91ECEE6C200C314D4 /* ios_coreTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9475ABD11EBB6D4800E838D8 /* Developer */ = {
@@ -826,7 +786,6 @@
 		94E810241E77E1F900C17766 = {
 			isa = PBXGroup;
 			children = (
-				943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */,
 				94E8102F1E77E1F900C17766 /* Satnav */,
 				94E810441E77E1F900C17766 /* SatnavTests */,
 				94E8104F1E77E1F900C17766 /* SatnavUITests */,
@@ -1194,12 +1153,11 @@
 				94E8102B1E77E1F900C17766 /* Resources */,
 				42B164488654A5F368AD0432 /* [CP] Embed Pods Frameworks */,
 				C99A9FF27238D9400DFD4558 /* [CP] Copy Pods Resources */,
-				943A14EE1ECEE6D200C314D4 /* Embed Frameworks */,
+				947CDA1F1ECF163000C9CBCD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				943A14ED1ECEE6D200C314D4 /* PBXTargetDependency */,
 			);
 			name = Satnav;
 			productName = Satnav;
@@ -1283,12 +1241,6 @@
 			mainGroup = 94E810241E77E1F900C17766;
 			productRefGroup = 94E8102E1E77E1F900C17766 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 943A14E21ECEE6C200C314D4 /* Products */;
-					ProjectRef = 943A14E11ECEE6C200C314D4 /* ios_core.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				94E8102C1E77E1F900C17766 /* Satnav */,
@@ -1297,23 +1249,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		943A14E71ECEE6C200C314D4 /* ios_core.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ios_core.framework;
-			remoteRef = 943A14E61ECEE6C200C314D4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		943A14E91ECEE6C200C314D4 /* ios_coreTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ios_coreTests.xctest;
-			remoteRef = 943A14E81ECEE6C200C314D4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		94E8102B1E77E1F900C17766 /* Resources */ = {
@@ -1733,11 +1668,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		943A14ED1ECEE6D200C314D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ios_core;
-			targetProxy = 943A14EC1ECEE6D200C314D4 /* PBXContainerItemProxy */;
-		};
 		94E810431E77E1F900C17766 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 94E8102C1E77E1F900C17766 /* Satnav */;

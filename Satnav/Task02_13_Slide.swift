@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ios_core
 
 class Task02_13_Slide: UIView {
 
