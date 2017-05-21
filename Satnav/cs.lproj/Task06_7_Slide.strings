@@ -11,7 +11,7 @@ tracking"; ObjectID = "8qt-yx-Mud"; */
 "JC8-We-q7h.text" = "Úloha";
 
 /* Class = "UILabel"; text = "Calling for help"; ObjectID = "Q9b-UW-8Jv"; */
-"Q9b-UW-8Jv.text" = "Sledování přírodních\nprocesů";
+"Q9b-UW-8Jv.text" = "Přivolání pomoci";
 
 /* Class = "UIButton"; normalTitle = "Evaluate"; ObjectID = "Xyn-XI-tWV"; */
 "Xyn-XI-tWV.normalTitle" = "Vyhodnotit";

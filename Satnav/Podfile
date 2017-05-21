@@ -8,9 +8,7 @@ use_frameworks!
 platform :ios, '9.3'
 
 target ’Satnav’ do
-    pod 'AEXML'
-    pod 'PureLayout'
-    pod 'DLRadioButton'
+    pod 'DragDropUI'
     pod 'ios_core', :path => '~/Documents/rychljir/ios_core'
 end
 
